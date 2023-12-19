@@ -1,0 +1,49 @@
+---------------------------------------------------------------------------
+StopIteration                             Traceback (most recent call last)
+File ~/.conda/envs/simone/lib/python3.11/site-packages/xarray/core/concat.py:230, in concat(objs, dim, data_vars, coords, compat, positions, fill_value, join, combine_attrs)
+    229 try:
+--> 230     first_obj, objs = utils.peek_at(objs)
+    231 except StopIteration:
+
+File ~/.conda/envs/simone/lib/python3.11/site-packages/xarray/core/utils.py:188, in peek_at(iterable)
+    187 gen = iter(iterable)
+--> 188 peek = next(gen)
+    189 return peek, itertools.chain([peek], gen)
+
+StopIteration: 
+
+During handling of the above exception, another exception occurred:
+
+ValueError                                Traceback (most recent call last)
+Cell In[53], line 2
+      1 # scenarios['Control'].get_atm_var('PRECT')
+----> 2 scenarios['SAI 2020'].get_atm_var('PRECT')
+      3 # scenarios['SAI 2080'].get_atm_var('PRECT')
+
+File ~/scripts/cesm_tools/cesm_scenarios.py:202, in Scenario.get_atm_var(self, var, **kwargs)
+    198 def get_atm_var(self,var,**kwargs):
+    199     '''
+    200     Get monthly atmospheric component variable
+    201     '''
+--> 202     self._get_monthly_var(var,'atm',**kwargs)
+
+File ~/scripts/cesm_tools/cesm_scenarios.py:190, in Scenario._get_monthly_var(self, var, component, chunk_size)
+    186     # Concatenate and select years
+    187     # This selection is done because a case can in principle have faulty data in some years
+    188     # (e.g. if an error occured in later years and the simulation is then branched off)
+    189     year_slice = slice(case_metadata['years'][0].astype(str), case_metadata['years'][-1].astype(str))
+--> 190     da_container.append(xr.concat(da_case_container,dim='time').sel(time=year_slice))
+    192 # concatenate over all cases
+    193 #
+    194 da = xr.concat(da_container,dim='time') 
+
+File ~/.conda/envs/simone/lib/python3.11/site-packages/xarray/core/concat.py:232, in concat(objs, dim, data_vars, coords, compat, positions, fill_value, join, combine_attrs)
+    230     first_obj, objs = utils.peek_at(objs)
+    231 except StopIteration:
+--> 232     raise ValueError("must supply at least one object to concatenate")
+    234 if compat not in _VALID_COMPAT:
+    235     raise ValueError(
+    236         f"compat={compat!r} invalid: must be 'broadcast_equals', 'equals', 'identical', 'no_conflicts' or 'override'"
+    237     )
+
+ValueError: must supply at least one object to concatenate
