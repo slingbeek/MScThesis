@@ -37,19 +37,19 @@ if model == "cesm1":
     elif timing == "daily":
         saveloc = "../home/slingbeek/cesm2data/daily"
     else:
-        print("Time interval not correct, must be monthly or daily.")
-        break
+        print("Time interval not correct, must be monthly or daily")
+        sys.exit()
 elif model == "cesm2":
     if timing == "monthly":
         saveloc = "../home/slingbeek/cesm2data/monthly"
     elif timing == "daily":
         saveloc = "../home/slingbeek/cesm2data/daily"
     else:
-        print("Time interval not correct, must be monthly or daily.")
-        break
+        print("Time interval not correct, must be monthly or daily")
+        sys.exit()
 else:
     print("Model not correct, must be cesm1 or cesm2")
-    break
+    sys.exit()
 
 
 @guvectorize(
