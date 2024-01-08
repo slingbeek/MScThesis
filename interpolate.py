@@ -16,6 +16,7 @@ import sys
 import glob
 import numpy as np
 from numba import float32, float64, guvectorize
+from datetime import datetime
 
 p_ref = 100000
 cp = 1004
@@ -24,17 +25,32 @@ kappa = Rdry/cp
 dtdp_crit = -2e-4 # ignoring layers where dtheta/dp > dtdp_crit
 lvls_pt = (np.cumsum([0] + [10/6] * 39 + [10/4] * 6 + [10/2] * 3 + [10] 
     + [50] * 2 + [100] * 3) + 295).astype('float64') # new theta levels
-files = sorted(glob.glob("../Data/LambertGrid/629x989/fc2017090512+???.nc"))
-saveloc = "../Data/LambertGrid/629x989interped/"
 
-files = ['/gpfs/work4/0/uuesm2/archive/b.e21.BSSP585cmip6.f09_g17.control.01',\
-         '/gpfs/work4/0/uuesm2/archive/b.e21.BSSP585cmip6.f09_g17.2020feedback.01',\
-         '/gpfs/work4/0/uuesm2/archive/b.e21.BSSP585cmip6.f09_g17.2020feedback.02',\
-         '/gpfs/work4/0/uuesm2/archive/b.e21.BSSP585cmip6.f09_g17.feedback.05',\
-         '/gpfs/work4/0/uuesm2/archive/b.e21.BSSP585cmip6.f09_g17.feedback.06',\
-         '/gpfs/work4/0/uuesm2/archive/b.e21.BSSP585cmip6.f09_g17.feedback.09']
+# files = sorted(glob.glob("../Data/LambertGrid/629x989/fc2017090512+???.nc"))
+# saveloc = "../Data/LambertGrid/629x989interped/"
 
-saveloc = ""
+
+file, model, timing = input("Enter file name, model (cesm1/cesm2) and time interval (monthly/daily): ").split(",")
+if model == "cesm1":
+    if timing == "monthly":
+        saveloc = "../home/slingbeek/cesm2data/monthly"
+    elif timing == "daily":
+        saveloc = "../home/slingbeek/cesm2data/daily"
+    else:
+        print("Time interval not correct, must be monthly or daily.")
+        break
+elif model == "cesm2":
+    if timing == "monthly":
+        saveloc = "../home/slingbeek/cesm2data/monthly"
+    elif timing == "daily":
+        saveloc = "../home/slingbeek/cesm2data/daily"
+    else:
+        print("Time interval not correct, must be monthly or daily.")
+        break
+else:
+    print("Model not correct, must be cesm1 or cesm2")
+    break
+
 
 @guvectorize(
     "(float64[:], float64[:], float64[:], float32[:])",
@@ -103,14 +119,14 @@ def calc_dtdp_gu(t, p, dtdp):
         dtdp[i] = np.nan
         i = i + 1
 
-def argsort3d(da, dim):
+def argsort3d(da, dim): # niet nodig
     m, n, k = da.shape
     ids = np.ogrid[:m,:n,:k]
     ax = da.dims.index(dim)
     ids[ax] = da.argsort(ax)
     return tuple(ids)
 
-def stabilize(ds, theta, pres):
+def stabilize(ds, theta, pres):# niet nodig
     """Mask theta values where dtheta/dp > dtdp_crit"""
     assert theta.dims == ('hybrid','y','x')
     assert pres.dims == ('hybrid','y','x')
@@ -128,47 +144,50 @@ def stabilize(ds, theta, pres):
         i0[~isInvalid] = i1
     return ds, theta
 
-for file in files:
-    ds = xr.open_dataset(file)
-    pres = (ds.a + ds.b * ds.p0m)
-    theta = (ds.t * (p_ref/pres)**kappa)
-    ds, theta = stabilize(ds, theta, pres)
-    ids = argsort3d(theta, 'hybrid')
-    theta[:] = theta.data[ids]
-    pres[:] = pres.data[ids]
-    dtdp = xr.apply_ufunc(
-        calc_dtdp_gu, theta, pres,
-        input_core_dims=[['hybrid'], ['hybrid']], 
-        output_core_dims=[['hybrid']], 
-        output_dtypes=[theta.dtype],
-    ).assign_attrs({'units':'K/Pa','long_name':'dtheta/dp'})
-    ds['dtdp'] = dtdp#.transpose('hybrid','y','x')
-    ds = ds.assign_coords({'theta':lvls_pt})
-    ds['theta'] = ds.theta.assign_attrs(
-        {"long_name":"potential temperature","units":"K"})
-    vars3d = [ds[var] for var in ds.data_vars if ds[var].ndim==3]
-    for var3d in vars3d:
-        var3d = var3d.astype('float64').transpose('hybrid','y','x')
-        if var3d.name != 'dtdp':
-            var3d[:] = var3d.data[ids]
-        ds[var3d.name] = xr.apply_ufunc(
-            interp1d_gu,  var3d, theta, ds.theta,
-            input_core_dims=[['hybrid'], ['hybrid'], ['theta']], 
-            output_core_dims=[['theta']], 
-            exclude_dims=set(('hybrid',)),  
-            output_dtypes=['float32'],
-        ).transpose('theta','y','x').assign_attrs(var3d.attrs)
-    ds['pres'] = xr.apply_ufunc(
-        interp1d_pres_gu,  pres, theta, ds.theta,
-        input_core_dims=[['hybrid'], ['hybrid'], ['theta']], 
-        output_core_dims=[['theta']], 
-        exclude_dims=set(('hybrid',)),  
+
+ds = xr.open_dataset(file)
+pres = (ds.a + ds.b * ds.p0m)
+theta = (ds.t * (p_ref/pres)**kappa)
+ds, theta = stabilize(ds, theta, pres)
+ids = argsort3d(theta, 'hybrid')
+theta[:] = theta.data[ids]
+pres[:] = pres.data[ids]
+dtdp = xr.apply_ufunc(
+    calc_dtdp_gu, theta, pres,
+    input_core_dims=[['hybrid'], ['hybrid']],
+    output_core_dims=[['hybrid']],
+    output_dtypes=[theta.dtype],
+).assign_attrs({'units':'K/Pa','long_name':'dtheta/dp'})
+ds['dtdp'] = dtdp#.transpose('hybrid','y','x')
+ds = ds.assign_coords({'theta':lvls_pt})
+ds['theta'] = ds.theta.assign_attrs(
+    {"long_name":"potential temperature","units":"K"})
+vars3d = [ds[var] for var in ds.data_vars if ds[var].ndim==3]
+for var3d in vars3d:
+    var3d = var3d.astype('float64').transpose('hybrid','y','x')
+    if var3d.name != 'dtdp':
+        var3d[:] = var3d.data[ids]
+    ds[var3d.name] = xr.apply_ufunc(
+        interp1d_gu,  var3d, theta, ds.theta,
+        input_core_dims=[['hybrid'], ['hybrid'], ['theta']],
+        output_core_dims=[['theta']],
+        exclude_dims=set(('hybrid',)),  #lev
         output_dtypes=['float32'],
-    ).transpose('theta','y','x').assign_attrs({'units':'Pa','long_name':'Pressure'})
-    del ds['a']
-    del ds['b']
-    del ds['hybrid']
-    savename = saveloc + os.path.basename(file)
-    print(f"Saving {savename}")
-    ds.to_netcdf(savename)
-    ds.close()
+    ).transpose('theta','y','x').assign_attrs(var3d.attrs)
+ds['pres'] = xr.apply_ufunc(
+    interp1d_pres_gu,  pres, theta, ds.theta,
+    input_core_dims=[['hybrid'], ['hybrid'], ['theta']],
+    output_core_dims=[['theta']],
+    exclude_dims=set(('hybrid',)),
+    output_dtypes=['float32'],
+).transpose('theta','y','x').assign_attrs({'units':'Pa','long_name':'Pressure'})
+del ds['a']
+del ds['b']
+del ds['hybrid']
+savename = saveloc + os.path.basename(file)
+print(f"Saving {savename}")
+ds.to_netcdf(savename)
+ds.close()
+
+with open(saveloc+"/logfile.txt", "a") as f:
+    f.write("%s: %s" %(datetime.now(), os.path.basename(file)))
