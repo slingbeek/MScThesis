@@ -1,0 +1,26 @@
+CONTROL:
+2015-2100
+b.e21.BSSP585cmip6.f09_g17.control.01 
+2100-2130 (unprocessed?)
+b.e21.BSSP585cmip6.f09_g17.control.06
+
+SAI 2020:
+2020-2045
+b.e21.BSSP585cmip6.f09_g17.2020feedback.01
+2045-2100
+b.e21.BSSP585cmip6.f09_g17.2020feedback.02
+2100-2130
+b.e21.BSSP585cmip6.f09_g17.2020feedback.02_ext02
+
+SAI 2080
+2080-2086
+b.e21.BSSP585cmip6.f09_g17.feedback.05
+2086-2100
+b.e21.BSSP585cmip6.f09_g17.feedback.06
+2100-2130
+b.e21.BSSP585cmip6.f09_g17.2080feedback_ext01 
+
+SAI 2080j
+2080-2100
+b.e21.BSSP585cmip6.f09_g17.feedback.09
+
