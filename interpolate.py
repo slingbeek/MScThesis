@@ -75,7 +75,7 @@ lvls_pt = np.asarray([3.5, 7.5, 14., 25., 36., 43., 52., 62., 74., 88., 103., 12
                       379., 446., 525., 610., 691., 763., 821., 860., 887., 913., 936., 957., 976., 993.])
 
 ds = ds.assign_coords({'plev':lvls_pt})
-ds['plev'] = ds.theta.assign_attrs(
+ds['plev'] = ds.plev.assign_attrs(
         {"long_name":"Pressure level","units":"Pa"})
 
 ### Interpolation for lev or ilev
