@@ -1,26 +1,40 @@
+STRUCTURE: loc/base/atm/base.VARIABLE.time
+
+loc = /gpfs/work4/0/uuesm2/archive/
+
+atm = /atm/proc/tseries/month_1
+
+
 CONTROL:
 2015-2100
-b.e21.BSSP585cmip6.f09_g17.control.01 
+filebase = b.e21.BSSP585cmip6.f09_g17.control.01.cam.h0
 2100-2130 (unprocessed?)
-b.e21.BSSP585cmip6.f09_g17.control.06
+filebase = b.e21.BSSP585cmip6.f09_g17.control.06
+
+time = 	.201501-206412.nc
+	.206501-209912.nc
 
 SAI 2020:
 2020-2045
-b.e21.BSSP585cmip6.f09_g17.2020feedback.01
+filebase = b.e21.BSSP585cmip6.f09_g17.2020feedback.01
 2045-2100
-b.e21.BSSP585cmip6.f09_g17.2020feedback.02
+filebase = b.e21.BSSP585cmip6.f09_g17.2020feedback.02
 2100-2130
-b.e21.BSSP585cmip6.f09_g17.2020feedback.02_ext02
+filebase = b.e21.BSSP585cmip6.f09_g17.2020feedback.02_ext02
+
+time = 
 
 SAI 2080
 2080-2086
-b.e21.BSSP585cmip6.f09_g17.feedback.05
+filebase = b.e21.BSSP585cmip6.f09_g17.feedback.05
 2086-2100
-b.e21.BSSP585cmip6.f09_g17.feedback.06
+filebase = b.e21.BSSP585cmip6.f09_g17.feedback.06
 2100-2130
-b.e21.BSSP585cmip6.f09_g17.2080feedback_ext01 
+filebase = b.e21.BSSP585cmip6.f09_g17.2080feedback_ext01 
+
+time =
 
 SAI 2080j
 2080-2100
-b.e21.BSSP585cmip6.f09_g17.feedback.09
+filebase = b.e21.BSSP585cmip6.f09_g17.feedback.09
 

@@ -1,7 +1,7 @@
 #!/usr/bin/python
 """This module interpolates the data from hybrid to isentropic levels.
 
-This file will read the Harmonie data on hybrid levels and interpolate
+This file will read the cesm data on hybrid levels and interpolate
 them onto isentropic levels. The results are stored in separate files.
 A basis for the interpolation procedure can be found in: "On the maintenance of 
 potential vorticity in isentropic coordinates. Edouard et al. 
@@ -22,17 +22,17 @@ from datetime import datetime
 file, model, timing = input("Enter file name, model (cesm1/cesm2) and time interval (monthly/daily): ").split(",")
 if model == "cesm1":
     if timing == "monthly":
-        saveloc = "/home/slingbeek/git_map/MScThesis/cesm2data/monthly/"
+        saveloc = "/home/slingbeek/cesm2data/monthly/"
     elif timing == "daily":
-        saveloc = "/home/slingbeek/git_map/MScThesis/cesm2data/daily/"
+        saveloc = "/home/slingbeek/cesm2data/daily/"
     else:
         print("Time interval not correct, must be monthly or daily")
         sys.exit()
 elif model == "cesm2":
     if timing == "monthly":
-        saveloc = "/home/slingbeek/git_map/MScThesis/cesm2data/monthly/"
+        saveloc = "/home/slingbeek/cesm2data/monthly/"
     elif timing == "daily":
-        saveloc = "/home/slingbeek/git_map/MScThesis/cesm2data/daily/"
+        saveloc = "/home/slingbeek/cesm2data/daily/"
     else:
         print("Time interval not correct, must be monthly or daily")
         sys.exit()
@@ -71,8 +71,10 @@ ds = xr.open_dataset(file)
 pres = (ds.hyai*ds.P0 + ds.hybi * PS)
 
 ### New pressure levels
-lvls_pt = np.asarray([3.5, 7.5, 14., 25., 36., 43., 52., 62., 74., 88., 103., 122., 143., 168., 198., 233., 274., 322.,
-                      379., 446., 525., 610., 691., 763., 821., 860., 887., 913., 936., 957., 976., 993.])
+lvls_pt = np.asarray([3.5, 5., 7.5, 10., 15., 23., 33., 43., 53., 63.,
+                      74., 88., 103., 122., 143., 168., 200., 233., 274., 322.,
+                      380., 440., 500., 590., 681., 763., 821., 850., 887., 913.,
+                      936., 957., 976., 993.])
 
 ds = ds.assign_coords({'plev':lvls_pt})
 ds['plev'] = ds.plev.assign_attrs(
@@ -98,11 +100,11 @@ for var3d in vars3d:
 
         ds[var3d.name] = xr.apply_ufunc(
             interp1d_gu, var3d, pres, ds.pres,
-            input_core_dims=[['ilev'], ['ilev'], ['iplev']],
-            output_core_dims=[['iplev']],
+            input_core_dims=[['ilev'], ['ilev'], ['plev']],
+            output_core_dims=[['plev']],
             exclude_dims=set(('ilev',)),
             output_dtypes=['float32'],
-        ).transpose('iplev', 'y', 'x').assign_attrs(var3d.attrs)
+        ).transpose('plev', 'y', 'x').assign_attrs(var3d.attrs)
 
         del ds['ilev']
 
