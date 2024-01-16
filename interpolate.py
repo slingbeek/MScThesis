@@ -30,9 +30,9 @@ if model == "cesm1":
         sys.exit()
 elif model == "cesm2":
     if timing == "monthly":
-        saveloc = "/home/slingbeek/cesm2data/monthly/"
+        saveloc = "~/cesm2data/monthly/"
     elif timing == "daily":
-        saveloc = "/home/slingbeek/cesm2data/daily/"
+        saveloc = "~/cesm2data/daily/"
     else:
         print("Time interval not correct, must be monthly or daily")
         sys.exit()
