@@ -22,17 +22,17 @@ from datetime import datetime
 file, model, timing = input("Enter file name, model (cesm1/cesm2) and time interval (monthly/daily): ").split(",")
 if model == "cesm1":
     if timing == "monthly":
-        saveloc = "/home/slingbeek/git_map/MScThesis/cesm2data/monthly"
+        saveloc = "/home/slingbeek/cesm1data/monthly/"
     elif timing == "daily":
-        saveloc = "/home/slingbeek/git_map/MScThesis/cesm2data/monthly"
+        saveloc = "/home/slingbeek/cesm1data/daily/"
     else:
         print("Time interval not correct, must be monthly or daily")
         sys.exit()
 elif model == "cesm2":
     if timing == "monthly":
-        saveloc = "/home/slingbeek/git_map/MScThesis/cesm2data/monthly"
+        saveloc = "/home/slingbeek/cesm2data/monthly/"
     elif timing == "daily":
-        saveloc = "/home/slingbeek/git_map/MScThesis/cesm2data/monthly"
+        saveloc = "/home/slingbeek/cesm2data/daily/"
     else:
         print("Time interval not correct, must be monthly or daily")
         sys.exit()
