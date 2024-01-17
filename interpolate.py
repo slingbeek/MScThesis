@@ -81,7 +81,7 @@ ds['plev'] = ds.plev.assign_attrs(
         {"long_name":"Pressure level","units":"Pa"})
 
 ### Interpolation for lev or ilev
-vars3d = [ds[var] for var in ds.data_vars if ds[var].ndim == 3]
+vars3d = [ds[var] for var in ds.data_vars if ds[var].ndim == 4]
 for var3d in vars3d:
     if 'lev' in var3d.dims:
         var3d = var3d.astype('float64').transpose('lev','y','x')
