@@ -84,27 +84,23 @@ ds['plev'] = ds.plev.assign_attrs(
 vars3d = [ds[var] for var in ds.data_vars if ds[var].ndim == 4]
 for var3d in vars3d:
     if 'lev' in var3d.dims:
-        var3d = var3d.astype('float64').transpose('lev','y','x')
-
         ds[var3d.name] = xr.apply_ufunc(
             interp1d_gu,  var3d, pres, ds.pres,
             input_core_dims=[['lev'], ['lev'], ['plev']],
             output_core_dims=[['plev']],
             exclude_dims=set(('lev',)),
             output_dtypes=['float32'],
-        ).transpose('plev','y','x').assign_attrs(var3d.attrs)
+        ).assign_attrs(var3d.attrs)
 
         del ds['lev']
     else:
-        var3d = var3d.astype('float64').transpose('ilev', 'y', 'x')
-
         ds[var3d.name] = xr.apply_ufunc(
             interp1d_gu, var3d, pres, ds.pres,
             input_core_dims=[['ilev'], ['ilev'], ['plev']],
             output_core_dims=[['plev']],
             exclude_dims=set(('ilev',)),
             output_dtypes=['float32'],
-        ).transpose('plev', 'y', 'x').assign_attrs(var3d.attrs)
+        ).assign_attrs(var3d.attrs)
 
         del ds['ilev']
 
