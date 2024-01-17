@@ -117,4 +117,4 @@ ds.to_netcdf(savename)
 ds.close()
 
 with open(saveloc+"/logfile.txt", "a") as f:
-    f.write("%s: %s" %(datetime.now(), os.path.basename(file)))
+    f.write("%s: %s \n" %(datetime.now(), os.path.basename(file)))
