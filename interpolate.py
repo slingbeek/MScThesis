@@ -85,7 +85,7 @@ vars3d = [ds[var] for var in ds.data_vars if ds[var].ndim == 4]
 for var3d in vars3d:
     if 'lev' in var3d.dims:
         ds[var3d.name] = xr.apply_ufunc(
-            interp1d_gu,  var3d, pres, ds.pres,
+            interp1d_gu,  var3d, pres, ds.plev,
             input_core_dims=[['lev'], ['lev'], ['plev']],
             output_core_dims=[['plev']],
             exclude_dims=set(('lev',)),
@@ -95,7 +95,7 @@ for var3d in vars3d:
         del ds['lev']
     else:
         ds[var3d.name] = xr.apply_ufunc(
-            interp1d_gu, var3d, pres, ds.pres,
+            interp1d_gu, var3d, pres, ds.plev,
             input_core_dims=[['ilev'], ['ilev'], ['plev']],
             output_core_dims=[['plev']],
             exclude_dims=set(('ilev',)),
