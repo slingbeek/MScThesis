@@ -114,7 +114,8 @@ vars3d = [ds[var] for var in ds.data_vars if ds[var].ndim == 4]
 for var3d in vars3d:
     if 'lev' in var3d.dims:
         print("Calculating pressure for lev...")
-        pres = (ds.hyam * ds.P0 + ds.hybm * PS)
+        pres = (ds.P0 * ds.hyam + PS * ds.hybm)
+        pres.compute()
         print("Applying ufunc...")
         ds[var3d.name] = xr.apply_ufunc(
             interp1d_gu,  var3d, pres, ds.plev,
@@ -125,7 +126,9 @@ for var3d in vars3d:
         ).assign_attrs(var3d.attrs)
     else:
         print("Calculating pressure for ilev...")
-        ipres = (ds.hyai * ds.P0 + ds.hybi * PS)
+        ipres = (ds.P0 * ds.hyai + PS * ds.hybi)
+        ipres.compute()
+        print("Applying ufunc...")
         ds[var3d.name] = xr.apply_ufunc(
             interp1d_gu, var3d, ipres.sel, ds.plev,
             input_core_dims=[['ilev'], ['ilev'], ['plev']],
