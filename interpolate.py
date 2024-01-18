@@ -87,6 +87,7 @@ for var3d in vars3d:
     if 'lev' in var3d.dims:
         print('Loop for lev entered...')
         pres = (ds.hyam * ds.P0 + ds.hybm * PS)
+        print('Entering time loop...')
         for i in range(len(ds[var3d.name]['time'])):
             print("Timestep ", i)
             ds[var3d.name][i] = xr.apply_ufunc(
