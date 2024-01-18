@@ -84,25 +84,27 @@ ds['plev'] = ds.plev.assign_attrs(
 vars3d = [ds[var] for var in ds.data_vars if ds[var].ndim == 4]
 for var3d in vars3d:
     if 'lev' in var3d.dims:
-        ds[var3d.name] = xr.apply_ufunc(
-            interp1d_gu,  var3d, pres, ds.plev,
-            input_core_dims=[['lev'], ['lev'], ['plev']],
-            output_core_dims=[['plev']],
-            exclude_dims=set(('lev',)),
-            output_dtypes=['float32'],
-        ).assign_attrs(var3d.attrs)
+        for i in range(len(ds[var3d.name]['time'])):
+            ds[var3d.name][i] = xr.apply_ufunc(
+                interp1d_gu,  var3d[i], pres[i], ds.plev,
+                input_core_dims=[['lev'], ['lev'], ['plev']],
+                output_core_dims=[['plev']],
+                exclude_dims=set(('lev',)),
+                output_dtypes=['float32'],
+            ).assign_attrs(var3d[i].attrs)
 
-        del ds['lev']
+            del ds['lev']
     else:
-        ds[var3d.name] = xr.apply_ufunc(
-            interp1d_gu, var3d, pres, ds.plev,
-            input_core_dims=[['ilev'], ['ilev'], ['plev']],
-            output_core_dims=[['plev']],
-            exclude_dims=set(('ilev',)),
-            output_dtypes=['float32'],
-        ).assign_attrs(var3d.attrs)
+        for i in range(len(ds[var3d.name]['time'])):
+            ds[var3d.name][i] = xr.apply_ufunc(
+                interp1d_gu, var3d[i], pres[i], ds.plev,
+                input_core_dims=[['ilev'], ['ilev'], ['plev']],
+                output_core_dims=[['plev']],
+                exclude_dims=set(('ilev',)),
+                output_dtypes=['float32'],
+            ).assign_attrs(var3d[i].attrs)
 
-        del ds['ilev']
+            del ds['ilev']
 
 del ds['hyai']
 del ds['hybi']
