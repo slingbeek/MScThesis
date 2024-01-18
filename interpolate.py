@@ -68,7 +68,6 @@ PS = PS_ds.PS
 
 ### Open dataset
 ds = xr.open_dataset(file)
-pres = (ds.hyai*ds.P0 + ds.hybi * PS)
 
 ### New pressure levels
 lvls_pt = np.asarray([3.5, 5., 7.5, 10., 15., 23., 33., 43., 53., 63.,
@@ -84,9 +83,10 @@ ds['plev'] = ds.plev.assign_attrs(
 vars3d = [ds[var] for var in ds.data_vars if ds[var].ndim == 4]
 for var3d in vars3d:
     if 'lev' in var3d.dims:
+        pres = (ds.hyam * ds.P0 + ds.hybm * PS)
         for i in range(len(ds[var3d.name]['time'])):
             ds[var3d.name][i] = xr.apply_ufunc(
-                interp1d_gu,  var3d[i], pres[i], ds.plev,
+                interp1d_gu,  var3d[i], pres.sel(time=ds[var3d.name]['time'][i]), ds.plev,
                 input_core_dims=[['lev'], ['lev'], ['plev']],
                 output_core_dims=[['plev']],
                 exclude_dims=set(('lev',)),
@@ -94,10 +94,13 @@ for var3d in vars3d:
             ).assign_attrs(var3d[i].attrs)
 
             del ds['lev']
+        del ds['hyam']
+        del ds['hybm']
     else:
         for i in range(len(ds[var3d.name]['time'])):
+            pres = (ds.hyai * ds.P0 + ds.hybi * PS)
             ds[var3d.name][i] = xr.apply_ufunc(
-                interp1d_gu, var3d[i], pres[i], ds.plev,
+                interp1d_gu, var3d[i], pres.sel(time=ds[var3d.name]['time'][i]), ds.plev,
                 input_core_dims=[['ilev'], ['ilev'], ['plev']],
                 output_core_dims=[['plev']],
                 exclude_dims=set(('ilev',)),
@@ -105,9 +108,10 @@ for var3d in vars3d:
             ).assign_attrs(var3d[i].attrs)
 
             del ds['ilev']
+        del ds['hyai']
+        del ds['hybi']
 
-del ds['hyai']
-del ds['hybi']
+
 
 savename = saveloc + os.path.basename(file)
 print(f"Saving {savename}")
