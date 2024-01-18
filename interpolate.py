@@ -115,6 +115,7 @@ for var3d in vars3d:
     if 'lev' in var3d.dims:
         print("Calculating pressure for lev...")
         pres = (ds.hyam * ds.P0 + ds.hybm * PS)
+        print("Applying ufunc...")
         ds[var3d.name] = xr.apply_ufunc(
             interp1d_gu,  var3d, pres, ds.plev,
             input_core_dims=[['lev'], ['lev'], ['plev']],
