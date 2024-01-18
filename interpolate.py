@@ -79,8 +79,9 @@ lvls_pt = np.asarray([3.5, 5., 7.5, 10., 15., 23., 33., 43., 53., 63.,
 ds = ds.assign_coords({'plev':lvls_pt})
 ds['plev'] = ds.plev.assign_attrs(
         {"long_name":"Pressure level","units":"Pa"})
-
+print("Calculating pressure on lev...")
 pres = (ds.hyam * ds.P0 + ds.hybm * PS)
+print("Calculating pressure on ilev...")
 ipres = (ds.hyai * ds.P0 + ds.hybi * PS)
 
 ### Interpolation for lev or ilev
