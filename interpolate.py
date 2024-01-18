@@ -42,35 +42,14 @@ else:
 
 PS_input = input("Enter surface pressure file name: ")
 
-# @guvectorize(
-#     "(float64[:], float64[:], float64[:], float32[:])",
-#     " (n), (n), (m) -> (m)",
-#     nopython=True,
-# )
-# def interp1d_gu(f, x, xi, out):
-#     """Interpolate field f(x) to xi in ln(x) coordinates."""
-#     i, imax, x0, f0 = 0, len(xi), x[0], f[0]
-#     while xi[i]<x0 and i < imax:
-#         out[i] = np.nan
-#         i = i + 1
-#     for x1,f1 in zip(x[1:], f[1:]):
-#         while xi[i] <= x1 and i < imax:
-#             out[i] = (f1-f0)/np.log(x1/x0)*np.log(xi[i]/x0)+f0
-#             i = i + 1
-#         x0, f0 = x1, f1
-#     while i < imax:
-#         out[i] = np.nan
-#         i = i + 1
-
 @guvectorize(
     "(float64[:], float64[:], float64[:], float32[:])",
     " (n), (n), (m) -> (m)",
     nopython=True,
 )
-def interp1d_gu(f, x, xi):
+def interp1d_gu(f, x, xi, out):
     """Interpolate field f(x) to xi in ln(x) coordinates."""
     i, imax, x0, f0 = 0, len(xi), x[0], f[0]
-    out = np.zeros(imax)
     while xi[i]<x0 and i < imax:
         out[i] = np.nan
         i = i + 1
@@ -82,7 +61,6 @@ def interp1d_gu(f, x, xi):
     while i < imax:
         out[i] = np.nan
         i = i + 1
-    return out
 
 ### Surface pressure
 PS_ds = xr.open_dataset(PS_input)
