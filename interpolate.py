@@ -62,6 +62,7 @@ def interp1d_gu(f, x, xi, out):
         out[i] = np.nan
         i = i + 1
 
+print("Loading datasets...")
 ### Surface pressure
 PS_ds = xr.open_dataset(PS_input)
 PS = PS_ds.PS
@@ -80,12 +81,14 @@ ds['plev'] = ds.plev.assign_attrs(
         {"long_name":"Pressure level","units":"Pa"})
 
 ### Interpolation for lev or ilev
+print("Entering interpolation loop...")
 vars3d = [ds[var] for var in ds.data_vars if ds[var].ndim == 4]
 for var3d in vars3d:
     if 'lev' in var3d.dims:
+        print('Loop for lev entered...')
         pres = (ds.hyam * ds.P0 + ds.hybm * PS)
         for i in range(len(ds[var3d.name]['time'])):
-            print(i)
+            print("Timestep ", i)
             ds[var3d.name][i] = xr.apply_ufunc(
                 interp1d_gu,  var3d[i], pres.sel(time=ds[var3d.name]['time'][i]), ds.plev,
                 input_core_dims=[['lev'], ['lev'], ['plev']],
@@ -96,8 +99,10 @@ for var3d in vars3d:
 
 
     else:
+        print('Loop for ilev entered...')
+        pres = (ds.hyai * ds.P0 + ds.hybi * PS)
         for i in range(len(ds[var3d.name]['time'])):
-            pres = (ds.hyai * ds.P0 + ds.hybi * PS)
+            print("Timestep ", i)
             ds[var3d.name][i] = xr.apply_ufunc(
                 interp1d_gu, var3d[i], pres.sel(time=ds[var3d.name]['time'][i]), ds.plev,
                 input_core_dims=[['ilev'], ['ilev'], ['plev']],
