@@ -79,17 +79,16 @@ lvls_pt = np.asarray([3.5, 5., 7.5, 10., 15., 23., 33., 43., 53., 63.,
 ds = ds.assign_coords({'plev':lvls_pt})
 ds['plev'] = ds.plev.assign_attrs(
         {"long_name":"Pressure level","units":"Pa"})
-print("Calculating pressure on lev...")
-pres = (ds.hyam * ds.P0 + ds.hybm * PS)
-print("Calculating pressure on ilev...")
-ipres = (ds.hyai * ds.P0 + ds.hybi * PS)
+
+
 
 ### Interpolation for lev or ilev
 print("Entering interpolation loop...")
 vars3d = [ds[var] for var in ds.data_vars if ds[var].ndim == 4]
 for var3d in vars3d:
     if 'lev' in var3d.dims:
-        print('Loop for lev entered...')
+        print("Calculating pressure for lev...")
+        pres = (ds.hyam * ds.P0 + ds.hybm * PS)
         for i in range(len(ds[var3d.name]['time'])):
             print("Timestep ", i)
             ds[var3d.name][i] = xr.apply_ufunc(
@@ -100,7 +99,8 @@ for var3d in vars3d:
                 output_dtypes=['float32'],
             ).assign_attrs(var3d.sel(time=ds[var3d.name]['time'][i]).attrs)
     else:
-        print('Loop for ilev entered...')
+        print("Calculating pressure for ilev...")
+        ipres = (ds.hyai * ds.P0 + ds.hybi * PS)
         for i in range(len(ds[var3d.name]['time'])):
             print("Timestep ", i)
             ds[var3d.name][i] = xr.apply_ufunc(
