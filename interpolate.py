@@ -85,31 +85,53 @@ ds['plev'] = ds.plev.assign_attrs(
 ### Interpolation for lev or ilev
 print("Entering interpolation loop...")
 vars3d = [ds[var] for var in ds.data_vars if ds[var].ndim == 4]
+# for var3d in vars3d:
+#     if 'lev' in var3d.dims:
+#         print("Calculating pressure for lev...")
+#         pres = (ds.hyam * ds.P0 + ds.hybm * PS)
+#         for i in range(len(ds[var3d.name]['time'])):
+#             print("Timestep ", i)
+#             ds[var3d.name][i] = xr.apply_ufunc(
+#                 interp1d_gu,  var3d.sel(time=ds[var3d.name]['time'][i]), pres.sel(time=ds[var3d.name]['time'][i]), ds.plev,
+#                 input_core_dims=[['lev'], ['lev'], ['plev']],
+#                 output_core_dims=[['plev']],
+#                 exclude_dims=set(('lev',)),
+#                 output_dtypes=['float32'],
+#             ).assign_attrs(var3d.sel(time=ds[var3d.name]['time'][i]).attrs)
+#     else:
+#         print("Calculating pressure for ilev...")
+#         ipres = (ds.hyai * ds.P0 + ds.hybi * PS)
+#         for i in range(len(ds[var3d.name]['time'])):
+#             print("Timestep ", i)
+#             ds[var3d.name][i] = xr.apply_ufunc(
+#                 interp1d_gu, var3d.sel(time=ds[var3d.name]['time'][i]), ipres.sel(time=ds[var3d.name]['time'][i]), ds.plev,
+#                 input_core_dims=[['ilev'], ['ilev'], ['plev']],
+#                 output_core_dims=[['plev']],
+#                 exclude_dims=set(('ilev',)),
+#                 output_dtypes=['float32'],
+#             ).assign_attrs(var3d.sel(time=ds[var3d.name]['time'][i]).attrs)
+
 for var3d in vars3d:
     if 'lev' in var3d.dims:
         print("Calculating pressure for lev...")
         pres = (ds.hyam * ds.P0 + ds.hybm * PS)
-        for i in range(len(ds[var3d.name]['time'])):
-            print("Timestep ", i)
-            ds[var3d.name][i] = xr.apply_ufunc(
-                interp1d_gu,  var3d.sel(time=ds[var3d.name]['time'][i]), pres.sel(time=ds[var3d.name]['time'][i]), ds.plev,
-                input_core_dims=[['lev'], ['lev'], ['plev']],
-                output_core_dims=[['plev']],
-                exclude_dims=set(('lev',)),
-                output_dtypes=['float32'],
-            ).assign_attrs(var3d.sel(time=ds[var3d.name]['time'][i]).attrs)
+        ds[var3d.name] = xr.apply_ufunc(
+            interp1d_gu,  var3d, pres, ds.plev,
+            input_core_dims=[['lev'], ['lev'], ['plev']],
+            output_core_dims=[['plev']],
+            exclude_dims=set(('lev',)),
+            output_dtypes=['float32'],
+        ).assign_attrs(var3d.attrs)
     else:
         print("Calculating pressure for ilev...")
         ipres = (ds.hyai * ds.P0 + ds.hybi * PS)
-        for i in range(len(ds[var3d.name]['time'])):
-            print("Timestep ", i)
-            ds[var3d.name][i] = xr.apply_ufunc(
-                interp1d_gu, var3d.sel(time=ds[var3d.name]['time'][i]), ipres.sel(time=ds[var3d.name]['time'][i]), ds.plev,
-                input_core_dims=[['ilev'], ['ilev'], ['plev']],
-                output_core_dims=[['plev']],
-                exclude_dims=set(('ilev',)),
-                output_dtypes=['float32'],
-            ).assign_attrs(var3d.sel(time=ds[var3d.name]['time'][i]).attrs)
+        ds[var3d.name] = xr.apply_ufunc(
+            interp1d_gu, var3d, ipres.sel, ds.plev,
+            input_core_dims=[['ilev'], ['ilev'], ['plev']],
+            output_core_dims=[['plev']],
+            exclude_dims=set(('ilev',)),
+            output_dtypes=['float32'],
+        ).assign_attrs(var3d.attrs)
 
 del ds['lev']
 del ds['hyam']
