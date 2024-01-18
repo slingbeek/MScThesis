@@ -85,6 +85,7 @@ for var3d in vars3d:
     if 'lev' in var3d.dims:
         pres = (ds.hyam * ds.P0 + ds.hybm * PS)
         for i in range(len(ds[var3d.name]['time'])):
+            print(i)
             ds[var3d.name][i] = xr.apply_ufunc(
                 interp1d_gu,  var3d[i], pres.sel(time=ds[var3d.name]['time'][i]), ds.plev,
                 input_core_dims=[['lev'], ['lev'], ['plev']],
@@ -93,9 +94,7 @@ for var3d in vars3d:
                 output_dtypes=['float32'],
             ).assign_attrs(var3d[i].attrs)
 
-            del ds['lev']
-        del ds['hyam']
-        del ds['hybm']
+
     else:
         for i in range(len(ds[var3d.name]['time'])):
             pres = (ds.hyai * ds.P0 + ds.hybi * PS)
@@ -107,11 +106,13 @@ for var3d in vars3d:
                 output_dtypes=['float32'],
             ).assign_attrs(var3d[i].attrs)
 
-            del ds['ilev']
-        del ds['hyai']
-        del ds['hybi']
+del ds['lev']
+del ds['hyam']
+del ds['hybm']
 
-
+del ds['ilev']
+del ds['hyai']
+del ds['hybi']
 
 savename = saveloc + os.path.basename(file)
 print(f"Saving {savename}")
