@@ -93,23 +93,23 @@ for var3d in vars3d:
         for i in range(len(ds[var3d.name]['time'])):
             print("Timestep ", i)
             ds[var3d.name][i] = xr.apply_ufunc(
-                interp1d_gu,  var3d[i], pres.sel(time=ds[var3d.name]['time'][i]), ds.plev,
+                interp1d_gu,  var3d.sel(time=ds[var3d.name]['time'][i]), pres.sel(time=ds[var3d.name]['time'][i]), ds.plev,
                 input_core_dims=[['lev'], ['lev'], ['plev']],
                 output_core_dims=[['plev']],
                 exclude_dims=set(('lev',)),
                 output_dtypes=['float32'],
-            ).assign_attrs(var3d[i].attrs)
+            ).assign_attrs(var3d.sel(time=ds[var3d.name]['time'][i]).attrs)
     else:
         print('Loop for ilev entered...')
         for i in range(len(ds[var3d.name]['time'])):
             print("Timestep ", i)
             ds[var3d.name][i] = xr.apply_ufunc(
-                interp1d_gu, var3d[i], ipres.sel(time=ds[var3d.name]['time'][i]), ds.plev,
+                interp1d_gu, var3d.sel(time=ds[var3d.name]['time'][i]), ipres.sel(time=ds[var3d.name]['time'][i]), ds.plev,
                 input_core_dims=[['ilev'], ['ilev'], ['plev']],
                 output_core_dims=[['plev']],
                 exclude_dims=set(('ilev',)),
                 output_dtypes=['float32'],
-            ).assign_attrs(var3d[i].attrs)
+            ).assign_attrs(var3d.sel(time=ds[var3d.name]['time'][i]).attrs)
 
 del ds['lev']
 del ds['hyam']
