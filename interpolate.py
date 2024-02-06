@@ -36,6 +36,14 @@ elif model == "cesm2":
     else:
         print("Time interval not correct, must be monthly or daily")
         sys.exit()
+elif model == "glens2":
+    if timing == "monthly":
+        saveloc = "/home/slingbeek/GLENS2/monthly/"
+    elif timing == "daily":
+        saveloc = "/home/slingbeek/GLENS2/daily/"
+    else:
+        print("Time interval not correct, must be monthly or daily")
+        sys.exit()
 else:
     print("Model not correct, must be cesm1 or cesm2")
     sys.exit()
