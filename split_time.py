@@ -9,7 +9,7 @@ from numba import float32, float64, guvectorize
 from datetime import datetime
 
 
-file, model = input("Enter file name to split and model").split(",")
+file, model = input("Enter file name to split and model: ").split(",")
 if model == "glens2":
     saveloc = "~/GLENS2/monthly"
     slices = [slice('2020', '2029'), slice('2030', '2039'), slice('2080', '2089'), slice('2090', '2100')]
