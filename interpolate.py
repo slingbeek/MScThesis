@@ -19,7 +19,7 @@ from numba import float32, float64, guvectorize
 from datetime import datetime
 
 
-file, model, timing = input("Enter file name, model (cesm1/cesm2) and time interval (monthly/daily): ").split(",")
+file, model, timing = input("Enter file name, model and time interval: ").split(",")
 if model == "cesm1":
     if timing == "monthly":
         saveloc = "/home/slingbeek/cesm1_data/monthly/"
@@ -44,8 +44,16 @@ elif model == "glens2":
     else:
         print("Time interval not correct, must be monthly or daily")
         sys.exit()
+elif model == "cmip6":
+    if timing == "monthly":
+        saveloc = "/home/slingbeek/CMIP6/monthly/"
+    elif timing == "daily":
+        saveloc = "/home/slingbeek/CMIP6/daily/"
+    else:
+        print("Time interval not correct, must be monthly or daily")
+        sys.exit()
 else:
-    print("Model not correct, must be cesm1 or cesm2")
+    print("Model not correct, must be cesm1, cesm2, glens2 or cmip6")
     sys.exit()
 
 PS_input = input("Enter surface pressure file name: ")
