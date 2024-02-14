@@ -51,8 +51,8 @@ from platform import python_version
 print('Please email feedback to esg-support@earthsystemgrid.org.\n')
 
 data = [
-     {'url':'https://tds.ucar.edu/thredds/fileServer/datazone/cdg/data/GeoMIP-SSP5/b.e21.BWSSP585cmip6.f09_g17.CMIP6-SSP5-8.5-WACCM.feedback.15C.001/atm/proc/tseries/month_1/b.e21.BWSSP585cmip6.f09_g17.CMIP6-SSP5-8.5-WACCM.feedback.15C.001.cam.h0.U.201901-206812.nc','filename':'b.e21.BWSSP585cmip6.f09_g17.CMIP6-SSP5-8.5-WACCM.feedback.15C.001.cam.h0.U.201901-206812.nc','bytes':'6613393985','md5Checksum':''},
-     {'url':'https://tds.ucar.edu/thredds/fileServer/datazone/cdg/data/GeoMIP-SSP5/b.e21.BWSSP585cmip6.f09_g17.CMIP6-SSP5-8.5-WACCM.feedback.15C.001/atm/proc/tseries/month_1/b.e21.BWSSP585cmip6.f09_g17.CMIP6-SSP5-8.5-WACCM.feedback.15C.001.cam.h0.U.206901-210012.nc','filename':'b.e21.BWSSP585cmip6.f09_g17.CMIP6-SSP5-8.5-WACCM.feedback.15C.001.cam.h0.U.206901-210012.nc','bytes':'4232876501','md5Checksum':''},]
+     {'url':'https://tds.ucar.edu/thredds/fileServer/datazone/cdg/data/GeoMIP-SSP5/b.e21.BWSSP585cmip6.f09_g17.CMIP6-SSP5-8.5-WACCM.feedback.15C.001/atm/proc/tseries/month_1/b.e21.BWSSP585cmip6.f09_g17.CMIP6-SSP5-8.5-WACCM.feedback.15C.001.cam.h0.TREFHT.201901-206812.nc','filename':'b.e21.BWSSP585cmip6.f09_g17.CMIP6-SSP5-8.5-WACCM.feedback.15C.001.cam.h0.TREFHT.201901-206812.nc','bytes':'6613393985','md5Checksum':''},
+     {'url':'https://tds.ucar.edu/thredds/fileServer/datazone/cdg/data/GeoMIP-SSP5/b.e21.BWSSP585cmip6.f09_g17.CMIP6-SSP5-8.5-WACCM.feedback.15C.001/atm/proc/tseries/month_1/b.e21.BWSSP585cmip6.f09_g17.CMIP6-SSP5-8.5-WACCM.feedback.15C.001.cam.h0.TREFHT.206901-210012.nc','filename':'b.e21.BWSSP585cmip6.f09_g17.CMIP6-SSP5-8.5-WACCM.feedback.15C.001.cam.h0.TREFHT.206901-210012.nc','bytes':'4232876501','md5Checksum':''},]
 
 def main(data):
 
