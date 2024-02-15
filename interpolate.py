@@ -44,16 +44,16 @@ elif model == "glens2":
     else:
         print("Time interval not correct, must be monthly or daily")
         sys.exit()
-elif model == "cmip6":
-    if timing == "monthly":
-        saveloc = "/home/slingbeek/CMIP6/monthly/"
-    elif timing == "daily":
-        saveloc = "/home/slingbeek/CMIP6/daily/"
-    else:
-        print("Time interval not correct, must be monthly or daily")
-        sys.exit()
+# elif model == "cmip6":
+#     if timing == "monthly":
+#         saveloc = "/home/slingbeek/CMIP6/monthly/"
+#     elif timing == "daily":
+#         saveloc = "/home/slingbeek/CMIP6/daily/"
+#     else:
+#         print("Time interval not correct, must be monthly or daily")
+#         sys.exit()
 else:
-    print("Model not correct, must be cesm1, cesm2, glens2 or cmip6")
+    print("Model not correct, must be cesm1, cesm2 or glens2")
     sys.exit()
 
 PS_input = input("Enter surface pressure file name: ")
@@ -81,7 +81,10 @@ def interp1d_gu(f, x, xi, out):
 print("Loading datasets...")
 ### Surface pressure
 PS_ds = xr.open_dataset(PS_input)
-PS = PS_ds.PS
+if model == "cmip6":
+    PS = PS_ds.ps
+else:
+    PS = PS_ds.PS
 
 ### Open dataset
 ds = xr.open_dataset(file)
