@@ -12,7 +12,7 @@ from datetime import datetime
 file, tslice = input("Enter file name to split and slice: ").split(",")
 # file = input("Enter file name to split: ")
 
-if tslice == "start":
+if tslice == "begin":
     saveloc = "~/paper_data/"
     slices = [slice('2016', '2035')]
     names = ["201601-203512"]
