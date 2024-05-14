@@ -9,7 +9,9 @@ from numba import float32, float64, guvectorize
 from datetime import datetime
 
 
-file, tslice = input("Enter file name to split and slice: ").split(",")
+file = input("Enter file name to split: ")
+tslice = input("Enter slice: ")
+
 # file = input("Enter file name to split: ")
 
 if tslice == "begin":
@@ -17,7 +19,7 @@ if tslice == "begin":
     slices = [slice('2016', '2035')]
     names = ["201601-203512"]
 
-if tslice == "end":
+elif tslice == "end":
     saveloc = "~/paper_data/"
     slices = [slice('2080', '2099')]
     names = ["208001-209912"]
