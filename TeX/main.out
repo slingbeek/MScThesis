@@ -1,12 +1,26 @@
-\BOOKMARK [1][-]{section.1}{Model Comparison}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Surface temperature gradients}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{Reference Height Temperature}{section.1}% 3
-\BOOKMARK [3][-]{subsubsection.1.2.1}{Annual Mean Anomaly}{subsection.1.2}% 4
-\BOOKMARK [3][-]{subsubsection.1.2.2}{JJA and DJF Seasonal Mean Anomaly}{subsection.1.2}% 5
-\BOOKMARK [3][-]{subsubsection.1.2.3}{Annual vs. Seasonal}{subsection.1.2}% 6
-\BOOKMARK [2][-]{subsection.1.3}{Precipitation}{section.1}% 7
-\BOOKMARK [3][-]{subsubsection.1.3.1}{Annual Mean Anomaly}{subsection.1.3}% 8
-\BOOKMARK [3][-]{subsubsection.1.3.2}{JJA and DJF Seasonal Mean Anomaly}{subsection.1.3}% 9
-\BOOKMARK [1][-]{section.2}{Lower stratosphere wind}{}% 10
-\BOOKMARK [2][-]{subsection.2.1}{Eddy Kinetic Energy and Zonal Mean Zonal Wind}{section.2}% 11
-\BOOKMARK [1][-]{section.3}{Polar Nigth Jet}{}% 12
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Climate change and geoengineering}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Previous Research}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Evaluating the CAM6 Emulator}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Southern Hemisphere Atmosphere}{section.1}% 5
+\BOOKMARK [0][-]{part.1}{I Model Validation}{}% 6
+\BOOKMARK [1][-]{section.2}{Introduction Part I}{part.1}% 7
+\BOOKMARK [2][-]{subsection.2.1}{Geoengineering in the Form of Stratospheric Aerosol Injections}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.2}{The GLENS Project and Subsequent CESM2 Simulations}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.3}{CESM2 with CAM6 as an Emulator}{section.2}% 10
+\BOOKMARK [1][-]{section.3}{Methods Part I}{part.1}% 11
+\BOOKMARK [2][-]{subsection.3.1}{Building the Emulator for SAI simulations}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.2}{Definition of Scenarios and Time Periods for Part I}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.3}{Vertical Interpolation}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.4}{Temperature Goals}{section.3}% 15
+\BOOKMARK [0][-]{part.2}{II Southern Hemisphere Atmospheric Circulation}{}% 16
+\BOOKMARK [1][-]{section.4}{Introduction Part II}{part.2}% 17
+\BOOKMARK [2][-]{subsection.4.1}{Rapid Cooling with SAI as an Emeregency Intervention}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.2}{The high-latitude Southern Hemisphere Atmosphere}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.3}{Previous Research}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.4}{???}{section.4}% 21
+\BOOKMARK [1][-]{section.5}{Methods Part II}{part.2}% 22
+\BOOKMARK [2][-]{subsection.5.1}{Rapid Cooling Experiment}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.2}{Definition of Scenarios and Time Periods for Part II}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.3}{Jet Intensity Maps}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.4}{Climograph}{section.5}% 26

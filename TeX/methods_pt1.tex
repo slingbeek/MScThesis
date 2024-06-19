@@ -1,0 +1,53 @@
+Throughout this thesis, the CESM2(CAM6) configuration is referred to as CAM and the CESM2(WACCM6) configuration is referred to as WACCM. The monthly mean model output is used, resulting in 12 data entries for each model year. 
+
+\subsection{Building the Emulator for SAI simulations}
+\textcolor{teal}{Dingen zijn door elkaar gaan lopen, hier komt nog een beschrijving van Daniels methode voor de feedback-feedforward met de aerosolvelden als forcing.}
+
+\subsection{Definition of Scenarios and Time Periods for Part I}
+There are two simulations performed with each CESM2 version. The first simulation follows the historical spin-up and is continued by the SSP5-8.5 scenario. The second simulation branches from the first simulation in 2020 and from then on introduces SAI to stabilise temperatures using the SSP5-8.5 scenario as background. In Tilmes et al. (2020) this simulation is called the \textit{Geo SSP5-8.5 1.5 scenario}. Here we will refer to it as the gradual SAI scenario. 
+
+Throughout this first part, three time periods are used to visualise and interpret the results from the simulations. For each period the 20-year mean is taken, unless specified otherwise. These periods are defined as follows:
+
+\begin{itemize}
+    \item \textbf{Reference} The period 2016-2035 of the SSP5-8.5 simulation.
+    \item \textbf{Control} The period 2080-2099 of the SSP5-8.5 simulation.
+    \item \textbf{SAI 2020} The period 2080-2099 of the gradual SAI simulation.
+\end{itemize} 
+\textcolor{teal}{misschien beter in tabelvorm}
+
+\subsection{Vertical Interpolation}
+The atmospheric vertical levels of CESM are defined as hybrid levels. However, for ease of computation and visualisation, conversion to pressure levels is preferred. To this end, a logarithmic interpolation scheme is used, that takes the model output at hybrid levels and projects them onto the appropriate pressure levels. For CAM the model output is converted to 34 pressure levels ranging from 3.5 to 993 hPa. For WACCM the SSP5-8.5 model output was pubplished in pressure levels, 19 pressure levels ranging from 1 to 1000 hPa. The WACCM gradual SAI scenario model output is converted to those same 19 pressure levels. \textcolor{teal}{moet dit uitgebreider?}
+
+No interpolation is needed of the horizontal grids as these are identical in all models. 
+
+\subsection{Temperature Goals}
+The WACCM simulations use the feedback algorithm to maintain three temperature targets in their SAI scenario. These temperature targets are defined in Kravitz et al. (2016) as the projection of $T(\psi)$ onto the first three Legendre polynomial functions of $\sin(\psi)$, resulting in
+
+\begin{equation}\label{eq:TdA}
+    \begin{split}
+        T_0 &= \frac{1}{A} \int\displaylimits_{-\pi/2}^{\pi/2} T(\psi) \mathop{dA},\\
+        T_1 &= \frac{1}{A} \int\displaylimits_{-\pi/2}^{\pi/2} T(\psi) \sin(\psi) \mathop{dA,}\\
+        T_2 &= \frac{1}{A} \int\displaylimits_{-\pi/2}^{\pi/2} T(\psi) \frac{1}{2}(2\sin^2(\psi) -1) \mathop{dA},
+    \end{split}
+\end{equation}
+
+\noindent where $\psi$ is latitude, $T(\psi)$ is the zonal-mean temperature for each latitude, and A the area-weighted latitude, defined as
+
+\begin{equation}\label{eq:dA}
+    \mathop{dA} = \cos(\psi) \mathop{d\psi} \Rightarrow A = \int\displaylimits_{-\pi/2}^{\pi/2} \cos(\psi) \mathop{d \psi} = 2.
+\end{equation}
+
+\noindent Combining Eqs. \ref{eq:TdA} and \ref{eq:dA} we find 
+
+\begin{equation}\label{eq:Tpsi}
+    \begin{split}
+        T_0 &= \frac{1}{2} \int\displaylimits_{-\pi/2}^{\pi/2} T(\psi) \cos(\psi) \mathop{d\psi},\\
+        T_1 &= \frac{1}{2} \int\displaylimits_{-\pi/2}^{\pi/2} T(\psi) \sin(\psi) \cos(\psi) \mathop{d\psi},\\
+        T_2 &= \frac{1}{2} \int\displaylimits_{-\pi/2}^{\pi/2} T(\psi) \frac{1}{2}(2\sin^2(\psi) -1) \cos(\psi) \mathop{d\psi}.
+    \end{split}
+\end{equation}
+
+The $T_0$ temperature target translates to global mean surface temperature (GMST), the $T_1$ is interpreted as the inter-hemispheric temperature gradient and $T_2$ is interpreted as the equator-to-pole temperature gradient. From the model output these temperature targets can be evaluated using Eq. \ref{eq:Tpsi}. 
+
+
+\textcolor{teal}{Een figure van het voorgeschreven aerosolveld is handig, maar of dat hier of in de introductie moet weet ik niet goed, ik neig naar hier. Een uitgebreidere bespreking van de datasests is denk ik ook gepast, maar of dit beperkt moet blijven tot 'van wie zijn ze en waar zijn ze te vinden' of dat het uitgebreider moet weet ik ook niet goed...}

@@ -1,6 +1,5 @@
 \documentclass[12pt]{article}
 \usepackage[margin=2.5cm]{geometry}
-\usepackage{natbib}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{mathtools}  
@@ -15,33 +14,79 @@
 \usepackage{titling}
 \usepackage{listings}
 \usepackage{float}
-\usepackage{graphicx}
 \usepackage{hyperref}
 \setlength{\droptitle}{-6em}
 \usepackage{placeins}
 \usepackage{graphicx}
 \usepackage{subcaption}
 \usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{xspace}
+\usepackage{pifont}
+
+%%% This is about changing the headers and footers (i.e. Top and bottom of the page)
+\pagestyle{fancy}% use fancyheaders with the bar on the top
+\fancyhf{} % Clear the normal style
+\fancyhead[L]{\bfseries\leftmark} %this places the section number and name in the top left
+\fancyhead[R]{\bfseries\thepage}% this places the pagenumber in the top right
+%%%% Add the bibliography with some settings:
+% package:
+% \usepackage[square, comma, numbers, sort&compress ]{natbib}
+\usepackage[style=apa]{biblatex}
+% bibliography sort style:
+
+%%%%% frontmatter/mainmatter/backmatter:
+\newcommand\frontmatter{%
+    \cleardoublepage
+    \pagenumbering{roman}} %small Roman numbers
+
+\newcommand\mainmatter{%
+    \cleardoublepage
+    \pagenumbering{arabic}} %normal numbers
+
+\newcommand\backmatter{%
+    \cleardoublepage %% double page style
+    %\clearpage %% single page style
+    \pagenumbering{Roman}} %capital Roman numbers
 
 
-\title{MSc Thesis}
-\author{Simone Lingbeek}
-\date{May 2024}
 
 \begin{document}
+\newgeometry{margin=1.5cm} %% Special margins on the titlepage. It is also possible to set each margin separately; see package Geometry.
+\include{titelpagina}
 
-\maketitle
+\section{Introduction}
+\input{introduction}
+\newpage
 
-\section{Model Comparison}
-\input{surface_temp_grad}
-\input{refht_temp}
-\input{precip}
+\part{Model Validation}
+\section{Introduction Part I}
+\input{intro_pt1}
+\newpage
 
-\section{Lower stratosphere wind}
-\input{lower_stratosphere}
+\section{Methods Part I}
+\input{methods_pt1}
+\newpage
 
-\section{Polar Nigth Jet}
-\input{polar_night_jet}
+\part{Southern Hemisphere Atmospheric Circulation}
+\section{Introduction Part II}
+\input{intro_pt2}
+\newpage
+
+\section{Methods Part II}
+\input{methods_pt2}
+
+% \section{Model Comparison}
+% \input{surface_temp_grad}
+% \input{refht_temp}
+% \input{precip}
+
+% \section{Lower stratosphere wind}
+% \input{lower_stratosphere}
+
+% \section{Polar Nigth Jet}
+% \input{polar_night_jet}
 
 
 \end{document}
