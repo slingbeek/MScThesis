@@ -33,8 +33,21 @@
 %%%% Add the bibliography with some settings:
 % package:
 % \usepackage[square, comma, numbers, sort&compress ]{natbib}
-\usepackage[style=apa]{biblatex}
-% bibliography sort style:
+\usepackage[style=authoryear,citestyle=authoryear,maxcitenames=2,maxbibnames=20,uniquename=false,uniquelist=false,eprint=false]{biblatex}
+\addbibresource{bibbestand.bib}
+
+\renewbibmacro*{doi+eprint+url}{%   
+  \iftoggle{bbx:url}     
+    {\iffieldundef{doi}{\usebibmacro{url+urldate}}{}}     
+    {}%   
+  \newunit\newblock   
+  \iftoggle{bbx:eprint}     
+    {\usebibmacro{eprint}}     
+    {}%   
+  \newunit\newblock  
+  \iftoggle{bbx:doi}     
+    {\printfield{doi}}     
+    {}}
 
 %%%%% frontmatter/mainmatter/backmatter:
 \newcommand\frontmatter{%
@@ -49,7 +62,6 @@
     \cleardoublepage %% double page style
     %\clearpage %% single page style
     \pagenumbering{Roman}} %capital Roman numbers
-
 
 
 \begin{document}
@@ -88,5 +100,7 @@
 % \section{Polar Nigth Jet}
 % \input{polar_night_jet}
 
+\newpage
+\printbibliography
 
 \end{document}

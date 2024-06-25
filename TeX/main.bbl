@@ -1,0 +1,1268 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Ammann2010}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7f935b89013ef72e340a237563fde265}{%
+           family={Ammann},
+           familyi={A\bibinitperiod},
+           given={Caspar\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5b6baffa7844447d710b0e53ab0e45db}{%
+           family={Washington},
+           familyi={W\bibinitperiod},
+           given={Warren\bibnamedelima M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=21e3e8bee34e2a977cee27bbcdc847df}{%
+           family={Meehl},
+           familyi={M\bibinitperiod},
+           given={Gerald\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ea791c808882fc3fab8a22af37456ebf}{%
+           family={Buja},
+           familyi={B\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=231453f54355344e7e0fd71a2572fcf4}{%
+           family={Teng},
+           familyi={T\bibinitperiod},
+           given={Haiyan},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{055a0f372b44a659c01805a660a34a90}
+      \strng{fullhash}{593bcc0a237794db30048be096974f1f}
+      \strng{bibnamehash}{593bcc0a237794db30048be096974f1f}
+      \strng{authorbibnamehash}{593bcc0a237794db30048be096974f1f}
+      \strng{authornamehash}{055a0f372b44a659c01805a660a34a90}
+      \strng{authorfullhash}{593bcc0a237794db30048be096974f1f}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Explosive volcanism and solar activity changes have modulated the Earth's temperature over short and century time scales. Associated with these external forcings were systematic changes in circulation. Here, we explore the effect of similar but artificially induced forcings that mimic natural radiative perturbations in order to stabilize surface climate. Injection of sulfate aerosols into the stratosphere, not unlike the effects from large volcanic eruptions, and a direct reduction of insolation, similar to total solar irradiance changes, are tested in their effectiveness to offset global mean temperature rise resulting from a business-as-usual scenario, thereby reducing surface temperatures to conditions associated with committed warming of a year 2000 stabilization scenario. This study uses a coupled Atmosphere-Ocean General Circulation Model to illustrate the character of resulting climate and circulation anomalies when both enhanced greenhouse (A2 scenario) and opposing geoengineering perturbations are considered. First we quantify the magnitude of the required perturbation and compare these artificial perturbations to the natural range of the respective forcing. Then, we test the effectiveness of the “correction” by looking at the regional climate response to the combined forcing. It is shown that widespread warming could be reduced, but overcompensation in the tropics is necessary because sea ice loss in high latitudes cannot be reversed effectively to overcome higher ocean heat content and enhanced zonal winter circulation as well as the continuous IR forcing. The magnitude of new, greenhouse gas-countering anthropogenic forcing would have to be much larger than what natural forcing from volcanoes and solar irradiance variability commonly provide.}
+      \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+      \field{number}{D22}
+      \field{title}{Climate engineering through artificial enhancement of natural forcings: Magnitudes and implied consequences}
+      \field{volume}{115}
+      \field{year}{2010}
+      \verb{doi}
+      \verb https://doi.org/10.1029/2009JD012878
+      \endverb
+      \verb{eprint}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2009JD012878
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2009JD012878
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2009JD012878
+      \endverb
+      \keyw{geoengineering,climate change,natural forcing}
+    \endentry
+    \entry{danabasoglu2020}{article}{}
+      \name{author}{43}{}{%
+        {{hash=d12fe2e70bf20263aed406e7bb7ed496}{%
+           family={Danabasoglu},
+           familyi={D\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=26a5eb15d61890429dfbbe11a52cb690}{%
+           family={Lamarque},
+           familyi={L\bibinitperiod},
+           given={J.-F.},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=27833d765f5d5ef1ea12473c74941f4d}{%
+           family={Bacmeister},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=31aaea945b5a5e7bc44e888f089a6fa8}{%
+           family={Bailey},
+           familyi={B\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1c0fdda557301283ee3d77220480bcd9}{%
+           family={DuVivier},
+           familyi={D\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=11359637cb8d5f7adf4bc0b8ef479326}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=87422fef205741800c1bc2c342cbc9d3}{%
+           family={Emmons},
+           familyi={E\bibinitperiod},
+           given={L.\bibnamedelimi K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=3973698a96abe1cf08e5729d95efd6f3}{%
+           family={Fasullo},
+           familyi={F\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ed890e1b50c2389cc215c9e8cb20f9b5}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cd5849181fdb8c075af00e346f2bea42}{%
+           family={Gettelman},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bd5331db9f35d7f11cb9c16b9f807a17}{%
+           family={Hannay},
+           familyi={H\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=135f710f24395df5829a19c0703efb1a}{%
+           family={Holland},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2bc1162e0c3595a59d78568ed93741bf}{%
+           family={Large},
+           familyi={L\bibinitperiod},
+           given={W.\bibnamedelimi G.},
+           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=167479faee9f1bccd451a2b974aed793}{%
+           family={Lauritzen},
+           familyi={L\bibinitperiod},
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=2347d6e4fc58dd1898984c57de0616f1}{%
+           family={Lawrence},
+           familyi={L\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5d2abcf79d40642e2b949131c9b4d166}{%
+           family={Lenaerts},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi T.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a7e6def7f1cd2840292e8c8e77855172}{%
+           family={Lindsay},
+           familyi={L\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ec793a4e3121e56a224a52216f7c5162}{%
+           family={Lipscomb},
+           familyi={L\bibinitperiod},
+           given={W.\bibnamedelimi H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=a7be8cdc42011c9ef3ecae99c5982607}{%
+           family={Mills},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=55f674a6e86f3a4097addc27c6e927f9}{%
+           family={Neale},
+           familyi={N\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=abfc1f094cbb6ddd8aa4834d9ad3b4a2}{%
+           family={Oleson},
+           familyi={O\bibinitperiod},
+           given={K.\bibnamedelimi W.},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=e2eb6ac2e1eb85a68b2f22acc52b26d0}{%
+           family={Otto-Bliesner},
+           familyi={O\bibinithyphendelim B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2ca540852994285e2c606e9d3e851e19}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=835447a8cdf81fd2fc41cc5d32036e75}{%
+           family={Sacks},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d9fdef8a06cad8e90a299403b5d5ad37}{%
+           family={Tilmes},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f995bec08ebef9ccf122735fb89ab597}{%
+           family={Kampenhout},
+           familyi={K\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=1a11698cf6e8b2d9626ec79da190a4af}{%
+           family={Vertenstein},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8ee0a91cc028a3da65777bd37bd7118e}{%
+           family={Bertini},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7494542351e65a3985d0a4f37f74c640}{%
+           family={Dennis},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=62a58a872089c2f024d76d691b7d8cb1}{%
+           family={Deser},
+           familyi={D\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=31dbc03ab5e1a7dcd41c51cdcad06517}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=afad932535f4a72be5f168180bb747ac}{%
+           family={Fox-Kemper},
+           familyi={F\bibinithyphendelim K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e5faf577096ed65b5742ece6091e77d5}{%
+           family={Kay},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=23fba5f135eaf9bcdd90a8a43f9112d4}{%
+           family={Kinnison},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2ad13c85df6c50a7aba36811079d9922}{%
+           family={Kushner},
+           familyi={K\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f5945fe30e26b443ef04663b7f53f572}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={V.\bibnamedelimi E.},
+           giveni={V\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=034bf7c7af91b520cf6e91ef31665bea}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=7e78be417a068958331cc1c5bde61eab}{%
+           family={Mickelson},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=97ce8a017dc22ab65eef95e715fb5809}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=ec404c49f18b2da702db81b99f1ed634}{%
+           family={Nienhouse},
+           familyi={N\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9b0ecb01c933d4f3d50495b4b8210150}{%
+           family={Polvani},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=768e8c30a4308286a1ae5dc3d8c3d321}{%
+           family={Rasch},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6e3c3c5b8c0aaa0e6676291b378273db}{%
+           family={Strand},
+           familyi={S\bibinitperiod},
+           given={W.\bibnamedelimi G.},
+           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{cedfdf0046b2bfae6585a508364befb9}
+      \strng{fullhash}{c3996535ea0d4efe7aa63ddcdd579a4b}
+      \strng{bibnamehash}{cedfdf0046b2bfae6585a508364befb9}
+      \strng{authorbibnamehash}{cedfdf0046b2bfae6585a508364befb9}
+      \strng{authornamehash}{cedfdf0046b2bfae6585a508364befb9}
+      \strng{authorfullhash}{c3996535ea0d4efe7aa63ddcdd579a4b}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract An overview of the Community Earth System Model Version 2 (CESM2) is provided, including a discussion of the challenges encountered during its development and how they were addressed. In addition, an evaluation of a pair of CESM2 long preindustrial control and historical ensemble simulations is presented. These simulations were performed using the nominal 1° horizontal resolution configuration of the coupled model with both the “low-top” (40 km, with limited chemistry) and “high-top” (130 km, with comprehensive chemistry) versions of the atmospheric component. CESM2 contains many substantial science and infrastructure improvements and new capabilities since its previous major release, CESM1, resulting in improved historical simulations in comparison to CESM1 and available observations. These include major reductions in low-latitude precipitation and shortwave cloud forcing biases; better representation of the Madden-Julian Oscillation; better El Niño-Southern Oscillation-related teleconnections; and a global land carbon accumulation trend that agrees well with observationally based estimates. Most tropospheric and surface features of the low- and high-top simulations are very similar to each other, so these improvements are present in both configurations. CESM2 has an equilibrium climate sensitivity of 5.1–5.3 °C, larger than in CESM1, primarily due to a combination of relatively small changes to cloud microphysics and boundary layer parameters. In contrast, CESM2's transient climate response of 1.9–2.0 °C is comparable to that of CESM1. The model outputs from these and many other simulations are available to the research community, and they represent CESM2's contributions to the Coupled Model Intercomparison Project Phase 6.}
+      \field{journaltitle}{Journal of Advances in Modeling Earth Systems}
+      \field{note}{e2019MS001916 2019MS001916}
+      \field{number}{2}
+      \field{title}{The Community Earth System Model Version 2 (CESM2)}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{e2019MS001916}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://doi.org/10.1029/2019MS001916
+      \endverb
+      \verb{eprint}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2019MS001916
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019MS001916
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019MS001916
+      \endverb
+      \keyw{Community Earth System Model (CESM),global coupled Earth system modeling,preindustrial and historical simulations,coupled model development and evaluation}
+    \endentry
+    \entry{domeisen2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a2e307f231252ff705049e63f3d9d216}{%
+           family={Domeisen},
+           familyi={D\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f004ab45b4e16a28dbd1aa6d01125c71}{%
+           family={Butler},
+           familyi={B\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{31b10c6c94c586c768742ebf78ca97d3}
+      \strng{fullhash}{31b10c6c94c586c768742ebf78ca97d3}
+      \strng{bibnamehash}{31b10c6c94c586c768742ebf78ca97d3}
+      \strng{authorbibnamehash}{31b10c6c94c586c768742ebf78ca97d3}
+      \strng{authornamehash}{31b10c6c94c586c768742ebf78ca97d3}
+      \strng{authorfullhash}{31b10c6c94c586c768742ebf78ca97d3}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications Earth \& Environment}
+      \field{month}{12}
+      \field{number}{59}
+      \field{title}{Stratospheric drivers of extreme events at the Earth’s surface}
+      \field{volume}{1}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1038/s43247-020-00060-z
+      \endverb
+    \endentry
+    \entry{duffey2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f43d719bfe6f1175ae932259eb4f29af}{%
+           family={Duffey},
+           familyi={D\bibinitperiod},
+           given={Alistair},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9df0bae49a1da84c5c46108925124ce5}{%
+           family={Irvine},
+           familyi={I\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a9d4274f20ff960fb1273abc2401fd15}{%
+           family={Tsamados},
+           familyi={T\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=05f1c1d4b25aaff2db1a8d040d67a85d}{%
+           family={Stroeve},
+           familyi={S\bibinitperiod},
+           given={Julienne},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5713fecae60034de200a946dfc50974c}
+      \strng{fullhash}{25cbd8328683b78b620875de537e4aa3}
+      \strng{bibnamehash}{25cbd8328683b78b620875de537e4aa3}
+      \strng{authorbibnamehash}{25cbd8328683b78b620875de537e4aa3}
+      \strng{authornamehash}{5713fecae60034de200a946dfc50974c}
+      \strng{authorfullhash}{25cbd8328683b78b620875de537e4aa3}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Solar geoengineering refers to proposals, including stratospheric aerosol injection (SAI), to slow or reverse climate change by reflecting away incoming sunlight. The rapid changes ongoing in the Arctic and Antarctic, and the risk of exceeding tipping points in the cryosphere within decades, make limiting such changes a plausible objective of solar geoengineering. Here, we review the impacts of SAI on polar climate and cryosphere, including the dependence of these impacts on the latitude(s) of injection, and make recommendations for future research directions. SAI would cool the polar regions and reduce many changes in polar climate under future warming scenarios. Some under-cooling of the polar regions relative to the global mean is expected under SAI without high latitude injection, due to latitudinal variation in insolation and CO2 forcing, the forcing dependence of the polar lapse rate feedback, and altered atmospheric dynamics. There are also potential limitations in the effectiveness of SAI to arrest changes in winter-time polar climate and to prevent sea-level rise from the Antarctic ice sheet. Finally, we also review the prospects for three other solar geoengineering proposals targeting the poles: marine cloud brightening, cirrus cloud thinning, and sea-ice albedo modification. Sea-ice albedo modification appears unlikely to be viable on pan-Arctic or Antarctic scales. Whether marine cloud brightening or cirrus cloud thinning would be effective in the polar regions remains uncertain. Solar geoengineering is an increasingly prominent proposal and a robust understanding of its consequences in the polar regions is needed to inform climate policy in the coming decades.}
+      \field{journaltitle}{Earth's Future}
+      \field{note}{e2023EF003679 2023EF003679}
+      \field{number}{6}
+      \field{title}{Solar Geoengineering in the Polar Regions: A Review}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{e2023EF003679}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://doi.org/10.1029/2023EF003679
+      \endverb
+      \verb{eprint}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023EF003679
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2023EF003679
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2023EF003679
+      \endverb
+      \keyw{solar geoengineering,polar climate,climate change,sea ice,stratospheric aerosol injection,solar radiation modification}
+    \endentry
+    \entry{hurrell2013}{article}{}
+      \name{author}{23}{}{%
+        {{hash=9b6afac69ada87a1c3b12b3b0dc86045}{%
+           family={Hurrell},
+           familyi={H\bibinitperiod},
+           given={James\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=135f710f24395df5829a19c0703efb1a}{%
+           family={Holland},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d60be76bed1a58111184b0cd41b7f910}{%
+           family={Gent},
+           familyi={G\bibinitperiod},
+           given={P.\bibnamedelimi R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=90cb18ecfa5f3217681f1091fe40673b}{%
+           family={Ghan},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e0511e58441c3f7726000001fe540eed}{%
+           family={Kay},
+           familyi={K\bibinitperiod},
+           given={Jennifer\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=2ad13c85df6c50a7aba36811079d9922}{%
+           family={Kushner},
+           familyi={K\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=26a5eb15d61890429dfbbe11a52cb690}{%
+           family={Lamarque},
+           familyi={L\bibinitperiod},
+           given={J.-F.},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=2bc1162e0c3595a59d78568ed93741bf}{%
+           family={Large},
+           familyi={L\bibinitperiod},
+           given={W.\bibnamedelimi G.},
+           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=975d84c8c8030378ca5af3fbad78394a}{%
+           family={Lawrence},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a7e6def7f1cd2840292e8c8e77855172}{%
+           family={Lindsay},
+           familyi={L\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ec793a4e3121e56a224a52216f7c5162}{%
+           family={Lipscomb},
+           familyi={L\bibinitperiod},
+           given={W.\bibnamedelimi H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=034bf7c7af91b520cf6e91ef31665bea}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=65e9329ccc247e8347d3f84791fc9b9d}{%
+           family={Mahowald},
+           familyi={M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=277cad226fc10046c139201c809c203e}{%
+           family={Marsh},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=5c92062748f32009d4723e219c165f9b}{%
+           family={Neale},
+           familyi={N\bibinitperiod},
+           given={R.\bibnamedelimi B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=ea15d86da5528cb49c4812b8aee430df}{%
+           family={Rasch},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=32630478623f6b9bb53ae5c683edb745}{%
+           family={Vavrus},
+           familyi={V\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1a11698cf6e8b2d9626ec79da190a4af}{%
+           family={Vertenstein},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=531259401f27dee0c767bf214ee7ac1e}{%
+           family={Bader},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7aae64fdecb9f8378fbaafe5e1456545}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={W.\bibnamedelimi D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1fc96d70de0b1c08237aa9f037f01aba}{%
+           family={Hack},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=05abf8e6859d1e1c319bd326433fb6ec}{%
+           family={Kiehl},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=df8aacd5e0d36ef58e9af1f204e79fbf}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{d8a9063b0056856d03f4eecb3f35c3aa}
+      \strng{fullhash}{227249f1639946389bfdff13477444d7}
+      \strng{bibnamehash}{d8a9063b0056856d03f4eecb3f35c3aa}
+      \strng{authorbibnamehash}{d8a9063b0056856d03f4eecb3f35c3aa}
+      \strng{authornamehash}{d8a9063b0056856d03f4eecb3f35c3aa}
+      \strng{authorfullhash}{227249f1639946389bfdff13477444d7}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of the American Meteorological Society}
+      \field{number}{9}
+      \field{title}{The Community Earth System Model: A Framework for Collaborative Research}
+      \field{volume}{94}
+      \field{year}{2013}
+      \field{pages}{1339\bibrangedash 1360}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1175/BAMS-D-12-00121.1
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/bams/94/9/bams-d-12-00121.1.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/bams/94/9/bams-d-12-00121.1.xml
+      \endverb
+    \endentry
+    \entry{kravitz2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fbff89576ab7cdcd213836d951e10936}{%
+           family={Kravitz},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=362987b04a743848542aa0d704e0daf3}{%
+           family={MacMartin},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=19e9dfaf1dd53f55f48dd4ae859b151b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=768e8c30a4308286a1ae5dc3d8c3d321}{%
+           family={Rasch},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1841a56429cefd44cac5bb0b7a45aafd}
+      \strng{fullhash}{ad5c32dc3fd05f85ca015ff236f6d217}
+      \strng{bibnamehash}{ad5c32dc3fd05f85ca015ff236f6d217}
+      \strng{authorbibnamehash}{ad5c32dc3fd05f85ca015ff236f6d217}
+      \strng{authornamehash}{1841a56429cefd44cac5bb0b7a45aafd}
+      \strng{authorfullhash}{ad5c32dc3fd05f85ca015ff236f6d217}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Earth System Dynamics}
+      \field{number}{2}
+      \field{title}{Geoengineering as a design problem}
+      \field{volume}{7}
+      \field{year}{2016}
+      \field{pages}{469\bibrangedash 497}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.5194/esd-7-469-2016
+      \endverb
+      \verb{urlraw}
+      \verb https://esd.copernicus.org/articles/7/469/2016/
+      \endverb
+      \verb{url}
+      \verb https://esd.copernicus.org/articles/7/469/2016/
+      \endverb
+    \endentry
+    \entry{kravitz2017}{article}{}
+      \name{author}{8}{}{%
+        {{hash=ebb0d5eccdae190e9ecfd3a0b5bfe8f1}{%
+           family={Kravitz},
+           familyi={K\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=42f3600ac3af9377f033953940a8746a}{%
+           family={MacMartin},
+           familyi={M\bibinitperiod},
+           given={Douglas\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=9e03950f9fd175303f7e5506a6c9cb11}{%
+           family={Mills},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e396e919b010b082a143c1830d209bfb}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Jadwiga\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=60aa7f6a9bd1913ae065300e5d7f7e49}{%
+           family={Tilmes},
+           familyi={T\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=375344bbb115d9bde8155e1874b98204}{%
+           family={Lamarque},
+           familyi={L\bibinitperiod},
+           given={Jean-Francois},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=3a846831ee2a5e555713f344e29e2e4b}{%
+           family={Tribbia},
+           familyi={T\bibinitperiod},
+           given={Joseph\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2084203aa180ee4ecfc408a941bce917}{%
+           family={Vitt},
+           familyi={V\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{172c0a9ef8bbcb2b8e8e346913691a5c}
+      \strng{fullhash}{b1f38b06141e6321e46700bf930c9378}
+      \strng{bibnamehash}{b1f38b06141e6321e46700bf930c9378}
+      \strng{authorbibnamehash}{b1f38b06141e6321e46700bf930c9378}
+      \strng{authornamehash}{172c0a9ef8bbcb2b8e8e346913691a5c}
+      \strng{authorfullhash}{b1f38b06141e6321e46700bf930c9378}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract We describe the first simulations of stratospheric sulfate aerosol geoengineering using multiple injection locations to meet multiple simultaneous surface temperature objectives. Simulations were performed using CESM1(WACCM), a coupled atmosphere-ocean general circulation model with fully interactive stratospheric chemistry, dynamics (including an internally generated quasi-biennial oscillation), and a sophisticated treatment of sulfate aerosol formation, microphysical growth, and deposition. The objectives are defined as maintaining three temperature features at their 2020 levels against a background of the RCP8.5 scenario over the period 2020–2099. These objectives are met using a feedback mechanism in which the rate of sulfur dioxide injection at each of the four locations is adjusted independently every year of simulation. Even in the presence of uncertainties, nonlinearities, and variability, the objectives are met, predominantly by SO2 injection at 30°N and 30°S. By the last year of simulation, the feedback algorithm calls for a total injection rate of 51 Tg SO2 per year. The injections are not in the tropics, which results in a greater degree of linearity of the surface climate response with injection amount than has been found in many previous studies using injection at the equator. Because the objectives are defined in terms of annual mean temperature, the required geongineering results in “overcooling” during summer and “undercooling” during winter. The hydrological cycle is also suppressed as compared to the reference values corresponding to the year 2020. The demonstration we describe in this study is an important step toward understanding what geoengineering can do and what it cannot do.}
+      \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+      \field{number}{23}
+      \field{title}{First Simulations of Designing Stratospheric Sulfate Aerosol Geoengineering to Meet Multiple Simultaneous Climate Objectives}
+      \field{volume}{122}
+      \field{year}{2017}
+      \field{pages}{12\bibrangessep 616\bibrangedash 12\bibrangessep 634}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://doi.org/10.1002/2017JD026874
+      \endverb
+      \verb{eprint}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2017JD026874
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017JD026874
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017JD026874
+      \endverb
+      \keyw{geoengineering,feedback,stratospheric aerosols,climate modeling}
+    \endentry
+    \entry{macmartin2017}{article}{}
+      \name{author}{8}{}{%
+        {{hash=42f3600ac3af9377f033953940a8746a}{%
+           family={MacMartin},
+           familyi={M\bibinitperiod},
+           given={Douglas\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=ebb0d5eccdae190e9ecfd3a0b5bfe8f1}{%
+           family={Kravitz},
+           familyi={K\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=60aa7f6a9bd1913ae065300e5d7f7e49}{%
+           family={Tilmes},
+           familyi={T\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e396e919b010b082a143c1830d209bfb}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Jadwiga\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=9e03950f9fd175303f7e5506a6c9cb11}{%
+           family={Mills},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=375344bbb115d9bde8155e1874b98204}{%
+           family={Lamarque},
+           familyi={L\bibinitperiod},
+           given={Jean-Francois},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=3a846831ee2a5e555713f344e29e2e4b}{%
+           family={Tribbia},
+           familyi={T\bibinitperiod},
+           given={Joseph\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2084203aa180ee4ecfc408a941bce917}{%
+           family={Vitt},
+           familyi={V\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0e03b2f66bd88ee375cded4fcb90772}
+      \strng{fullhash}{9a9fd6c093277aa02ca8647ebfff6860}
+      \strng{bibnamehash}{9a9fd6c093277aa02ca8647ebfff6860}
+      \strng{authorbibnamehash}{9a9fd6c093277aa02ca8647ebfff6860}
+      \strng{authornamehash}{e0e03b2f66bd88ee375cded4fcb90772}
+      \strng{authorfullhash}{9a9fd6c093277aa02ca8647ebfff6860}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract By injecting different amounts of SO2 at multiple different latitudes, the spatial pattern of aerosol optical depth (AOD) can be partially controlled. This leads to the ability to influence the climate response to geoengineering with stratospheric aerosols, providing the potential for design. We use simulations from the fully coupled whole-atmosphere chemistry climate model CESM1(WACCM) to demonstrate that by appropriately combining injection at just four different locations, 30°S, 15°S, 15°N, and 30°N, then three spatial degrees of freedom of AOD can be achieved: an approximately spatially uniform AOD distribution, the relative difference in AOD between Northern and Southern Hemispheres, and the relative AOD in high versus low latitudes. For forcing levels that yield 1–2°C cooling, the AOD and surface temperature response are sufficiently linear in this model so that the response to different combinations of injection at different latitudes can be estimated from single-latitude injection simulations; nonlinearities associated with both aerosol growth and changes to stratospheric circulation will be increasingly important at higher forcing levels. Optimized injection at multiple locations is predicted to improve compensation of CO2-forced climate change relative to a case using only equatorial aerosol injection (which overcools the tropics relative to high latitudes). The additional degrees of freedom can be used, for example, to balance the interhemispheric temperature gradient and the equator to pole temperature gradient in addition to the global mean temperature. Further research is needed to better quantify the impacts of these strategies on changes to long-term temperature, precipitation, and other climate parameters.}
+      \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+      \field{number}{23}
+      \field{title}{The Climate Response to Stratospheric Aerosol Geoengineering Can Be Tailored Using Multiple Injection Locations}
+      \field{volume}{122}
+      \field{year}{2017}
+      \field{pages}{12\bibrangessep 574\bibrangedash 12\bibrangessep 590}
+      \range{pages}{-59}
+      \verb{doi}
+      \verb https://doi.org/10.1002/2017JD026868
+      \endverb
+      \verb{eprint}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2017JD026868
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017JD026868
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017JD026868
+      \endverb
+      \keyw{geoengineering,stratospheric aerosols,design}
+    \endentry
+    \entry{mccusker2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=aeab3ba213e5fe32c2426435c995599f}{%
+           family={McCusker},
+           familyi={M\bibinitperiod},
+           given={K.\bibnamedelimi E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=b38594f84c89341e434aa9a406eb1c68}{%
+           family={Battisti},
+           familyi={B\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=234cd9f77f8f557a73ae43fa53f8472a}{%
+           family={Bitz},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3de6a4248ab159249211c710b358f8b5}
+      \strng{fullhash}{5f50e47a5afb499c4543c9236bd18966}
+      \strng{bibnamehash}{5f50e47a5afb499c4543c9236bd18966}
+      \strng{authorbibnamehash}{5f50e47a5afb499c4543c9236bd18966}
+      \strng{authornamehash}{3de6a4248ab159249211c710b358f8b5}
+      \strng{authorfullhash}{5f50e47a5afb499c4543c9236bd18966}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Injection of sulfate aerosols into the stratosphere has the potential to reduce the climate impacts of global warming, including sea level rise (SLR). However, changes in atmospheric and oceanic circulation that can significantly influence the rate of basal melting of Antarctic marine ice shelves and the associated SLR have not previously been considered. Here we use a fully coupled global climate model to investigate whether rapidly increasing stratospheric sulfate aerosol concentrations after a period of global warming could preserve Antarctic ice sheets by cooling subsurface ocean temperatures. We contrast this climate engineering method with an alternative strategy in which all greenhouse gases (GHG) are returned to preindustrial levels. We find that the rapid addition of a stratospheric aerosol layer does not effectively counteract surface and upper level atmospheric circulation changes caused by increasing GHGs, resulting in continued upwelling of warm water in proximity of ice shelves, especially in the vicinity of the already unstable Pine Island Glacier in West Antarctica. By contrast, removal of GHGs restores the circulation, yielding relatively cooler subsurface ocean temperatures to better preserve West Antarctica.}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{number}{12}
+      \field{title}{Inability of stratospheric sulfate aerosol injections to preserve the West Antarctic Ice Sheet}
+      \field{volume}{42}
+      \field{year}{2015}
+      \field{pages}{4989\bibrangedash 4997}
+      \range{pages}{9}
+      \verb{doi}
+      \verb https://doi.org/10.1002/2015GL064314
+      \endverb
+      \verb{eprint}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015GL064314
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015GL064314
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015GL064314
+      \endverb
+      \keyw{climate change,solar radiation management,climate engineering,Antarctic ice sheets}
+    \endentry
+    \entry{pfluger2024}{article}{}
+      \name{author}{5}{}{%
+        {{hash=c7b144071bacb3e16d0b67bdc12057b3}{%
+           family={Pfl{ü}ger},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3890b30a1a0e47c460fc90c9360c9a36}{%
+           family={Wieners},
+           familyi={W\bibinitperiod},
+           given={C.\bibnamedelimi E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f995bec08ebef9ccf122735fb89ab597}{%
+           family={Kampenhout},
+           familyi={K\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=2883dd7772ae922167236776d6118976}{%
+           family={Wijngaard},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=84241627b5573c3752074b87f5dca3ac}{%
+           family={Dijkstra},
+           familyi={D\bibinitperiod},
+           given={H.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{70a7cc42c280e7bf58143993da18c39e}
+      \strng{fullhash}{0abca17956831df68fb787fe9b9caec6}
+      \strng{bibnamehash}{0abca17956831df68fb787fe9b9caec6}
+      \strng{authorbibnamehash}{0abca17956831df68fb787fe9b9caec6}
+      \strng{authornamehash}{70a7cc42c280e7bf58143993da18c39e}
+      \strng{authorfullhash}{0abca17956831df68fb787fe9b9caec6}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ESS Open Archive}
+      \field{title}{Flawed Emergency Intervention: Slow Ocean Response to Abrupt Stratospheric Aerosol Injection}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.22541/essoar.169447423.32818318/v2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.22541/essoar.169447423.32818318/v2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.22541/essoar.169447423.32818318/v2
+      \endverb
+    \endentry
+    \entry{RIAHI2007887}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ef7fb7bd657b997bf4b6987b69b22e1f}{%
+           family={Riahi},
+           familyi={R\bibinitperiod},
+           given={Keywan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0a9d1bfebaab281ce91039b4dae0e353}{%
+           family={Grübler},
+           familyi={G\bibinitperiod},
+           given={Arnulf},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6687969be38a8b86d3e2540c15d3d574}{%
+           family={Nakicenovic},
+           familyi={N\bibinitperiod},
+           given={Nebojsa},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{581963f96d25c2a54b541a2a84e04e9b}
+      \strng{fullhash}{02f160c50a4192a982fb8aedb27da334}
+      \strng{bibnamehash}{02f160c50a4192a982fb8aedb27da334}
+      \strng{authorbibnamehash}{02f160c50a4192a982fb8aedb27da334}
+      \strng{authornamehash}{581963f96d25c2a54b541a2a84e04e9b}
+      \strng{authorfullhash}{02f160c50a4192a982fb8aedb27da334}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents an overview of the greenhouse gas (GHG) emissions scenarios that form the analytical backbone for other contributions to this Special Issue. We first describe the motivation behind this scenario exercise and introduce the main scenario features and characteristics, in both qualitative and quantitative terms. Altogether, we analyze three ‘baseline’ scenarios of different socio-economic and technological developments that are assumed not to include any explicit climate policies. We then impose a range of climate stabilization targets on these baseline scenarios and analyze in detail the feasibility, costs and uncertainties of meeting a range of different climate stabilization targets in accordance with Article 2 of the United Nations Framework Convention on Climate Change. The scenarios were developed by the IIASA Integrated Assessment Modeling Framework that encompasses detailed representations of the principal GHG-emitting sectors—energy, industry, agriculture, and forestry. The main analytical findings from our analysis focus on the implications of salient uncertainties (associated with scenario baselines and stabilization targets), on feasibility and costs of climate stabilization efforts, and on the choice of appropriate portfolios of emissions abatement measures. We further analyze individual technological options with regards to their aggregated cumulative contribution toward emissions mitigation during the 21st century as well as their deployment over time. Our results illustrate that the energy sector will remain by far the largest source of GHG emissions and hence remain the prime target of emissions reduction. Ultimately, this may lead to a complete restructuring of the global energy system. Climate mitigation could also significantly change the relative economics of traditional versus new, more climate friendly products and services. This is especially the case within the energy system, which accounts for the largest share of emissions reductions, but it is also the case in the agriculture and forestry sectors, where emissions reduction and sink enhancement measures are relatively more modest.}
+      \field{issn}{0040-1625}
+      \field{journaltitle}{Technological Forecasting and Social Change}
+      \field{note}{Greenhouse Gases - Integrated Assessment}
+      \field{number}{7}
+      \field{title}{Scenarios of long-term socio-economic and environmental development under climate stabilization}
+      \field{volume}{74}
+      \field{year}{2007}
+      \field{pages}{887\bibrangedash 935}
+      \range{pages}{49}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.techfore.2006.05.026
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040162506001387
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040162506001387
+      \endverb
+    \endentry
+    \entry{shepherd2009}{report}{}
+      \name{author}{1}{}{%
+        {{hash=0ae18215ce85ee47f7177f8f5525f961}{%
+           family={Shepherd},
+           familyi={S\bibinitperiod},
+           given={J.G.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society}%
+      }
+      \strng{namehash}{0ae18215ce85ee47f7177f8f5525f961}
+      \strng{fullhash}{0ae18215ce85ee47f7177f8f5525f961}
+      \strng{bibnamehash}{0ae18215ce85ee47f7177f8f5525f961}
+      \strng{authorbibnamehash}{0ae18215ce85ee47f7177f8f5525f961}
+      \strng{authornamehash}{0ae18215ce85ee47f7177f8f5525f961}
+      \strng{authorfullhash}{0ae18215ce85ee47f7177f8f5525f961}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Geoengineering, or the deliberate large-scale manipulation of the planetary environment to counteract anthropogenic climate change, has been suggested as a new potential tool for addressing climate change. Efforts to address climate change have primarily focused on mitigation, the reduction of greenhouse gas emissions, and more recently on addressing the impacts of climate change{--}adaptation. However, international political consensus on the need to reduce emissions has been very slow in coming, and there is as yet no agreement on the emissions reductions needed beyond 2012. As a result global emissions have continued to increase by about 3\% per year (Raupach et al. 2007), a faster rate than that projected by the Intergovernmental Panel on Climate Change (IPCC) (IPCC 2001)7 even under its most fossil fuel intensive scenario (A1FI8) in which an increase in global mean temperature of about 4?C (2.4 to 6.4?C) by 2100 is projected (Rahmstorf et al. 2007). The scientifi c community is now becoming increasingly concerned that emissions will not be reduced at the rate and magnitude required to keep the increase in global average temperature below 2?C (above pre-industrial levels) by 2100. Concerns with the lack of progress of the political processes have led to increasing interest in geoengineering approaches. This Royal Society report presents an independent scientifi c review of the range of methods proposed with the aim of providing an objective view on whether geoengineering could, and should, play a role in addressing climate change, and under what conditions.}
+      \field{month}{9}
+      \field{series}{10/29}
+      \field{title}{Geoengineering the climate: science, governance and uncertainty}
+      \field{type}{Project Report}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://eprints.soton.ac.uk/156647/
+      \endverb
+      \verb{url}
+      \verb https://eprints.soton.ac.uk/156647/
+      \endverb
+    \endentry
+    \entry{sutter2023}{article}{}
+      \name{author}{5}{}{%
+        {{hash=2c323ba3e44b48a4b2ae0d5b648f109d}{%
+           family={Sutter},
+           familyi={S\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=540cdd13b96ebe8a6352345eccc518c6}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c2bbe7d39d4683b58e95329fb321b560}{%
+           family={Fr{ö}licher},
+           familyi={F\bibinitperiod},
+           given={TL},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9bbc8b29891ce6ceac7c9a954721de1d}{%
+           family={Wirths},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=be6a65d28142ad7398b9c80f89c14285}{%
+           family={Stocker},
+           familyi={S\bibinitperiod},
+           given={TF},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{c87e6a83d7e00e6fa3b8c8919b102b7f}
+      \strng{fullhash}{34070939790b58994f3f694b32dfec3f}
+      \strng{bibnamehash}{34070939790b58994f3f694b32dfec3f}
+      \strng{authorbibnamehash}{34070939790b58994f3f694b32dfec3f}
+      \strng{authornamehash}{c87e6a83d7e00e6fa3b8c8919b102b7f}
+      \strng{authorfullhash}{34070939790b58994f3f694b32dfec3f}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Climate Change}
+      \field{number}{9}
+      \field{title}{Climate intervention on a high-emissions pathway could delay but not prevent West Antarctic Ice Sheet demise}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{pages}{951\bibrangedash 960}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/s41558-023-01738-w
+      \endverb
+    \endentry
+    \entry{tilmes2020}{article}{}
+      \name{author}{11}{}{%
+        {{hash=d9fdef8a06cad8e90a299403b5d5ad37}{%
+           family={Tilmes},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=362987b04a743848542aa0d704e0daf3}{%
+           family={MacMartin},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=5d2abcf79d40642e2b949131c9b4d166}{%
+           family={Lenaerts},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi T.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f995bec08ebef9ccf122735fb89ab597}{%
+           family={Kampenhout},
+           familyi={K\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=d9b1b432ced1485bfcf180fb97b8ca77}{%
+           family={Muntjewerf},
+           familyi={M\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f7fd09dba1ffd65728eaa5155f6353ca}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=40d7514b76c15687246fdf32c0b87d60}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=78ca4ce2ae7e96bbf400b10edb2bf6ba}{%
+           family={Krumhardt},
+           familyi={K\bibinitperiod},
+           given={K.\bibnamedelimi M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a7be8cdc42011c9ef3ecae99c5982607}{%
+           family={Mills},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=fbff89576ab7cdcd213836d951e10936}{%
+           family={Kravitz},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4913d6bf434b45ee20b083454e46f8ba}{%
+           family={Robock},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ce16d1f06a9cc46aa513d842bacfab5}
+      \strng{fullhash}{de8103e25101d004c4d0f31630a645bb}
+      \strng{bibnamehash}{de8103e25101d004c4d0f31630a645bb}
+      \strng{authorbibnamehash}{de8103e25101d004c4d0f31630a645bb}
+      \strng{authornamehash}{6ce16d1f06a9cc46aa513d842bacfab5}
+      \strng{authorfullhash}{de8103e25101d004c4d0f31630a645bb}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Earth System Dynamics}
+      \field{number}{3}
+      \field{title}{Reaching 1.5 and 2.0°C global surface temperature targets using stratospheric aerosol geoengineering}
+      \field{volume}{11}
+      \field{year}{2020}
+      \field{pages}{579\bibrangedash 601}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.5194/esd-11-579-2020
+      \endverb
+      \verb{urlraw}
+      \verb https://esd.copernicus.org/articles/11/579/2020/
+      \endverb
+      \verb{url}
+      \verb https://esd.copernicus.org/articles/11/579/2020/
+      \endverb
+    \endentry
+    \entry{tilmes2018}{article}{}
+      \name{author}{14}{}{%
+        {{hash=60aa7f6a9bd1913ae065300e5d7f7e49}{%
+           family={Tilmes},
+           familyi={T\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e396e919b010b082a143c1830d209bfb}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Jadwiga\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=ebb0d5eccdae190e9ecfd3a0b5bfe8f1}{%
+           family={Kravitz},
+           familyi={K\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=42f3600ac3af9377f033953940a8746a}{%
+           family={MacMartin},
+           familyi={M\bibinitperiod},
+           given={Douglas\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=9e03950f9fd175303f7e5506a6c9cb11}{%
+           family={Mills},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a945d6e559b1e9960b077ce796a4ebed}{%
+           family={Simpson},
+           familyi={S\bibinitperiod},
+           given={Isla\bibnamedelima R.},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=77604f7f732d80b7aaabee3aea7a412c}{%
+           family={Glanville},
+           familyi={G\bibinitperiod},
+           given={Anne\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=693c6e77c3918a4bf6928a4516468f71}{%
+           family={Fasullo},
+           familyi={F\bibinitperiod},
+           given={John\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=117300cb54bc9ab014fe0be59c08f5ca}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Adam\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=375344bbb115d9bde8155e1874b98204}{%
+           family={Lamarque},
+           familyi={L\bibinitperiod},
+           given={Jean-Francois},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=147378d90d0bd5238012d176a49573e8}{%
+           family={Tribbia},
+           familyi={T\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=75c29f20740398db3a72aa84b2c3588b}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8dbe95cbd7e5ea204affd771f370e105}{%
+           family={Mickelson},
+           familyi={M\bibinitperiod},
+           given={Sheri},
+           giveni={S\bibinitperiod}}}%
+        {{hash=40ecb636e433e41f79f98701ab67e62a}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Siddhartha},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{e2b5cac454fd088c35ef7c274de4aebb}
+      \strng{fullhash}{4d1e28b4db84ad55f7e6c8f37cbcc975}
+      \strng{bibnamehash}{4d1e28b4db84ad55f7e6c8f37cbcc975}
+      \strng{authorbibnamehash}{4d1e28b4db84ad55f7e6c8f37cbcc975}
+      \strng{authornamehash}{e2b5cac454fd088c35ef7c274de4aebb}
+      \strng{authorfullhash}{4d1e28b4db84ad55f7e6c8f37cbcc975}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of the American Meteorological Society}
+      \field{number}{11}
+      \field{title}{CESM1(WACCM) Stratospheric Aerosol Geoengineering Large Ensemble Project}
+      \field{volume}{99}
+      \field{year}{2018}
+      \field{pages}{2361\bibrangedash 2371}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1175/BAMS-D-17-0267.1
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/bams/99/11/bams-d-17-0267.1.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/bams/99/11/bams-d-17-0267.1.xml
+      \endverb
+    \endentry
+    \entry{NDCsynth}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8be776f34f2e5e60c5d284cd2d685e59}{%
+           family={{UNFCCC}},
+           familyi={U\bibinitperiod},
+           given={{Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA)}},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8be776f34f2e5e60c5d284cd2d685e59}
+      \strng{fullhash}{8be776f34f2e5e60c5d284cd2d685e59}
+      \strng{bibnamehash}{8be776f34f2e5e60c5d284cd2d685e59}
+      \strng{authorbibnamehash}{8be776f34f2e5e60c5d284cd2d685e59}
+      \strng{authornamehash}{8be776f34f2e5e60c5d284cd2d685e59}
+      \strng{authorfullhash}{8be776f34f2e5e60c5d284cd2d685e59}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{Nationally determined contributions under the Paris Agreement. Synthesis report by the secretariat}
+      \field{year}{2023}
+      \field{pages}{28\bibrangedash 31}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22016A1019(01)
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22016A1019(01)
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

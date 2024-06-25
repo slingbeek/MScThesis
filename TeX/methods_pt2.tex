@@ -11,23 +11,84 @@ Shown in Figure [T0T1T2tot2130] are the temperature targets from \ref{eq:Tpsi} f
 \subsection{Definition of Scenarios and Time Periods for Part II}
 The two simulations from Part I are referred to in the same way in this second part, namely the SSP5-8.5 simulation and the gradual SAI simulation. The simulation with the rapid cooling experiment is referred to as the rapid cooling SAI simulation. 
 
-All simulations considered in this second part were extended from 2100 to 2130. This extension provides further insight in the long-term effects of deploying SAI. Especially in the rapid cooling SAI scenario the extension provides time for the climate system to adjust to the 'shock' it experienced from SAI. 
+All simulations considered in this second part were extended from 2100 to 2130. This extension provides further insight in the long-term effects of deploying SAI. Especially in the rapid cooling SAI scenario the extension provides time for the climate system to adjust to the `shock' it experienced from SAI. 
 
 Throughout this second part, four time periods are used to visualise and interpret the results from the simulations. As in part I, for each period the 20-year mean is taken, unless specified otherwise. These periods are defined as follows:
 
 \begin{itemize}
     \item \textbf{Reference} The period 2016-2035 of the SSP5-8.5 simulation.
-    \item \textbf{Control} The period 2110-2129 of the SSP5-8.5 simulation.
-    \item \textbf{SAI 2020} The period 2110-2129 of the gradual SAI simulation.
-    \item \textbf{SAI 2080} The period 2110-2129 of the rapid cooling SAI simulation.
+    \item \textbf{Control} The period 2111-2130 of the SSP5-8.5 simulation.
+    \item \textbf{SAI 2020} The period 2111-2130 of the gradual SAI simulation.
+    \item \textbf{SAI 2080} The period 2111-2130 of the rapid cooling SAI simulation.
 \end{itemize} 
 \textcolor{teal}{misschien beter in een tabel}
 
+\subsection{Thermal Wind}
+To calculate thermal winds from the temperature gradients, the thermal wind balance equation is used. As the vertical layers of the model are converted to pressure coordinates, the equation takes the form 
+
+\begin{equation}
+    \frac{\partial v_g}{\partial p} = - \frac{R}{pf_0} \frac{\partial T}{\partial x};\ 
+    \frac{\partial u_g}{\partial p} = \frac{R}{pf_0} \frac{\partial T}{\partial y},
+\end{equation}
+
+where $v_g$,$u_g$ is the geostrophic wind in meridional and zonal directions respectively, $R = 286.9$ J kg$^{1}$ K$^{1}$ is the specific gas constant, $p$ is pressure, $f_0 = 2\Omega \sin \varphi$ is the coriolis parameter at the chosen reference latitude $\varphi$, $\frac{\partial T}{\partial x,y}$ is the layer-mean temperature gradient in zonal and meridional direction respectively. Rewriting and integrating gives us
+
+\begin{equation}
+    \begin{split}
+        \int\displaylimits_{p_0}^{p_1} \partial v_g &= \int\displaylimits_{p_0}^{p_1} - \frac{R}{f_0} \frac{\partial T}{\partial x} \partial \ln p; \\
+        \int\displaylimits_{p_0}^{p_1} \partial u_g &= \int\displaylimits_{p_0}^{p_1} \frac{R}{f_0} \frac{\partial T}{\partial y} \partial \ln p,
+    \end{split}
+\end{equation}
+
+where $p_{0,1}$ are the lower and upper boundaries of the model layer, respectively, so that $p_1 < p_0$. Because $T$ is the layer-mean temperature and $R$ and $f_0$ are constants, we can evaluate this integral to find the thermal wind in the layer between $p_0$ and $p_1$
+
+\begin{equation}
+    \begin{split}
+        v_T = v_g(p_1) - v_g(p_0) &= \frac{R}{f_0} \frac{\partial T}{\partial x} \ln\left(\frac{p_0}{p_1}\right);\\
+        u_T = u_g(p_1) - u_g(p_0) &= - \frac{R}{f_0} \frac{\partial T}{\partial y} \ln\left(\frac{p_0}{p_1}\right).
+    \end{split}
+\end{equation}
+
+To find the thermal wind at a given model layer, we take the cumulative sum of the model layers below it plus the meridional or zonal wind of the model layer below the lowest layer. We do this because the thermal wind in the lower model layers will most likely not produce stable results. To increase stability in our calculations, we assume that the thermal wind below the start of the integration is is equal to the model wind. This gives us for the thermal wind at model layer $i$ 
+
+\begin{equation}
+    \begin{split}
+        v_{T,i}(p_i) &= v_{p_{-1}} + \frac{R}{f_0} \sum_{i=0}^{i} \frac{\partial T_i}{\partial x} \ln \left(\frac{p_i}{p_{i+1}}\right),\\
+        u_{T,i}(p_i) &= u_{p_{-1}} + \frac{R}{f_0} \sum_{i=0}^{i} - \frac{\partial T_i}{\partial y} \ln \left(\frac{p_i}{p_{i+1}}\right).
+    \end{split}
+\end{equation}
+
+\subsection{Kinetic Energy and Eddy Kinetic Energy}
+The CAM model woks with wind in the form of $u = \overline{u} + u^{\ast}$, $v = \overline{v} + v^{\ast}$, with $u,v$ the total wind, $\overline{u},\overline{v}$ the time-mean wind and $u^\ast,v^\ast$ the deviation from the mean wind. The model output contains monthly averages $\overline{u},\overline{v}$ and $\overline{u^2},\overline{v^2}$. 
+
+The kinetic energy $KE$ can thus be found from the model results directly through
+
+\begin{equation}
+    KE = \frac{1}{2} \left( \overline{u^2} + \overline{v^2} \right).
+\end{equation}
+
+The eddy kinetic energy $EKE$ can be found through 
+
+\begin{equation}
+    EKE = \frac{1}{2} \left( \overline{u^{\ast 2}} + \overline{v^{\ast 2}} \right),
+\end{equation}
+
+\noindent with $\overline{u^{\ast 2}}, \overline{v^{\ast 2}}$ found through
+\begin{equation}
+    \begin{split}
+        \overline{u^2} &= \overline{\left( \overline{u} + u^\ast \right) \left( \overline{u} + u^\ast \right)},\\
+        &= \overline{\overline{u}^2 + 2 \overline{u}u^\ast + u^{\ast 2}},\\
+        &= \overline{u}^2 + \overline{u^{\ast 2}} \Rightarrow \overline{u^{\ast 2}} = \overline{u^2} - \overline{u}^2, 
+    \end{split}
+\end{equation}
+
+which can be found with the model output. 
 
 \subsection{Jet Intensity Maps}
 The jet intensity maps are made by counting the number of times the model value of interest passes a set threshold. Each timestep and coordinate is evaluated individually, after which the set is summed over time and the vertical dimension. This result is then normalised to the number of timesteps multiplied by the number of vertical model levels included in the analysis. This results in a fraction that represents the time and vertical extent of the atmospheric jet. 
 
 To visualise the Polar night jet (PNJ), in the upper stratosphere, and the subtropical jet (STJ), in the lower stratosphere, this method is applied to zonal wind speeds. For the eddy-driven jet (EDJ), also in the lower stratosphere, this method is applied to the eddy kinetic energy. 
+
 
 \subsection{Climograph}
 \textcolor{teal}{Is uitleg hiervan nodig?}

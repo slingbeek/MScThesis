@@ -1,10 +1,20 @@
-Throughout this thesis, the CESM2(CAM6) configuration is referred to as CAM and the CESM2(WACCM6) configuration is referred to as WACCM. The monthly mean model output is used, resulting in 12 data entries for each model year. 
-
 \subsection{Building the Emulator for SAI simulations}
-\textcolor{teal}{Dingen zijn door elkaar gaan lopen, hier komt nog een beschrijving van Daniels methode voor de feedback-feedforward met de aerosolvelden als forcing.}
+The emulator for SAI simulations is introduced in \textcite{pfluger2024}, it implements SAI via prescribed aerosol fields, as opposed to sulphate injections that result in aerosol fields through model physics. As per \textcite{pfluger2024}, the protocol works as follows:
+\begin{itemize}
+    \item Every year, observe the deviation of GMST from the target.
+    \item Based on past GMST deviations, infer the level of SAI - expressed in terms of global mean aerosol optical depth (AOD) - which is necessary to achieve the desired target.
+    \item Use the AOD to scale all SAI-related aerosol fields appropriately.
+    \item Feed the scaled fields into CAM6.
+\end{itemize}
+
+The first two steps are implemented via the feedforward-feedback control algorithm as established in \textcite{kravitz2017}. The control algorithm stabilises only GMST, not inter-hemispheric and equator-to-pole temperature gradients like the simulation performed by \textcite{tilmes2020}.
+
+The prescribed aerosol fields are the averaged aerosol fields from the WACCM simulation, this simulation is called the \textit{Geo SSP5-8.5 1.5 scenario} in \textcite{tilmes2020}. The fields are normalised, averaged and fit, to then arrive at an amplitude for each aersol component.
+
+\textcolor{teal}{Stukje over aerosolveld hoe het eruit ziet + jaarlijkse totale massa figuren (?)}
 
 \subsection{Definition of Scenarios and Time Periods for Part I}
-There are two simulations performed with each CESM2 version. The first simulation follows the historical spin-up and is continued by the SSP5-8.5 scenario. The second simulation branches from the first simulation in 2020 and from then on introduces SAI to stabilise temperatures using the SSP5-8.5 scenario as background. In Tilmes et al. (2020) this simulation is called the \textit{Geo SSP5-8.5 1.5 scenario}. Here we will refer to it as the gradual SAI scenario. 
+There are two simulations performed with each CESM2 configuration. The first simulation follows the historical spin-up and is continued by the SSP5-8.5 scenario. The second simulation branches from the first simulation in 2020 and from then on introduces SAI to stabilise temperatures using the SSP5-8.5 scenario as background. Here we will refer to it as the gradual SAI scenario. 
 
 Throughout this first part, three time periods are used to visualise and interpret the results from the simulations. For each period the 20-year mean is taken, unless specified otherwise. These periods are defined as follows:
 
@@ -20,8 +30,8 @@ The atmospheric vertical levels of CESM are defined as hybrid levels. However, f
 
 No interpolation is needed of the horizontal grids as these are identical in all models. 
 
-\subsection{Temperature Goals}
-The WACCM simulations use the feedback algorithm to maintain three temperature targets in their SAI scenario. These temperature targets are defined in Kravitz et al. (2016) as the projection of $T(\psi)$ onto the first three Legendre polynomial functions of $\sin(\psi)$, resulting in
+\subsection{Temperature Targets}
+The WACCM simulations use the feedback algorithm to maintain three temperature targets in their SAI scenario. These temperature targets are defined in \textcite{kravitz2016} as the projection of $T(\psi)$ onto the first three Legendre polynomial functions of $\sin(\psi)$, resulting in
 
 \begin{equation}\label{eq:TdA}
     \begin{split}
