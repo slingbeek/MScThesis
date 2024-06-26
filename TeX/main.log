@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.3)  25 JUN 2024 20:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.3)  26 JUN 2024 15:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1501,29 +1501,27 @@ LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 
  (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/titelpagina.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 12.
+(Font)              scaled to size 20.74pt on input line 11.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 12.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 12.
+(Font)              scaled to size 20.74pt on input line 11.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 16.
+(Font)              scaled to size 24.88pt on input line 15.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 16.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 16.
+(Font)              scaled to size 24.88pt on input line 15.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 19.
+(Font)              scaled to size 12.0pt on input line 18.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 17.28pt on input line 19.
+(Font)              scaled to size 17.28pt on input line 18.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 21.
+(Font)              scaled to size 17.28pt on input line 20.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 17.28pt on input line 21.
+(Font)              scaled to size 17.28pt on input line 20.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 32.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 32.
+(Font)              scaled to size 14.4pt on input line 21.
  [1
 
 
@@ -1671,15 +1669,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
  ) 
 Here is how much of TeX's memory you used:
- 31015 strings out of 492647
- 561857 string characters out of 6129579
- 967404 words of memory out of 5000000
- 34433 multiletter control sequences out of 15000+600000
- 614610 words of font info for 119 fonts, out of 8000000 for 9000
+ 31014 strings out of 492647
+ 561838 string characters out of 6129579
+ 966404 words of memory out of 5000000
+ 34432 multiletter control sequences out of 15000+600000
+ 611564 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,17n,94p,2338b,1758s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/main.pdf (15 pages, 173110 bytes).
+Output written on /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/main.pdf (15 pages, 172653 bytes).
 PDF statistics:
  346 PDF objects out of 1000 (max. 8388607)
  314 compressed objects within 4 object streams

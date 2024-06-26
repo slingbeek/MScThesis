@@ -310,7 +310,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-sc-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/introduction.tex
