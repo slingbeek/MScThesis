@@ -369,63 +369,72 @@
       \verb 10.1038/s43247-020-00060-z
       \endverb
     \endentry
-    \entry{duffey2023}{article}{}
-      \name{author}{4}{}{%
-        {{hash=f43d719bfe6f1175ae932259eb4f29af}{%
-           family={Duffey},
-           familyi={D\bibinitperiod},
-           given={Alistair},
-           giveni={A\bibinitperiod}}}%
-        {{hash=9df0bae49a1da84c5c46108925124ce5}{%
-           family={Irvine},
-           familyi={I\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-        {{hash=a9d4274f20ff960fb1273abc2401fd15}{%
-           family={Tsamados},
-           familyi={T\bibinitperiod},
-           given={Michel},
-           giveni={M\bibinitperiod}}}%
-        {{hash=05f1c1d4b25aaff2db1a8d040d67a85d}{%
-           family={Stroeve},
-           familyi={S\bibinitperiod},
-           given={Julienne},
-           giveni={J\bibinitperiod}}}%
+    \entry{he2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=81dad799f0dcb6b01ce746d9acf34b18}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Chengfei},
+           giveni={C\bibinitperiod}}}%
+        {{hash=827d64466cc9cf3c36062fc810dde355}{%
+           family={Clement},
+           familyi={C\bibinitperiod},
+           given={Amy\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c5d319b2ff8fc6c7a1fbe3f7bbd4cc1b}{%
+           family={Cane},
+           familyi={C\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0503cefed39be03953f888c6e7b91ae0}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Lisa\bibnamedelima N.},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=a529171490676d46bb434ce0b4940fc4}{%
+           family={Klavans},
+           familyi={K\bibinitperiod},
+           given={Jeremy\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=8d9798e756965b3fdeaf8531e0ba74dc}{%
+           family={Fenske},
+           familyi={F\bibinitperiod},
+           given={Tyler\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{5713fecae60034de200a946dfc50974c}
-      \strng{fullhash}{25cbd8328683b78b620875de537e4aa3}
-      \strng{bibnamehash}{25cbd8328683b78b620875de537e4aa3}
-      \strng{authorbibnamehash}{25cbd8328683b78b620875de537e4aa3}
-      \strng{authornamehash}{5713fecae60034de200a946dfc50974c}
-      \strng{authorfullhash}{25cbd8328683b78b620875de537e4aa3}
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \strng{namehash}{1373cc88cdb5807ed7fb260807cc705e}
+      \strng{fullhash}{88c79c9297ec0c537e8b774047cb182a}
+      \strng{bibnamehash}{88c79c9297ec0c537e8b774047cb182a}
+      \strng{authorbibnamehash}{88c79c9297ec0c537e8b774047cb182a}
+      \strng{authornamehash}{1373cc88cdb5807ed7fb260807cc705e}
+      \strng{authorfullhash}{88c79c9297ec0c537e8b774047cb182a}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract Solar geoengineering refers to proposals, including stratospheric aerosol injection (SAI), to slow or reverse climate change by reflecting away incoming sunlight. The rapid changes ongoing in the Arctic and Antarctic, and the risk of exceeding tipping points in the cryosphere within decades, make limiting such changes a plausible objective of solar geoengineering. Here, we review the impacts of SAI on polar climate and cryosphere, including the dependence of these impacts on the latitude(s) of injection, and make recommendations for future research directions. SAI would cool the polar regions and reduce many changes in polar climate under future warming scenarios. Some under-cooling of the polar regions relative to the global mean is expected under SAI without high latitude injection, due to latitudinal variation in insolation and CO2 forcing, the forcing dependence of the polar lapse rate feedback, and altered atmospheric dynamics. There are also potential limitations in the effectiveness of SAI to arrest changes in winter-time polar climate and to prevent sea-level rise from the Antarctic ice sheet. Finally, we also review the prospects for three other solar geoengineering proposals targeting the poles: marine cloud brightening, cirrus cloud thinning, and sea-ice albedo modification. Sea-ice albedo modification appears unlikely to be viable on pan-Arctic or Antarctic scales. Whether marine cloud brightening or cirrus cloud thinning would be effective in the polar regions remains uncertain. Solar geoengineering is an increasingly prominent proposal and a robust understanding of its consequences in the polar regions is needed to inform climate policy in the coming decades.}
-      \field{journaltitle}{Earth's Future}
-      \field{note}{e2023EF003679 2023EF003679}
-      \field{number}{6}
-      \field{title}{Solar Geoengineering in the Polar Regions: A Review}
-      \field{volume}{11}
-      \field{year}{2023}
-      \field{pages}{e2023EF003679}
+      \field{abstract}{Abstract The sea surface temperature (SST) in the subpolar North Atlantic decreased during the past century, a remarkable feature known as the “warming hole (WH).” It is commonly claimed that the WH results from the slowdown of the Atlantic meridional overturning circulation. However, using an ensemble of the Community Earth System Model coupled to a slab ocean model simulation, we show the atmosphere alone can account for ∼50\% of the observed cooling trend in the subpolar North Atlantic and ∼90\% of the cooling relative to the temperature change of the global ocean. We find this cooling is caused by increased local westerlies in response to external forcing that enhance heat loss from the ocean through turbulent heat fluxes. This cooling is partly compensated by the damping in SST and the warming due to the rise of greenhouse gases. We further suggest that wind-driven ocean processes can enhance the cooling in the real world, but that nonetheless the ultimate driver resides in the atmosphere.}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{note}{e2022GL100420 2022GL100420}
+      \field{number}{19}
+      \field{title}{A North Atlantic Warming Hole Without Ocean Circulation}
+      \field{volume}{49}
+      \field{year}{2022}
+      \field{pages}{e2022GL100420}
       \range{pages}{-1}
       \verb{doi}
-      \verb https://doi.org/10.1029/2023EF003679
+      \verb https://doi.org/10.1029/2022GL100420
       \endverb
       \verb{eprint}
-      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023EF003679
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2022GL100420
       \endverb
       \verb{urlraw}
-      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2023EF003679
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2022GL100420
       \endverb
       \verb{url}
-      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2023EF003679
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2022GL100420
       \endverb
-      \keyw{solar geoengineering,polar climate,climate change,sea ice,stratospheric aerosol injection,solar radiation modification}
     \endentry
     \entry{hurrell2013}{article}{}
       \name{author}{23}{}{%
@@ -709,6 +718,120 @@
       \endverb
       \keyw{geoengineering,feedback,stratospheric aerosols,climate modeling}
     \endentry
+    \entry{geomip2011}{article}{}
+      \name{author}{7}{}{%
+        {{hash=ebb0d5eccdae190e9ecfd3a0b5bfe8f1}{%
+           family={Kravitz},
+           familyi={K\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a6ceb6b332cf33b72690393a4c8b89bf}{%
+           family={Robock},
+           familyi={R\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8e3f36895afd75aea42d33dc43d80274}{%
+           family={Boucher},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+        {{hash=b0de728d48ce52fda70fe7403b337119}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Hauke},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9e769dc5b7896b6d8733452c0ad2e08a}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Karl\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6c17978f342a1e823052f5ed28b353d1}{%
+           family={Stenchikov},
+           familyi={S\bibinitperiod},
+           given={Georgiy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c51914f1cbb699e35ec6df3a0c76b741}{%
+           family={Schulz},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{172c0a9ef8bbcb2b8e8e346913691a5c}
+      \strng{fullhash}{8babb583f0be9d0939124e8c778c0682}
+      \strng{bibnamehash}{8babb583f0be9d0939124e8c778c0682}
+      \strng{authorbibnamehash}{8babb583f0be9d0939124e8c778c0682}
+      \strng{authornamehash}{172c0a9ef8bbcb2b8e8e346913691a5c}
+      \strng{authorfullhash}{8babb583f0be9d0939124e8c778c0682}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract To evaluate the effects of stratospheric geoengineering with sulphate aerosols, we propose standard forcing scenarios to be applied to multiple climate models to compare their results and determine the robustness of their responses. Thus far, different modeling groups have used different forcing scenarios for both global warming and geoengineering, complicating the comparison of results. We recommend four experiments to explore the extent to which geoengineering might offset climate change projected in some of the Climate Model Intercomparison Project 5 experiments. These experiments focus on stratospheric aerosols, but future experiments under this framework may focus on different means of geoengineering. Copyright © 2011 Royal Meteorological Society and Crown copyright}
+      \field{journaltitle}{Atmospheric Science Letters}
+      \field{number}{2}
+      \field{title}{The Geoengineering Model Intercomparison Project (GeoMIP)}
+      \field{volume}{12}
+      \field{year}{2011}
+      \field{pages}{162\bibrangedash 167}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1002/asl.316
+      \endverb
+      \verb{eprint}
+      \verb https://rmets.onlinelibrary.wiley.com/doi/pdf/10.1002/asl.316
+      \endverb
+      \verb{urlraw}
+      \verb https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/asl.316
+      \endverb
+      \verb{url}
+      \verb https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/asl.316
+      \endverb
+      \keyw{geoengineering,climate modeling,CMIP5,model evaluation,SRM,monsoon}
+    \endentry
+    \entry{lenton2009}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f9a229c370e24ca98d5e73b3d61f97e3}{%
+           family={Lenton},
+           familyi={L\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e4e33aed675fa66ead42797959bc9fc4}{%
+           family={Vaughan},
+           familyi={V\bibinitperiod},
+           given={N.\bibnamedelimi E.},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f777803634b9f77ba20bd02b6d9b2952}
+      \strng{fullhash}{f777803634b9f77ba20bd02b6d9b2952}
+      \strng{bibnamehash}{f777803634b9f77ba20bd02b6d9b2952}
+      \strng{authorbibnamehash}{f777803634b9f77ba20bd02b6d9b2952}
+      \strng{authornamehash}{f777803634b9f77ba20bd02b6d9b2952}
+      \strng{authorfullhash}{f777803634b9f77ba20bd02b6d9b2952}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{number}{15}
+      \field{title}{The radiative forcing potential of different climate geoengineering options}
+      \field{volume}{9}
+      \field{year}{2009}
+      \field{pages}{5539\bibrangedash 5561}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.5194/acp-9-5539-2009
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/9/5539/2009/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/9/5539/2009/
+      \endverb
+    \endentry
     \entry{macmartin2017}{article}{}
       \name{author}{8}{}{%
         {{hash=42f3600ac3af9377f033953940a8746a}{%
@@ -786,6 +909,77 @@
       \endverb
       \keyw{geoengineering,stratospheric aerosols,design}
     \endentry
+    \entry{mamalakis2021zonally}{article}{}
+      \name{author}{9}{}{%
+        {{hash=400e2172076d70d50e2d834c14a43f64}{%
+           family={Mamalakis},
+           familyi={M\bibinitperiod},
+           given={Antonios},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5daa91a13f035235e404f53903ddb464}{%
+           family={Randerson},
+           familyi={R\bibinitperiod},
+           given={James\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=fafb1be630f0f43e15110e3f7d34d480}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Jin-Yi},
+           giveni={J\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=d624de8eae596a01c79cb4b833818192}{%
+           family={Pritchard},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4e63694c28c8102b37d713f498a05eab}{%
+           family={Magnusdottir},
+           familyi={M\bibinitperiod},
+           given={Gudrun},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4940852a16a84802eb98552d6deace24}{%
+           family={Smyth},
+           familyi={S\bibinitperiod},
+           given={Padhraic},
+           giveni={P\bibinitperiod}}}%
+        {{hash=eae1fb077e653fdb3c35b97b3f0ffcec}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Paul\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3351405a5ea5fcfb4a9c3829d02acc0c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Sungduk},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ff7f7e40858b8240b39b0a0fc9f84610}{%
+           family={Foufoula-Georgiou},
+           familyi={F\bibinithyphendelim G\bibinitperiod},
+           given={Efi},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{2bc120086590c087e12b93d39779063b}
+      \strng{fullhash}{d6403273cb35e4ddfe10891dd4825e2c}
+      \strng{bibnamehash}{d6403273cb35e4ddfe10891dd4825e2c}
+      \strng{authorbibnamehash}{d6403273cb35e4ddfe10891dd4825e2c}
+      \strng{authornamehash}{2bc120086590c087e12b93d39779063b}
+      \strng{authorfullhash}{d6403273cb35e4ddfe10891dd4825e2c}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature climate change}
+      \field{number}{2}
+      \field{title}{Zonally contrasting shifts of the tropical rain belt in response to climate change}
+      \field{volume}{11}
+      \field{year}{2021}
+      \field{pages}{143\bibrangedash 151}
+      \range{pages}{9}
+    \endentry
     \entry{mccusker2015}{article}{}
       \name{author}{3}{}{%
         {{hash=aeab3ba213e5fe32c2426435c995599f}{%
@@ -837,6 +1031,42 @@
       \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015GL064314
       \endverb
       \keyw{climate change,solar radiation management,climate engineering,Antarctic ice sheets}
+    \endentry
+    \entry{menary2018anatomy}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e4cb89a9b8621e72bc183f3f761d322d}{%
+           family={Menary},
+           familyi={M\bibinitperiod},
+           given={Matthew\bibnamedelima B},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=858f5d64656ff86a0425493879ee55a6}{%
+           family={Wood},
+           familyi={W\bibinitperiod},
+           given={Richard\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d1762e0705d4efc3dfd74bdc22b51b85}
+      \strng{fullhash}{d1762e0705d4efc3dfd74bdc22b51b85}
+      \strng{bibnamehash}{d1762e0705d4efc3dfd74bdc22b51b85}
+      \strng{authorbibnamehash}{d1762e0705d4efc3dfd74bdc22b51b85}
+      \strng{authornamehash}{d1762e0705d4efc3dfd74bdc22b51b85}
+      \strng{authorfullhash}{d1762e0705d4efc3dfd74bdc22b51b85}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Climate Dynamics}
+      \field{number}{7}
+      \field{title}{An anatomy of the projected North Atlantic warming hole in CMIP5 models}
+      \field{volume}{50}
+      \field{year}{2018}
+      \field{pages}{3063\bibrangedash 3080}
+      \range{pages}{18}
     \endentry
     \entry{pfluger2024}{article}{}
       \name{author}{5}{}{%
@@ -893,54 +1123,45 @@
       \verb https://doi.org/10.22541/essoar.169447423.32818318/v2
       \endverb
     \endentry
-    \entry{RIAHI2007887}{article}{}
-      \name{author}{3}{}{%
-        {{hash=ef7fb7bd657b997bf4b6987b69b22e1f}{%
-           family={Riahi},
+    \entry{robock2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a6ceb6b332cf33b72690393a4c8b89bf}{%
+           family={Robock},
            familyi={R\bibinitperiod},
-           given={Keywan},
-           giveni={K\bibinitperiod}}}%
-        {{hash=0a9d1bfebaab281ce91039b4dae0e353}{%
-           family={Grübler},
-           familyi={G\bibinitperiod},
-           given={Arnulf},
+           given={Alan},
            giveni={A\bibinitperiod}}}%
-        {{hash=6687969be38a8b86d3e2540c15d3d574}{%
-           family={Nakicenovic},
-           familyi={N\bibinitperiod},
-           given={Nebojsa},
-           giveni={N\bibinitperiod}}}%
       }
-      \strng{namehash}{581963f96d25c2a54b541a2a84e04e9b}
-      \strng{fullhash}{02f160c50a4192a982fb8aedb27da334}
-      \strng{bibnamehash}{02f160c50a4192a982fb8aedb27da334}
-      \strng{authorbibnamehash}{02f160c50a4192a982fb8aedb27da334}
-      \strng{authornamehash}{581963f96d25c2a54b541a2a84e04e9b}
-      \strng{authorfullhash}{02f160c50a4192a982fb8aedb27da334}
+      \strng{namehash}{a6ceb6b332cf33b72690393a4c8b89bf}
+      \strng{fullhash}{a6ceb6b332cf33b72690393a4c8b89bf}
+      \strng{bibnamehash}{a6ceb6b332cf33b72690393a4c8b89bf}
+      \strng{authorbibnamehash}{a6ceb6b332cf33b72690393a4c8b89bf}
+      \strng{authornamehash}{a6ceb6b332cf33b72690393a4c8b89bf}
+      \strng{authorfullhash}{a6ceb6b332cf33b72690393a4c8b89bf}
       \field{sortinit}{R}
       \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This paper presents an overview of the greenhouse gas (GHG) emissions scenarios that form the analytical backbone for other contributions to this Special Issue. We first describe the motivation behind this scenario exercise and introduce the main scenario features and characteristics, in both qualitative and quantitative terms. Altogether, we analyze three ‘baseline’ scenarios of different socio-economic and technological developments that are assumed not to include any explicit climate policies. We then impose a range of climate stabilization targets on these baseline scenarios and analyze in detail the feasibility, costs and uncertainties of meeting a range of different climate stabilization targets in accordance with Article 2 of the United Nations Framework Convention on Climate Change. The scenarios were developed by the IIASA Integrated Assessment Modeling Framework that encompasses detailed representations of the principal GHG-emitting sectors—energy, industry, agriculture, and forestry. The main analytical findings from our analysis focus on the implications of salient uncertainties (associated with scenario baselines and stabilization targets), on feasibility and costs of climate stabilization efforts, and on the choice of appropriate portfolios of emissions abatement measures. We further analyze individual technological options with regards to their aggregated cumulative contribution toward emissions mitigation during the 21st century as well as their deployment over time. Our results illustrate that the energy sector will remain by far the largest source of GHG emissions and hence remain the prime target of emissions reduction. Ultimately, this may lead to a complete restructuring of the global energy system. Climate mitigation could also significantly change the relative economics of traditional versus new, more climate friendly products and services. This is especially the case within the energy system, which accounts for the largest share of emissions reductions, but it is also the case in the agriculture and forestry sectors, where emissions reduction and sink enhancement measures are relatively more modest.}
-      \field{issn}{0040-1625}
-      \field{journaltitle}{Technological Forecasting and Social Change}
-      \field{note}{Greenhouse Gases - Integrated Assessment}
-      \field{number}{7}
-      \field{title}{Scenarios of long-term socio-economic and environmental development under climate stabilization}
-      \field{volume}{74}
-      \field{year}{2007}
-      \field{pages}{887\bibrangedash 935}
-      \range{pages}{49}
+      \field{abstract}{Carbon dioxide emissions are rising so fast that some scientists are seriously considering putting Earth on life support as a last resort. But is this cure worse than the disease?}
+      \field{journaltitle}{Bulletin of the Atomic Scientists}
+      \field{number}{2}
+      \field{title}{20 Reasons Why Geoengineering May Be a Bad Idea}
+      \field{volume}{64}
+      \field{year}{2008}
+      \field{pages}{14\bibrangedash 18}
+      \range{pages}{5}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.techfore.2006.05.026
+      \verb 10.2968/064002006
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.2968/064002006
       \endverb
       \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0040162506001387
+      \verb https://doi.org/10.2968/064002006
       \endverb
       \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0040162506001387
+      \verb https://doi.org/10.2968/064002006
       \endverb
     \endentry
     \entry{shepherd2009}{report}{}

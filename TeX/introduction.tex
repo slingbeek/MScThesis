@@ -1,35 +1,78 @@
 \subsection{Climate change and geoengineering}
 In the effort of limiting the effects global climate change, eliminating fossil fuels is the most important step to take. Regrettably, the complete elimination of fossil fuels in time to prevent the most disastrous effects of climate change and limit global warming to even 2°C is becoming increasingly unlikely. Even with all currently committed climate action goals, projections show the earth warming significantly above the 1.5°C and 2°C targets from the Paris Agreement \parencite{NDCsynth}. With this outlook, methods to temporarily lower the earth's global temperature are looked at to buy the global community time to lower atmospheric greenhouse gases. One such method is solar radiation management with stratospheric aerosol injections (SAI). 
 
-Through injection of sulphate aerosols or their precursors at specific points in the stratosphere the earth's radiation budget is changed. At this high altitude the aerosols reflect short wave radiation, lowering the amount of sunlight reaching the earth's surface. In turn, the earth's surface temperature decreases. However, the long wave radiation emitted by the earth is absorbed by the aerosols too, resulting in warming in the stratosphere \parencite{Ammann2010}. This impacts the global atmospheric circulation patterns and subsequently on precipitation patterns, making the employment of SAI not as straight-forward as appears at first glance.  
+Geoengineering can be seen as a toolbox of methods that change the earth's climate system to achieve a desired effect. Limiting global mean surface temperature (GMST) increase is the primary goal of geoengineering. The methods of geoengineering can be divided into two basic categories, Carbon Dioxide Removal (CDR) and Solar Radiation Management (SRM) \parencite{shepherd2009}. CDR focuses on lowering the amount of greenhouse gases in the atmosphere, by capturing CO$_2$ directly or enhancing and facilitating natural processes to speed up the extraction of CO$_2$ from the atmosphere or oceans. SRM on the other hand focuses on altering the earth's radiation budget. This can be done by increasing the amount of long wave radiation the earth emits into space, for instance with cirrus cloud thinning, but the most widely discussed approach is increasing how much short wave radiation from the sun is reflected back into space, i.e. increasing the planetary albedo. This is done for instance by making deserts more reflective or making clouds brighter like through marine cloud brightening. 
 
-\subsection{Previous Research}
-To investigate how the earth's atmosphere responds to the employment of sulphate aersol injections, a number of model studies has been performed. The most comprehensive project to date exploring this problem is the Stratospheric Aerosol Geoengineering Large Ensemble (GLENS) project \parencite{tilmes2018}. In this project the Community Earth System Model version 1 with the Whole Atmosphere Community Climate Model (CESM1(WACCM)) was used to perform simulations of a scenario that implemented SAI from 2020 onwards. The background used was the RCP8.5 emission scenario \parencite{RIAHI2007887}. The model incorporated a feedback algorithm to adjust the sulphur dioxide (SO$_2$) injection amounts at four injection points to maintain 2020 temperatures, or about 1.5°C  above pre-industrial levels. This included metrics related to the interhemispheric temperature gradient and the pole-to-pole temperature gradient. 
+\subsection{Geoengineering in the Form of Stratospheric Aerosol Injections}
+This thesis deals with SRM in the form of stratospheric aerosol injections (SAI). Through injection of sulphate aerosols or their precursors at specific points in the stratosphere the earth's radiation budget is changed. At this high altitude the aerosols reflect short wave radiation, lowering the amount of sunlight reaching the earth's surface and GMST is lowered. It has been argued that SAI is one of the most feasible options for SRM \parencite{lenton2009,shepherd2009}.
 
-In 2020 similar simulations were done using the CESM2(WACCM6) with a variety of emission and reductions scenarios, including the scenario explored in the GLENS project \parencite{tilmes2020}. The CESM2(WACCM6) is a very large model with 70 vertical layers in the atmosphere and comprehensive chemistry in the troposphere up to the lower thermosphere and it incorporates a multimodal aerosol scheme (MAM4). This makes the model exceptionally well suited for analysis of SAI schemes, but does require a lot of computing time and resources. This limits its use for ensemble projects and exploration of various SAI schemes. 
+A direct result of SAI is the absorption of long wave radiation emitted by the earth by the aerosols, resulting in warming in the stratosphere \parencite{Ammann2010}. This impacts the global atmospheric circulation patterns and subsequently on precipitation patterns. It is also important to keep in mijn that the effects other than warming caused by increased greenhouse gases are still present in the earth system, for instance ocean acidification will continue if CO$_2$ concentrations continue to rise. The introduction of sulphate aerosols has unintended consequences too, including ozone depletion and an increase in acid deposition, and interference with cloud formation and precipitation patterns. The succesful deployment is only possible if the global community can reach consensus on its employment and can ensure no party uses it to cause harm. Even then, long-term political and economical stability are crucial, as an abrupt halt would lead to rapid warming \textcite{robock2009}. 
 
-\subsection{Evaluating the CAM6 Emulator}
-One proposed solution is to use the aerosol field resulting from the CESM2(WACCM6) simulations and to prescribe this field to a smaller, less cumbersome model. This was done in \textcite{pfluger2024} with the Community Atmosphere Model version 6 (CAM6) as the atmopsheric component for CESM2. The aerosol field was adjusted using a feedforward-feedback algorithm only adjusting for GMST. The fist part of this thesis is the validation of this method and model in its use in simulating SAI scenarios based on the more comprehensive CESM2(WACCM6) results. 
+The employment of SAI is not as straight-forward as appears at first glance, and before any decisions can be made about SRM, with SAI or through other means, more research is needed. There are still many unanswered questions about the effects of SRM. 
+
+\subsection{Previous Research on SAI in Earth System Models}
+Large scale studies on SRM started with the Geoengineering Model Intercomparison Project (GeoMIP) \parencite{geomip2011}. Experiments reduced the incoming solar radiation either directly or through injection of SO$_2$ in the stratosphere at one point on the equator. Atmospheric circulation carries the aerosols around the globe zonally on the time scale of days, the latitudinal distribution moves on a much larger time scale. 
+It was found that injection of aerosols at just the equator, and uniform solar radiation reduction lead to over-cooling of the tropics and under-cooling of the poles. \textcite{kravitz2016} proposed a different approach, where climate targets were considered the main goal and the strategy of SAI implementation was the means to reach those goals. One such set of targets proposed was the global mean surface temperature ($T_0$), the interhemispheric temperature gradient ($T_1$) and the pole-to-equator temperature gradient ($T_2$). The proposed SAI strategy included four injection point, two on each hemisphere, and a feedback algorithm that adjusts the injection rate at those points to achieve the temperature goals. This method was applied by \textcite{kravitz2017} and \textcite{macmartin2017}, and then in the Geoengineering Large Ensemble (GLENS) project \parencite{tilmes2018}. 
+
+\subsection{The GLENS Project and Subsequent CESM2 Simulations}
+The GLENS project is a 20-member ensemble of gradual SAI simulations. From 2020 onwards SO$_2$ is injected at four injection points at $\pm$ 15°N and $\pm$ 30°N about 5 km above the tropopause. A feedback-control algorithm is used to adjust the injection amounts at each point individually based on the departure of the $T_{0,1,2}$ temperatures defined by \textcite{kravitz2016} from 2020 levels.
+
+The GLENS project was performed using the Community Earth System Model version 1 (CESM1) \parencite{hurrell2013}, with the Whole Atmosphere Community Climate Model (WACCM) as its atmosphere component. This model uses a 0.9° latitude $\times$ 1.25° longitude rectangular grid with 70 vertical layers that reach up to 140 km, or about 10$^{-6}$ hPa. It includes comprehensive atmospheric chemistry for the middle atmosphere, incorporating ozone chemistry and chemistry relating to stratospheric sulfate formation. A simpler chemistry scheme is used for the troposphere. Aerosol chemistry is coupled to WACCM through the three-mode version of the Modal Aerosol Module (MAM3).
+
+After the GLENS project the method using four injection points and a feedback algorithm was further explored using the more recent Community Earth System Model version 2, also using a newer version of the WACCM, now version 6 (CESM2(WACCM6)) \parencite{tilmes2020}. WACCM6 has the same horizontal and vertical resolution, but now includes comprehensive chemistry from the troposphere up to the lower thermosphere. The MAM4 modal aerosol scheme is used for the troposphere and stratosphere. We will refer to this model as `WACCM'.
+
+Because CESM2(WACCM6) is comprehensive in both vertical resolution and atmospheric chemistry, it is extremely well-suited to simulate SAI scenarios. However, due to this it is also a very cumbersome model, requiring more computing time and resources compared to less comprehensive models. This limits its use in ensemble studies and studies considering a large range of scenarios. Computational cost also limits its use for simulations with a longer timeseries at higher resolution, required to study smaller scale phenomena like tropical cyclones. 
+
+\subsection*{Part I}
+\subsection{Building an Emulator for SAI with CESM2(CAM6)}
+To reduce the amount of resources needed, \textcite{pfluger2024} introduce a method that uses a less comprehensive atmospheric component. The same CESM2 model configuration is used as in \textcite{tilmes2020}, but the Community Atmosphere Model version 6 (CAM6) is used for the atmosphere component \parencite{danabasoglu2020}. We will refer to this model as `CAM'. The aerosol field established in the CAM simulation is used as an external forcing. To maintian 2020 levels of GMST, the necessary globally averaged aerosol optical depth (AOD) field is found though the same feedforward-feedback algorithm. All other forcing fields are then scaled accordingly. In contrast to the WACCM simulations, the temperature gradients are not adjusted for. 
+
+\subsection{Research Questions Part I}
+The fist part of this thesis is the validation of this method and model in its use as an emulator, simulating SAI scenarios based on the WACCM results. The three temperature targets are calculated for all models and the model results for reference height temperature (or 2-meter temperature) will provide additional insight into the performance of CAM in regards to regulating surface temperatures. Both annual and seasonal patterns are discussed. Additionally, precipitation patterns are discussed. To assess any differences in the vertical profile between the two models, the zonally averaged potential temperature and zonal winds are compared. 
+
 We formulate the following research questions for the first part:
+\newline
 
-\begin{enumerate}
-    \item Does the CESM2(CAM6) succeed in maintaining global surface temperature through SAI, including spatial patterns?
-    \item How does the CESM2(CAM6) SAI simulation perform  compared to the CESM2(WACCM6) SAI simulation it was based on?
-\end{enumerate}
+\noindent \textit{When applying the stratospheric aerosol emulator to a gradual SAI scenario in CESM2(CAM6), are we able to reproduce from \textcite{tilmes2020}
+    \begin{enumerate}[label=\roman*]
+        \item the temperature targets $T_0$, $T_1$ and $T_2$?
+        \item the spatial and seasonal variations of temperature, precipitation and general aspects of the atmospheric circulation?
+    \end{enumerate}
+}
 
-\subsection{Southern Hemisphere Atmosphere}
-In the second part of this thesis the CESM2(CAM6) simulation of the SAI scenario is used to investigate the effects of SAI on atmospheric dynamics in the Southern Hemisphere high latitudes. Additionally, a new scenario of rapid late-century cooling through SAI is introduced. Comparison between these scenarios can provide insight in the memory of the earth system and efficacy of rapid cooling compared to gradual cooling using SAI. 
 
-The Southern Hemisphere high latitudes are of special interest in the context of preventing climate catastrophe as large scale atmospheric dynamical changes affect the Antarctic ice sheet. Changes in temperature, precipitation and wind fields affect the surface mass balance of the ice sheet. Indirectly these changes affect the ice sheet through changes in the ocean, mainly in the rate and location of overturning circulations. %needs citations + uitgebreider
+\subsection*{Part II}
+For the second part of this thesis we consider the two CAM simulations to assess the effect of SAI on the high-latitude Southern Hemisphere atmospheric dynamics. Additionally, we introduce a third simulation that employs SAI from 2080 onward to rapidly cool the earth to 1.5°C above pre-industrial levels. This scenario is used to gain insight into the effects of rapid cooling after a period of prolonged warming of the climate system and how this differs from gradually increasing SAI to maintain GMST.
+
+\subsection{The high-latitude Southern Hemisphere Atmosphere}
+The high-latitude Southern Hemisphere is of particular interest in the context of global warming and the prevention of it. The Antarctic Ice Sheet could contribute greatly to global sea level rise if it were to become unstable under global warming. Observed instabilities of the West-Antarctic Ice Sheet (WAIS) alone could contribute to significant sea level rise (IPCC WG1). 
+
+Large scale atmospheric dynamical changes affect the Antarctic ice sheet, leading to changes in temperature, precipitation and wind fields that alter the surface mass balance of the ice sheet. Indirectly these changes affect the ice sheet through changes in the ocean, mainly in the rate and location of overturning circulations.
+
+The Southern Hemisphere high stratosphere has low variability in the current climate, but any changes have far-reaching effects on the surface climate. It has been observed that SH stratospheric polar vortex weakekening contributes to climate anomalies in Australia and New Zealand, southeast Africa and southern South America. Additionally, the wind stress over the ocean around Antarctica is weakened and the Ross and Amundsen seas experience warmer climate \parencite{domeisen2020}. There is thus a clear interaction between the atmospheric dynamics and local climate in the Southern Hemisphere. 
+
+\subsection{Previous Research on the Effects of SAI on the Southern Hemisphere}
+The effect of SAI on the Antarctic ice sheet has been studied by \textcite{mccusker2015}, who found that a rapid introduction of sulphate aerosols in the stratosphere could not prevent the collapse of the WAIS. \textcite{sutter2023} found similar results. However, both studies use very simple aerosol schemes, that for instance only inject aerosols in the tropics. These types of schemes are known to lead to over-cooling of the tropics and under-cooling of the poles. As stated before, the studies using a feedback-control algorithm to maintain the $T_{0,1,2}$ temperature targets were laregely successful in this regard. 
+
+In the second part of this thesis the CAM emulator simulation of the SAI scenario is used to investigate the effects of SAI on atmospheric dynamics in the Southern Hemisphere high latitudes. Additionally, the new scenario of rapid late-century cooling through SAI is introduced, performed with the CAM emulator as well. Comparison between these scenarios can provide insight in the memory of the earth system and efficacy of rapid cooling compared to gradual cooling using SAI. 
+
+\subsection{Rapid Cooling with SAI as an Emeregency Intervention}
+As current climate policies are insufficient to prevent global warming of 1.5°C or even 2°C \parencite{NDCsynth}, the proactive gradual SAI scenario is unlikely to be implemented in time as well. Employing SAI much later on after prolonged heating of the climate system is a realistic, more reactive, scenario. The earth could be cooled very rapidly, allowing the end-of-century GMST goals to be reached after the climate system has endured an even longer period of warming than it has to date. The effects of such an intervention are largely uncertain. While it is rather certain that SAI could lower GMST, it is not certain what effects of previous warming can be reversed, if at all. 
+
+Such a scenario is introduced in \textcite{pfluger2024}. The SAI 2080 scenario is introduced, where SAI is employed from 2080 onwards to achieve rapid cooling to 2020 levels. In this study the effects of SAI on ocean circulation is investigated, specifically how the rapid deployment of SAI compares to the gradual deployment of SAI. 
+
+\subsection{Research Questions Part II}
+In the second part of this thesis the effect of SAI on the high-latitude Southern Hemisphere atmospheric dynamics is investigated, both in the gradual and rapid cooling scenarios. The focus here lies on large scale circulation patterns, as they largely dictate local climate in the Southern Hemisphere.
 
 We formulate the following research quesitons for the second part:
+\newline
 
-\begin{enumerate}
-    \item How does SAI affect the Southern Hemisphere mid-level atmospheric circulation?
-    \item How does SAI affect the Southern Hemisphere high latitude atmospheric circulation at high altitude (Polar Night Jet)?
-    \item How does the late-century SAI scenario differ from the gradual SAI scenario?
-\end{enumerate}
+\noindent \textit{What are the impacts of the gradual SAI scenario on the Southern Hemisphere
+    \begin{enumerate}[label=\roman*]
+        \item subtropical and polar jets in the lower stratosphere?
+        \item polar night jet and sudden stratospheric warming events in the upper stratosphere?
+    \end{enumerate}
+How do the results for i and ii change under the rapid cooling SAI scenario?
+}
 
-\textcolor{teal}{ik zou heeeel graag wat feedback willen op m'n onderzoeksvragen, ik vind het goed formuleren van waar ik nou naar heb gekeken nog best lastig blijkt}
 
-Throughout this thesis, the CESM2(CAM6) configuration is referred to as CAM and the CESM2(WACCM6) configuration is referred to as WACCM. The monthly mean model output is used, resulting in 12 data entries for each model year. 

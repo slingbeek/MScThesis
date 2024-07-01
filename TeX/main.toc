@@ -1,0 +1,40 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Climate change and geoengineering}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Geoengineering in the Form of Stratospheric Aerosol Injections}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Previous Research on SAI in Earth System Models}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}The GLENS Project and Subsequent CESM2 Simulations}{4}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Building an Emulator for SAI with CESM2(CAM6)}{5}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Research Questions Part I}{5}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}The high-latitude Southern Hemisphere Atmosphere}{5}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8}Previous Research on the Effects of SAI on the Southern Hemisphere}{6}{subsection.1.8}
+\contentsline {subsection}{\numberline {1.9}Rapid Cooling with SAI as an Emeregency Intervention}{6}{subsection.1.9}
+\contentsline {subsection}{\numberline {1.10}Research Questions Part II}{7}{subsection.1.10}
+\contentsline {part}{I\hspace {1em}Model Validation}{8}{part.1}
+\contentsline {section}{\numberline {2}Methods Part I}{8}{section.2}
+\contentsline {subsection}{\numberline {2.1}Temperature Targets}{8}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Using the CESM2(CAM6) Emulator for SAI simulations}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Definition of Scenarios and Time Periods for Part I}{9}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Vertical Interpolation}{9}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Potential Temperature}{10}{subsection.2.5}
+\contentsline {section}{\numberline {3}Results Part I}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}Temperature Targets}{11}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}2-meter Temperature and Precipitation in CAM}{11}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}SAI 2020 2-meter Temperature Anomalies in CAM and WACCM}{12}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}SAI 2020 Precipitation Anomalies in CAM and WACCM}{14}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Absolute temperature and precipitation differences between CAM and WACCM}{15}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}SAI 2020 Potential Temperature and Zonal Wind Anomalies in CAM and WACCM}{16}{subsection.3.6}
+\contentsline {part}{II\hspace {1em}Southern Hemisphere Atmospheric Circulation}{19}{part.2}
+\contentsline {section}{\numberline {4}Methods Part II}{19}{section.4}
+\contentsline {subsection}{\numberline {4.1}Scenarios Used for the Simulations}{19}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Definition of Scenarios and Time Periods for Part II}{19}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Thermal Wind}{20}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Kinetic Energy and Eddy Kinetic Energy}{21}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Jet Intensity Maps}{21}{subsection.4.5}
+\contentsline {section}{\numberline {5}Results Part II: Lower Stratosphere}{22}{section.5}
+\contentsline {subsection}{\numberline {5.1}Potential temperature and Zonal Wind Anomaly}{22}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Subtropical Jet}{25}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Eddy-driven Jet}{27}{subsection.5.3}
+\contentsline {section}{\numberline {6}Results Part II: Upper Stratosphere}{31}{section.6}
+\contentsline {subsection}{\numberline {6.1}Polar Night Jet}{31}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Sudden Stratospheric Warming Events}{36}{subsection.6.2}
