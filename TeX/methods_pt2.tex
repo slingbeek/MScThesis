@@ -1,27 +1,30 @@
-\subsection{Rapid Cooling Experiment}
-The rapid cooling experiment is branched from the SSP5-8.5 simulation in 2080, SAI is then deployed to restore temperatures to 1.5°C above pre-industrial levels. The control algorithm is adjusted for the first up to six years to prevent extremely high aerosol concentrations that would result in too rapid cooling. 
+\subsection{Scenarios Used for the Simulations}
+All simulations considered in this second part were extended to 2130, where the forcing was kept constant at the 2100 levels. This extension provides further insight in the long-term effects of deploying SAI. Especially in the rapid cooling SAI scenario the extension provides time for the climate system to adjust to the `shock' it experienced from SAI. 
 
-Shown in Figure [T0T1T2tot2130] are the temperature targets from \ref{eq:Tpsi} for the SSP5-5.8, gradual SAI and rapid cooling SAI simulations. After a few years of SAI the T$_0$ target is reached and maintained, like in the gradual SAI simulation. The T$_1$ target stabilised after ??? years, showing ??? behaviour. The T$_2$ target shows ??? behaviour (un)like in the gradual SAI simulation.
+The rapid cooling experiment is branched from the SSP5-8.5 simulation in 2080, SAI is then deployed to restore temperatures to 2020 levels. The control algorithm is adjusted for the first up to six years to prevent extremely high aerosol concentrations that would result in too rapid cooling. 
 
-[INSERT T0T1T2tot2130 FIGURE HERE]
+Shown in Figure \ref{fig:Tgrad_ext} are the temperature targets from \ref{eq:Tpsi} for the SSP5-5.8, gradual SAI and rapid cooling SAI simulations. After about 10 years of SAI the $T_0$ target is reached and maintained, like in the gradual SAI simulation. However, in contrast to the gradual SAI simulation, the rapid cooling SAI simulation is not able to return to and then maintain 2020 levels for $T_1$ and $T_2$. In the rapid cooling SAI simulation both targets are overshot, though their levels are stabilised after 2100. 
 
-\textcolor{teal}{hier moet ik het figuur nog voor maken, gewoon nog geen zin in gehad. Is een plaatje van de spatial distribution ook relevant, zoals in pt1 ook voor SAI 2020 is gemaakt?}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{images/Tgrad_ext.png}
+	\caption{Deviatons from temperature targets $T_0$, $T_1$, $T_2$ as compared to 2016-2025 mean, for Control, SAI 2020 and SAI 2080 scenarios in CAM.}
+	\label{fig:Tgrad_ext}
+\end{figure}
 
 
 \subsection{Definition of Scenarios and Time Periods for Part II}
 The two simulations from Part I are referred to in the same way in this second part, namely the SSP5-8.5 simulation and the gradual SAI simulation. The simulation with the rapid cooling experiment is referred to as the rapid cooling SAI simulation. 
 
-All simulations considered in this second part were extended from 2100 to 2130. This extension provides further insight in the long-term effects of deploying SAI. Especially in the rapid cooling SAI scenario the extension provides time for the climate system to adjust to the `shock' it experienced from SAI. 
-
-Throughout this second part, four time periods are used to visualise and interpret the results from the simulations. As in part I, for each period the 20-year mean is taken, unless specified otherwise. These periods are defined as follows:
+Throughout this second part, four time periods are selected to visualise and interpret the results from the simulations. As in part I, for each period the 20-year mean is taken, unless specified otherwise. These periods are defined as follows:
 
 \begin{itemize}
     \item \textbf{Reference} The period 2016-2035 of the SSP5-8.5 simulation.
     \item \textbf{Control} The period 2111-2130 of the SSP5-8.5 simulation.
     \item \textbf{SAI 2020} The period 2111-2130 of the gradual SAI simulation.
     \item \textbf{SAI 2080} The period 2111-2130 of the rapid cooling SAI simulation.
-\end{itemize} 
-\textcolor{teal}{misschien beter in een tabel}
+\end{itemize} % tabel van maken
+
 
 \subsection{Thermal Wind}
 To calculate thermal winds from the temperature gradients, the thermal wind balance equation is used. As the vertical layers of the model are converted to pressure coordinates, the equation takes the form 
@@ -31,7 +34,7 @@ To calculate thermal winds from the temperature gradients, the thermal wind bala
     \frac{\partial u_g}{\partial p} = \frac{R}{pf_0} \frac{\partial T}{\partial y},
 \end{equation}
 
-where $v_g$,$u_g$ is the geostrophic wind in meridional and zonal directions respectively, $R = 286.9$ J kg$^{1}$ K$^{1}$ is the specific gas constant, $p$ is pressure, $f_0 = 2\Omega \sin \varphi$ is the coriolis parameter at the chosen reference latitude $\varphi$, $\frac{\partial T}{\partial x,y}$ is the layer-mean temperature gradient in zonal and meridional direction respectively. Rewriting and integrating gives us
+where $v_g$,$u_g$ is the geostrophic wind in meridional and zonal directions respectively, $R = 286.9$ J kg$^{1}$ K$^{1}$ is the specific gas constant for dry air, $p$ is pressure, $f_0 = 2\Omega \sin \varphi$ is the coriolis parameter at the chosen reference latitude $\varphi$, $\frac{\partial T}{\partial x,y}$ is the layer-mean temperature gradient in zonal and meridional direction respectively. Rewriting and integrating gives us
 
 \begin{equation}
     \begin{split}
@@ -49,27 +52,28 @@ where $p_{0,1}$ are the lower and upper boundaries of the model layer, respectiv
     \end{split}
 \end{equation}
 
-To find the thermal wind at a given model layer, we take the cumulative sum of the model layers below it plus the meridional or zonal wind of the model layer below the lowest layer. We do this because the thermal wind in the lower model layers will most likely not produce stable results. To increase stability in our calculations, we assume that the thermal wind below the start of the integration is is equal to the model wind. This gives us for the thermal wind at model layer $i$ 
+To increase stability in our calculations, we assume that the thermal wind below 850 hPa is equal to the model wind, because the thermal wind calculation in the layers below that will most likely not produce stable results. To then find the thermal wind at a given pressure coordinate above 850 hPa, we take the cumulative sum of the thermal wind from 850 hPa up to the given pressure plus the meridional or zonal wind of the layer below 850 hPa ($v(p_{-1}),u(p_{-1})$). This gives us for the thermal wind at pressure coordinate $p_i$ 
 
 \begin{equation}
     \begin{split}
-        v_{T,i}(p_i) &= v_{p_{-1}} + \frac{R}{f_0} \sum_{i=0}^{i} \frac{\partial T_i}{\partial x} \ln \left(\frac{p_i}{p_{i+1}}\right),\\
-        u_{T,i}(p_i) &= u_{p_{-1}} + \frac{R}{f_0} \sum_{i=0}^{i} - \frac{\partial T_i}{\partial y} \ln \left(\frac{p_i}{p_{i+1}}\right).
+        v_{T}(p_i) &= v(p_{-1}) + \frac{R}{f_0} \sum_{i=0}^{i} \frac{\partial T_i}{\partial x} \ln \left(\frac{p_i}{p_{i+1}}\right),\\
+        u_{T}(p_i) &= u(p_{-1}) + \frac{R}{f_0} \sum_{i=0}^{i} - \frac{\partial T_i}{\partial y} \ln \left(\frac{p_i}{p_{i+1}}\right).
     \end{split}
 \end{equation}
 
+
 \subsection{Kinetic Energy and Eddy Kinetic Energy}
-The CAM model woks with wind in the form of $u = \overline{u} + u^{\ast}$, $v = \overline{v} + v^{\ast}$, with $u,v$ the total wind, $\overline{u},\overline{v}$ the time-mean wind and $u^\ast,v^\ast$ the deviation from the mean wind. The model output contains monthly averages $\overline{u},\overline{v}$ and $\overline{u^2},\overline{v^2}$. 
+The CAM model woks with wind in the form of $u = \overline{u} + u^{\ast}$, $v = \overline{v} + v^{\ast}$, with $u,v$ the total wind, $\overline{u},\overline{v}$ the monthly-mean wind and $u^\ast,v^\ast$ the deviation from the mean wind. The model output contains monthly averages $\overline{u},\overline{v}$ and $\overline{u^2},\overline{v^2}$. % check in CESM documentation
 
-The kinetic energy $KE$ can thus be found from the model results directly through
+The kinetic energy $KE$ per unit mass can thus be found from the model results directly through
 
-\begin{equation}
+\begin{equation}\label{eq:KE}
     KE = \frac{1}{2} \left( \overline{u^2} + \overline{v^2} \right).
 \end{equation}
 
-The eddy kinetic energy $EKE$ can be found through 
+The eddy kinetic energy $EKE$ per unit mass can be found through 
 
-\begin{equation}
+\begin{equation}\label{eq:EKE}
     EKE = \frac{1}{2} \left( \overline{u^{\ast 2}} + \overline{v^{\ast 2}} \right),
 \end{equation}
 
@@ -84,11 +88,14 @@ The eddy kinetic energy $EKE$ can be found through
 
 which can be found with the model output. 
 
+To find the kinetic and eddy kinetic energy per unit volume, we multiply the results from Eq. \ref{eq:KE} and \ref{eq:EKE} with the local density. Assuming an ideal gas, we approximate the density through
+\begin{equation}
+    \rho = \frac{p}{RT},
+\end{equation}
+\noindent with $p$ pressure, $T$ temperature and $R$ again the specific gas constant for dry air. 
+
+
 \subsection{Jet Intensity Maps}
-The jet intensity maps are made by counting the number of times the model value of interest passes a set threshold. Each timestep and coordinate is evaluated individually, after which the set is summed over time and the vertical dimension. This result is then normalised to the number of timesteps multiplied by the number of vertical model levels included in the analysis. This results in a fraction that represents the time and vertical extent of the atmospheric jet. 
+The jet intensity maps are made by counting the number of times the zonal wind or eddy kinetic energy surpasses a set threshold. Each timestep and coordinate is evaluated individually, after which the set is summed over time and the vertical dimension. This result is then normalised by the number of timesteps multiplied by the number of vertical model levels included in the analysis. This results in a fraction that represents the time and vertical extent of the atmospheric jet. 
 
-To visualise the Polar night jet (PNJ), in the upper stratosphere, and the subtropical jet (STJ), in the lower stratosphere, this method is applied to zonal wind speeds. For the eddy-driven jet (EDJ), also in the lower stratosphere, this method is applied to the eddy kinetic energy. 
-
-
-\subsection{Climograph}
-\textcolor{teal}{Is uitleg hiervan nodig?}
+To visualise the Polar night jet (PNJ), in the upper stratosphere, and the subtropical jet (STJ), in the lower stratosphere, this method is applied to the zonal wind fields. For the eddy-driven jet (EDJ), also in the lower stratosphere, this method is applied to the eddy kinetic energy fields. 

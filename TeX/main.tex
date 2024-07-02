@@ -68,39 +68,35 @@
 \newgeometry{margin=1.5cm} %% Special margins on the titlepage. It is also possible to set each margin separately; see package Geometry.
 \include{titelpagina}
 
+\tableofcontents
+\newpage
+
 \section{Introduction}
 \input{introduction}
 \newpage
 
 \part{Model Validation}
-\section{Introduction Part I}
-\input{intro_pt1}
-\newpage
 
 \section{Methods Part I}
 \input{methods_pt1}
 \newpage
 
-\part{Southern Hemisphere Atmospheric Circulation}
-\section{Introduction Part II}
-\input{intro_pt2}
+\section{Results Part I}
+\input{results_pt1.tex}
 \newpage
 
+\part{Southern Hemisphere Atmospheric Circulation}
 \section{Methods Part II}
 \input{methods_pt2}
-
-% \section{Model Comparison}
-% \input{surface_temp_grad}
-% \input{refht_temp}
-% \input{precip}
-
-% \section{Lower stratosphere wind}
-% \input{lower_stratosphere}
-
-% \section{Polar Nigth Jet}
-% \input{polar_night_jet}
-
 \newpage
+
+\section{Results Part II: Lower Stratosphere}\label{lowerstrat}
+\input{results_pt2_ls.tex}
+\newpage
+
+\section{Results Part II: Upper Stratosphere}\label{upperstrat}
+\input{results_pt2_us.tex}
+\newpage 
 \printbibliography
 
 \end{document}
