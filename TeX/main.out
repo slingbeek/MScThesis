@@ -5,35 +5,45 @@
 \BOOKMARK [2][-]{subsection.1.4}{The GLENS Project and Subsequent CESM2 Simulations}{section.1}% 5
 \BOOKMARK [2][-]{subsection.1.5}{Building an Emulator for SAI with CESM2\(CAM6\)}{section.1}% 6
 \BOOKMARK [2][-]{subsection.1.6}{Research Questions Part I}{section.1}% 7
-\BOOKMARK [2][-]{subsection.1.7}{The high-latitude Southern Hemisphere Atmosphere}{section.1}% 8
-\BOOKMARK [2][-]{subsection.1.8}{Previous Research on the Effects of SAI on the Southern Hemisphere}{section.1}% 9
-\BOOKMARK [2][-]{subsection.1.9}{Rapid Cooling with SAI as an Emeregency Intervention}{section.1}% 10
-\BOOKMARK [2][-]{subsection.1.10}{Research Questions Part II}{section.1}% 11
-\BOOKMARK [0][-]{part.1}{I Model Validation}{}% 12
-\BOOKMARK [1][-]{section.2}{Methods Part I}{part.1}% 13
-\BOOKMARK [2][-]{subsection.2.1}{Temperature Targets}{section.2}% 14
-\BOOKMARK [2][-]{subsection.2.2}{Using the CESM2\(CAM6\) Emulator for SAI simulations}{section.2}% 15
-\BOOKMARK [2][-]{subsection.2.3}{Definition of Scenarios and Time Periods for Part I}{section.2}% 16
-\BOOKMARK [2][-]{subsection.2.4}{Vertical Interpolation}{section.2}% 17
-\BOOKMARK [2][-]{subsection.2.5}{Potential Temperature}{section.2}% 18
-\BOOKMARK [1][-]{section.3}{Results Part I}{part.1}% 19
-\BOOKMARK [2][-]{subsection.3.1}{Temperature Targets}{section.3}% 20
-\BOOKMARK [2][-]{subsection.3.2}{2-meter Temperature and Precipitation in CAM}{section.3}% 21
-\BOOKMARK [2][-]{subsection.3.3}{SAI 2020 2-meter Temperature Anomalies in CAM and WACCM}{section.3}% 22
-\BOOKMARK [2][-]{subsection.3.4}{SAI 2020 Precipitation Anomalies in CAM and WACCM}{section.3}% 23
-\BOOKMARK [2][-]{subsection.3.5}{Absolute temperature and precipitation differences between CAM and WACCM}{section.3}% 24
-\BOOKMARK [2][-]{subsection.3.6}{SAI 2020 Potential Temperature and Zonal Wind Anomalies in CAM and WACCM}{section.3}% 25
-\BOOKMARK [0][-]{part.2}{II Southern Hemisphere Atmospheric Circulation}{}% 26
-\BOOKMARK [1][-]{section.4}{Methods Part II}{part.2}% 27
-\BOOKMARK [2][-]{subsection.4.1}{Scenarios Used for the Simulations}{section.4}% 28
-\BOOKMARK [2][-]{subsection.4.2}{Definition of Scenarios and Time Periods for Part II}{section.4}% 29
-\BOOKMARK [2][-]{subsection.4.3}{Thermal Wind}{section.4}% 30
-\BOOKMARK [2][-]{subsection.4.4}{Kinetic Energy and Eddy Kinetic Energy}{section.4}% 31
-\BOOKMARK [2][-]{subsection.4.5}{Jet Intensity Maps}{section.4}% 32
-\BOOKMARK [1][-]{section.5}{Results Part II: Lower Stratosphere}{part.2}% 33
-\BOOKMARK [2][-]{subsection.5.1}{Potential temperature and Zonal Wind Anomaly}{section.5}% 34
-\BOOKMARK [2][-]{subsection.5.2}{Subtropical Jet}{section.5}% 35
-\BOOKMARK [2][-]{subsection.5.3}{Eddy-driven Jet}{section.5}% 36
-\BOOKMARK [1][-]{section.6}{Results Part II: Upper Stratosphere}{part.2}% 37
-\BOOKMARK [2][-]{subsection.6.1}{Polar Night Jet}{section.6}% 38
-\BOOKMARK [2][-]{subsection.6.2}{Sudden Stratospheric Warming Events}{section.6}% 39
+\BOOKMARK [2][-]{subsection.1.7}{Results SAI in WACCM}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.8}{The high-latitude Southern Hemisphere Atmosphere}{section.1}% 9
+\BOOKMARK [2][-]{subsection.1.9}{Previous Research on the Effects of SAI on the Southern Hemisphere}{section.1}% 10
+\BOOKMARK [2][-]{subsection.1.10}{The Southern Hemisphere Atmopshere}{section.1}% 11
+\BOOKMARK [3][-]{subsubsection.1.10.1}{The Subtropical Jet}{subsection.1.10}% 12
+\BOOKMARK [3][-]{subsubsection.1.10.2}{The Eddy-driven Jet}{subsection.1.10}% 13
+\BOOKMARK [3][-]{subsubsection.1.10.3}{The Polar Night Jet}{subsection.1.10}% 14
+\BOOKMARK [2][-]{subsection.1.11}{Rapid Cooling with SAI as an Emeregency Intervention}{section.1}% 15
+\BOOKMARK [2][-]{subsection.1.12}{Research Questions Part II}{section.1}% 16
+\BOOKMARK [0][-]{part.1}{I Model Validation}{}% 17
+\BOOKMARK [1][-]{section.2}{Methods Part I}{part.1}% 18
+\BOOKMARK [2][-]{subsection.2.1}{Temperature Targets}{section.2}% 19
+\BOOKMARK [2][-]{subsection.2.2}{Using the CESM2\(CAM6\) Emulator for SAI simulations}{section.2}% 20
+\BOOKMARK [2][-]{subsection.2.3}{Definition of Scenarios and Time Periods for Part I}{section.2}% 21
+\BOOKMARK [2][-]{subsection.2.4}{Vertical Interpolation}{section.2}% 22
+\BOOKMARK [2][-]{subsection.2.5}{Potential Temperature}{section.2}% 23
+\BOOKMARK [1][-]{section.3}{Results Part I}{part.1}% 24
+\BOOKMARK [2][-]{subsection.3.1}{Temperature Targets}{section.3}% 25
+\BOOKMARK [2][-]{subsection.3.2}{2-meter Temperature and Precipitation in CAM}{section.3}% 26
+\BOOKMARK [2][-]{subsection.3.3}{SAI 2020 2-meter Temperature Anomalies in CAM and WACCM}{section.3}% 27
+\BOOKMARK [2][-]{subsection.3.4}{SAI 2020 Precipitation Anomalies in CAM and WACCM}{section.3}% 28
+\BOOKMARK [2][-]{subsection.3.5}{Absolute temperature and precipitation differences between CAM and WACCM}{section.3}% 29
+\BOOKMARK [2][-]{subsection.3.6}{SAI 2020 Potential Temperature and Zonal Wind Anomalies in CAM and WACCM}{section.3}% 30
+\BOOKMARK [1][-]{section.4}{Discussion Part I}{part.1}% 31
+\BOOKMARK [0][-]{part.2}{II Southern Hemisphere Atmospheric Circulation}{}% 32
+\BOOKMARK [1][-]{section.5}{Methods Part II}{part.2}% 33
+\BOOKMARK [2][-]{subsection.5.1}{Scenarios Used for the Simulations}{section.5}% 34
+\BOOKMARK [2][-]{subsection.5.2}{Definition of Scenarios and Time Periods for Part II}{section.5}% 35
+\BOOKMARK [2][-]{subsection.5.3}{Thermal Wind}{section.5}% 36
+\BOOKMARK [2][-]{subsection.5.4}{Kinetic Energy and Eddy Kinetic Energy}{section.5}% 37
+\BOOKMARK [2][-]{subsection.5.5}{Jet Intensity Maps}{section.5}% 38
+\BOOKMARK [1][-]{section.6}{Results Part II: Lower Stratosphere}{part.2}% 39
+\BOOKMARK [2][-]{subsection.6.1}{Potential temperature and Zonal Wind Anomaly}{section.6}% 40
+\BOOKMARK [2][-]{subsection.6.2}{Subtropical Jet}{section.6}% 41
+\BOOKMARK [2][-]{subsection.6.3}{Eddy-driven Jet}{section.6}% 42
+\BOOKMARK [1][-]{section.7}{Results Part II: Upper Stratosphere}{part.2}% 43
+\BOOKMARK [2][-]{subsection.7.1}{Polar Night Jet}{section.7}% 44
+\BOOKMARK [2][-]{subsection.7.2}{Sudden Stratospheric Warming Events}{section.7}% 45
+\BOOKMARK [1][-]{section.8}{Discussion Part II}{part.2}% 46
+\BOOKMARK [1][-]{section.9}{Conclusions and Outlook}{part.2}% 47
+\BOOKMARK [2][-]{subsection.9.1}{Part I: Model Validation}{section.9}% 48
+\BOOKMARK [2][-]{subsection.9.2}{Part II: Southern Hemisphere Atmospheric Circulation}{section.9}% 49

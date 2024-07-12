@@ -69,20 +69,25 @@
 \include{titelpagina}
 
 \tableofcontents
+%% List of acronyms!
 \newpage
 
 \section{Introduction}
-\input{introduction}
+\input{introduction.tex}
 \newpage
 
 \part{Model Validation}
 
 \section{Methods Part I}
-\input{methods_pt1}
+\input{methods_pt1.tex}
 \newpage
 
 \section{Results Part I}
 \input{results_pt1.tex}
+\newpage
+
+\section{Discussion Part I}
+\input{discussion_pt1.tex}
 \newpage
 
 \part{Southern Hemisphere Atmospheric Circulation}
@@ -97,6 +102,19 @@
 \section{Results Part II: Upper Stratosphere}\label{upperstrat}
 \input{results_pt2_us.tex}
 \newpage 
+
+\section{Discussion Part II}
+\input{discussion_pt2.tex}
+\newpage
+
+\section{Conclusions and Outlook}
+\input{conclusions.tex}
+\newpage
+
 \printbibliography
+
+% \backmatter
+% \section{Appendix}
+% \input{appendix_a.tex}
 
 \end{document}
