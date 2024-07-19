@@ -1,20 +1,40 @@
 \subsection{Part I: Model Validation}
 
-\noindent \textit{When applying the stratospheric aerosol emulator to a gradual SAI scenario in CESM2(CAM6), are we able to reproduce from \textcite{tilmes2020}
-    \begin{enumerate}[label=\roman*]
-        \item the temperature targets $T_0$, $T_1$ and $T_2$?
-        \item the spatial and seasonal variations of temperature, precipitation and general aspects of the atmospheric circulation?
-    \end{enumerate}
+\noindent \emph{When applying the stratospheric aerosol emulator to a gradual SAI scenario in CESM2(CAM6), are we able to reproduce from \textcite{tilmes2020}
+\begin{enumerate}[label=\roman*]
+    \item the temperature targets $T_0$, $T_1$ and $T_2$?\\
+        \emph{The temperature targets are reached with similar end results and similar variability.}
+    \item the spatial and seasonal variations of temperature, precipitation and general aspects of the atmospheric circulation?\\
+        \emph{Spatial patterns for temperature are similar, generally warming in the tropics, cooling in the midlatitudes, warming over the poles. Largest differences in seasonal response, WACCM warmer Antarctic summer, CAM warmer Arctic summer. CAM shows larger seasonal variation, most notably the Northern Hemisphere with more significant warming over the Arctic and a slightly more pronounced warming hole over the northern Atlantic.\\ 
+        Precipitation similar but varies in magnitude. CAM is generally wetter than WACCM, though this is not uniform especially in seasonal results. Especially ITCZ response varies, but model behaviour for precipitation varies greatly to begin with.\\
+        Stratospheric warming from the aerosols is nearly identical, upper stratosphere cooling from GHG's shows larger variation expecially over poles. Changes in mean zonal wind are largely of the same sign, but the PNJ in the Nothern Hemisphere grows much stronger in CAM than it does in WACCM. Southern Hemisphere is largely same magnitude. However, thick levels in upper stratosphere in WACCM limit comparison.}
+\end{enumerate}
 }
 
 
 \subsection{Part II: Southern Hemisphere Atmospheric Circulation}
 
-\noindent \textit{What are the impacts of the gradual SAI scenario on the Southern Hemisphere
+\noindent \emph{What are the impacts of the gradual SAI scenario on the Southern Hemisphere
     \begin{enumerate}[label=\roman*]
         \item subtropical and polar jets in the lower stratosphere? \\
-                The subtropical jet is weaker and interferes with the polar jet/meanders less. Slight equatorward shift, but smaller and downward as opposed to upward in control. Localised increase in eastern pacific as in control. Eddy activity in the polar jet decreases on the equatorward side, region where polar and subtropical jet `meet'.
-        \item polar night jet and sudden stratospheric warming events in the upper stratosphere?
+            \emph{The subtropical jet is weaker and interferes with the polar jet/meanders less. Slight equatorward shift, but smaller and downward as opposed to upward in Control. Changes driven by thermal changes, as observed from near identical response of thermal wind. Localised increase in eastern pacific as in control. Eddy activity in the polar jet decreases on the equatorward side, region where polar and subtropical jet `meet'.}
+        \item polar night jet and sudden stratospheric warming events in the upper stratosphere?\\
+            \emph{PNJ is greatly increased and shifted towards equator. As with STJ largely driven by thermal changes, see thermal wind. Discrepancy between calcualted thermal wind and observed zonal wind is partly due to friction effects, partly increased eddy activitiy just outside highest wind region. SSW's likely decrease in frequency and/or intensity (fewer major events), though true analysis is not possible with monthly data.}
     \end{enumerate}
-How do the results for i and ii change under the rapid cooling SAI scenario?
+    How do the results for i and ii change under the rapid cooling SAI scenario?
+    \begin{enumerate}[label=\roman*]
+        \item subtropical and polar jets in the lower stratosphere? \\
+            \emph{SAI 2080 response in STJ is stronger, though difference is minimal. SAI 2080 response in EDJ is weaker, but again minimal.}
+        \item polar night jet and sudden stratospheric warming events in the upper stratosphere?\\
+            \emph{SAI 2080 response in PNJ is significantly weaker, but minimal differences in spatial pattern, difference mainly in magnitude. SAI 2020 only has a greater shift of the maximum wind around West Antarctica/South America. SSW response is very similar, similar shift to earlier emergence, SSW-like state similarly decreased, difference is not significant to identify differing trends.}
+    \end{enumerate}
 }
+
+\subsection{Outlook}
+\begin{itemize}
+    \item Higher resolution runs of the same experiment would provide better insight into precipitation changes
+    \item Analysis of daily or sub-daily data would allow for more accurate interpretation of changes in eddy activity, also of SSW's.
+    \item Extension of analysis/connection to surface processes and weather patterns would be the next step
+    \item The emualator can be further developed by adding for instance higher order latitudinal scaling factors, based on $T_1$ and $T_2$, expecially to apply emulator to scenarios that depart more from a scenario that the emulator can be built with.
+    \item Better understanding of stability and performance of emulator would come from using the emulator to build an ensemble. 
+\end{itemize}
