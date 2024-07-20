@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.3)  19 JUL 2024 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.3)  20 JUL 2024 13:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1277,11 +1277,7 @@ File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
 \@quotelevel=\count438
 \@quotereset=\count439
- (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/main.aux (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/titelpagina.aux)
-
-LaTeX Warning: Label `fig:th_U_zmdiff_JJA' multiply defined.
-
-)
+ (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/main.aux (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/titelpagina.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 67.
@@ -1630,13 +1626,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
+<images/strataero.png, id=360, 289.08pt x 180.675pt>
+File: images/strataero.png Graphic file (type png)
+<use images/strataero.png>
+Package pdftex.def Info: images/strataero.png  used on input line 32.
+(pdftex.def)             Requested size: 283.22162pt x 177.02168pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9])
+[9 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/strataero.png>])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1644,7 +1646,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10] (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/results_pt1.tex
-<images/Tgrad_v.png, id=373, 540.5796pt x 180.675pt>
+<images/Tgrad_v.png, id=378, 540.5796pt x 180.675pt>
 File: images/Tgrad_v.png Graphic file (type png)
 <use images/Tgrad_v.png>
 Package pdftex.def Info: images/Tgrad_v.png  used on input line 10.
@@ -1657,7 +1659,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/Tgrad_v.png>]
-<images/CAM_scens.png, id=393, 548.7702pt x 300.6432pt>
+<images/CAM_scens.png, id=397, 548.7702pt x 300.6432pt>
 File: images/CAM_scens.png Graphic file (type png)
 <use images/CAM_scens.png>
 Package pdftex.def Info: images/CAM_scens.png  used on input line 27.
@@ -1670,7 +1672,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [12 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/CAM_scens.png>]
-<images/TREFHT_20ref.png, id=412, 548.7702pt x 446.3877pt>
+<images/TREFHT_20ref.png, id=416, 548.7702pt x 446.3877pt>
 File: images/TREFHT_20ref.png Graphic file (type png)
 <use images/TREFHT_20ref.png>
 Package pdftex.def Info: images/TREFHT_20ref.png  used on input line 46.
@@ -1693,7 +1695,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/TREFHT_20ref.png>]
-<images/PRECT_20ref.png, id=430, 548.7702pt x 446.3877pt>
+<images/PRECT_20ref.png, id=434, 548.7702pt x 446.3877pt>
 File: images/PRECT_20ref.png Graphic file (type png)
 <use images/PRECT_20ref.png>
 Package pdftex.def Info: images/PRECT_20ref.png  used on input line 63.
@@ -1706,7 +1708,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [15 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/PRECT_20ref.png>]
-<images/CAM_WACCM.png, id=439, 548.7702pt x 304.2567pt>
+<images/CAM_WACCM.png, id=443, 548.7702pt x 304.2567pt>
 File: images/CAM_WACCM.png Graphic file (type png)
 <use images/CAM_WACCM.png>
 Package pdftex.def Info: images/CAM_WACCM.png  used on input line 78.
@@ -1719,7 +1721,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/CAM_WACCM.png>]
-<images/th_U_full.png, id=453, 547.8066pt x 586.3506pt>
+<images/th_U_full.png, id=457, 547.8066pt x 586.3506pt>
 File: images/th_U_full.png Graphic file (type png)
 <use images/th_U_full.png>
 Package pdftex.def Info: images/th_U_full.png  used on input line 94.
@@ -1746,7 +1748,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19] (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/methods_pt2.tex
-<images/Tgrad_ext.png, id=470, 540.5796pt x 180.675pt>
+<images/Tgrad_ext.png, id=474, 540.5796pt x 180.675pt>
 File: images/Tgrad_ext.png Graphic file (type png)
 <use images/Tgrad_ext.png>
 Package pdftex.def Info: images/Tgrad_ext.png  used on input line 10.
@@ -1773,11 +1775,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [22] (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/results_pt2_ls.tex
-<images/th_U_zmdiff_ann.png, id=501, 540.5796pt x 361.35pt>
-File: images/th_U_zmdiff_ann.png Graphic file (type png)
-<use images/th_U_zmdiff_ann.png>
-Package pdftex.def Info: images/th_U_zmdiff_ann.png  used on input line 17.
-(pdftex.def)             Requested size: 448.42822pt x 299.755pt.
+File: images/th_U_full.png Graphic file (type png)
+<use images/th_U_full.png>
+Package pdftex.def Info: images/th_U_full.png  used on input line 17.
+(pdftex.def)             Requested size: 448.42822pt x 479.99643pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1786,49 +1787,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23]
-<images/th_U_zmdiff_JJA.png, id=509, 540.5796pt x 361.35pt>
-File: images/th_U_zmdiff_JJA.png Graphic file (type png)
-<use images/th_U_zmdiff_JJA.png>
-Package pdftex.def Info: images/th_U_zmdiff_JJA.png  used on input line 24.
-(pdftex.def)             Requested size: 448.42822pt x 299.755pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/th_U_zmdiff_ann.png>]
-<images/th_U_zmdiff_DJF.png, id=516, 540.5796pt x 361.35pt>
-File: images/th_U_zmdiff_DJF.png Graphic file (type png)
-<use images/th_U_zmdiff_DJF.png>
-Package pdftex.def Info: images/th_U_zmdiff_DJF.png  used on input line 31.
-(pdftex.def)             Requested size: 448.42822pt x 299.755pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/th_U_zmdiff_JJA.png>]
-<images/UT_U_zmdiff_JJA.png, id=524, 540.5796pt x 361.35pt>
+[24]
+<images/UT_U_zmdiff_JJA.png, id=517, 540.5796pt x 361.35pt>
 File: images/UT_U_zmdiff_JJA.png Graphic file (type png)
 <use images/UT_U_zmdiff_JJA.png>
-Package pdftex.def Info: images/UT_U_zmdiff_JJA.png  used on input line 53.
+Package pdftex.def Info: images/UT_U_zmdiff_JJA.png  used on input line 39.
 (pdftex.def)             Requested size: 448.42822pt x 299.755pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[26 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/th_U_zmdiff_DJF.png>]
-<images/STJ_map_JJA.png, id=531, 540.5796pt x 361.35pt>
+<images/STJ_map_JJA.png, id=518, 540.5796pt x 361.35pt>
 File: images/STJ_map_JJA.png Graphic file (type png)
 <use images/STJ_map_JJA.png>
-Package pdftex.def Info: images/STJ_map_JJA.png  used on input line 67.
+Package pdftex.def Info: images/STJ_map_JJA.png  used on input line 53.
 (pdftex.def)             Requested size: 448.42822pt x 299.755pt.
 
 
@@ -1837,11 +1811,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/UT_U_zmdiff_JJA.png>]
-<images/EKE_U_zmdiff_JJA.png, id=541, 540.5796pt x 361.35pt>
+[25 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/UT_U_zmdiff_JJA.png>]
+<images/EKE_U_zmdiff_JJA.png, id=529, 540.5796pt x 361.35pt>
 File: images/EKE_U_zmdiff_JJA.png Graphic file (type png)
 <use images/EKE_U_zmdiff_JJA.png>
-Package pdftex.def Info: images/EKE_U_zmdiff_JJA.png  used on input line 82.
+Package pdftex.def Info: images/EKE_U_zmdiff_JJA.png  used on input line 68.
 (pdftex.def)             Requested size: 448.42822pt x 299.755pt.
 
 
@@ -1850,11 +1824,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/STJ_map_JJA.png>]
-<images/EDJ_map_JJA.png, id=549, 540.5796pt x 361.35pt>
+[26 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/STJ_map_JJA.png>]
+<images/EDJ_map_JJA.png, id=537, 540.5796pt x 361.35pt>
 File: images/EDJ_map_JJA.png Graphic file (type png)
 <use images/EDJ_map_JJA.png>
-Package pdftex.def Info: images/EDJ_map_JJA.png  used on input line 89.
+Package pdftex.def Info: images/EDJ_map_JJA.png  used on input line 75.
 (pdftex.def)             Requested size: 448.42822pt x 299.755pt.
 
 
@@ -1863,14 +1837,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/EKE_U_zmdiff_JJA.png>]
+[27 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/EKE_U_zmdiff_JJA.png>]
 
-LaTeX Warning: Reference `fig:SJT_map_JJA' on page 30 undefined on input line 98.
+LaTeX Warning: Reference `fig:SJT_map_JJA' on page 28 undefined on input line 84.
 
-<images/KE_U_zmdiff_JJA.png, id=558, 540.5796pt x 361.35pt>
+<images/KE_U_zmdiff_JJA.png, id=546, 540.5796pt x 361.35pt>
 File: images/KE_U_zmdiff_JJA.png Graphic file (type png)
 <use images/KE_U_zmdiff_JJA.png>
-Package pdftex.def Info: images/KE_U_zmdiff_JJA.png  used on input line 102.
+Package pdftex.def Info: images/KE_U_zmdiff_JJA.png  used on input line 88.
 (pdftex.def)             Requested size: 448.42822pt x 299.755pt.
 )
 
@@ -1879,15 +1853,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/EDJ_map_JJA.png>]
+[28 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/EDJ_map_JJA.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/KE_U_zmdiff_JJA.png>] (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/results_pt2_us.tex
-<images/PNJ_UT_U_zmdiff.png, id=578, 542.025pt x 361.35pt>
+[29 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/KE_U_zmdiff_JJA.png>] (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/results_pt2_us.tex
+<images/PNJ_UT_U_zmdiff.png, id=564, 542.025pt x 361.35pt>
 File: images/PNJ_UT_U_zmdiff.png Graphic file (type png)
 <use images/PNJ_UT_U_zmdiff.png>
 Package pdftex.def Info: images/PNJ_UT_U_zmdiff.png  used on input line 16.
@@ -1899,8 +1873,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32]
-<images/PNJ_KE_U_zmdiff.png, id=586, 542.025pt x 361.35pt>
+[30]
+<images/PNJ_KE_U_zmdiff.png, id=574, 542.025pt x 361.35pt>
 File: images/PNJ_KE_U_zmdiff.png Graphic file (type png)
 <use images/PNJ_KE_U_zmdiff.png>
 Package pdftex.def Info: images/PNJ_KE_U_zmdiff.png  used on input line 23.
@@ -1912,8 +1886,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/PNJ_UT_U_zmdiff.png>]
-<images/PNJ_EKE_U_zmdiff.png, id=592, 542.025pt x 361.35pt>
+[31 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/PNJ_UT_U_zmdiff.png>]
+<images/PNJ_EKE_U_zmdiff.png, id=580, 542.025pt x 361.35pt>
 File: images/PNJ_EKE_U_zmdiff.png Graphic file (type png)
 <use images/PNJ_EKE_U_zmdiff.png>
 Package pdftex.def Info: images/PNJ_EKE_U_zmdiff.png  used on input line 31.
@@ -1925,8 +1899,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/PNJ_KE_U_zmdiff.png>]
-<images/PNJ_map.png, id=600, 542.025pt x 361.35pt>
+[32 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/PNJ_KE_U_zmdiff.png>]
+<images/PNJ_map.png, id=588, 542.025pt x 361.35pt>
 File: images/PNJ_map.png Graphic file (type png)
 <use images/PNJ_map.png>
 Package pdftex.def Info: images/PNJ_map.png  used on input line 40.
@@ -1938,8 +1912,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/PNJ_EKE_U_zmdiff.png>]
-<images/PNJ_maxloc_latlon.png, id=608, 289.08pt x 216.81pt>
+[33 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/PNJ_EKE_U_zmdiff.png>]
+<images/PNJ_maxloc_latlon.png, id=596, 289.08pt x 216.81pt>
 File: images/PNJ_maxloc_latlon.png Graphic file (type png)
 <use images/PNJ_maxloc_latlon.png>
 Package pdftex.def Info: images/PNJ_maxloc_latlon.png  used on input line 48.
@@ -1951,8 +1925,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/PNJ_map.png> </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/PNJ_maxloc_latlon.png>]
-<images/PNJ_climographTU.png, id=619, 433.62pt x 289.08pt>
+[34 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/PNJ_map.png> </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/PNJ_maxloc_latlon.png>]
+<images/PNJ_climographTU.png, id=606, 433.62pt x 289.08pt>
 File: images/PNJ_climographTU.png Graphic file (type png)
 <use images/PNJ_climographTU.png>
 Package pdftex.def Info: images/PNJ_climographTU.png  used on input line 60.
@@ -1964,35 +1938,35 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/PNJ_climographTU.png>] (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/discussion_pt2.tex)
+[35 </Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/PNJ_climographTU.png>] (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/discussion_pt2.tex)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38] (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/conclusions.tex
+[36] (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/conclusions.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39])
+[37])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40]
+[38]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41]
+[39]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
 
 
@@ -2001,7 +1975,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42]
+[40]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
  (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/main.aux (/Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/titelpagina.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
@@ -2012,27 +1986,24 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 31287 strings out of 492647
- 567779 string characters out of 6129579
- 971465 words of memory out of 5000000
- 34588 multiletter control sequences out of 15000+600000
+ 31274 strings out of 492647
+ 567429 string characters out of 6129579
+ 971368 words of memory out of 5000000
+ 34580 multiletter control sequences out of 15000+600000
  611430 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,17n,94p,1958b,1747s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/main.pdf (43 pages, 13239139 bytes).
+Output written on /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/main.pdf (41 pages, 11109282 bytes).
 PDF statistics:
- 764 PDF objects out of 1000 (max. 8388607)
- 658 compressed objects within 7 object streams
- 159 named destinations out of 1000 (max. 500000)
- 506 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 750 PDF objects out of 1000 (max. 8388607)
+ 650 compressed objects within 7 object streams
+ 156 named destinations out of 1000 (max. 500000)
+ 496 words of extra memory for PDF output out of 10000 (max. 10000000)
 

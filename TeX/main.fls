@@ -359,6 +359,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/newtx/ntxexx.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/txexs.tfm
+INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/strataero.png
+INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/strataero.png
+INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/strataero.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/newtx/ntxmi7.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/rtxmi7.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/rntxmi7.tfm
@@ -405,15 +408,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
 INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/results_pt2_ls.tex
 INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/results_pt2_ls.tex
-INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/th_U_zmdiff_ann.png
-INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/th_U_zmdiff_ann.png
-INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/th_U_zmdiff_ann.png
-INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/th_U_zmdiff_JJA.png
-INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/th_U_zmdiff_JJA.png
-INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/th_U_zmdiff_JJA.png
-INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/th_U_zmdiff_DJF.png
-INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/th_U_zmdiff_DJF.png
-INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/th_U_zmdiff_DJF.png
+INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/th_U_full.png
+INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/th_U_full.png
 INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/UT_U_zmdiff_JJA.png
 INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/UT_U_zmdiff_JJA.png
 INPUT /Users/Simone/Documents/Uni/Master/Y2/Thesis/gitrepo_vs/MScThesis/TeX/images/UT_U_zmdiff_JJA.png

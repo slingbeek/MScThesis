@@ -39,13 +39,13 @@
 \contentsline {subsection}{\numberline {5.5}Jet Intensity Maps}{22}{subsection.5.5}
 \contentsline {section}{\numberline {6}Results Part II: Lower Stratosphere}{23}{section.6}
 \contentsline {subsection}{\numberline {6.1}Potential temperature and Zonal Wind Anomaly}{23}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Subtropical Jet}{26}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Eddy-driven Jet}{28}{subsection.6.3}
-\contentsline {section}{\numberline {7}Results Part II: Upper Stratosphere}{32}{section.7}
-\contentsline {subsection}{\numberline {7.1}Polar Night Jet}{32}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Sudden Stratospheric Warming Events}{36}{subsection.7.2}
-\contentsline {section}{\numberline {8}Discussion Part II}{38}{section.8}
-\contentsline {section}{\numberline {9}Conclusions and Outlook}{39}{section.9}
-\contentsline {subsection}{\numberline {9.1}Part I: Model Validation}{39}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Part II: Southern Hemisphere Atmospheric Circulation}{39}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Outlook}{40}{subsection.9.3}
+\contentsline {subsection}{\numberline {6.2}Subtropical Jet}{24}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Eddy-driven Jet}{26}{subsection.6.3}
+\contentsline {section}{\numberline {7}Results Part II: Upper Stratosphere}{30}{section.7}
+\contentsline {subsection}{\numberline {7.1}Polar Night Jet}{30}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Sudden Stratospheric Warming Events}{34}{subsection.7.2}
+\contentsline {section}{\numberline {8}Discussion Part II}{36}{section.8}
+\contentsline {section}{\numberline {9}Conclusions and Outlook}{37}{section.9}
+\contentsline {subsection}{\numberline {9.1}Part I: Model Validation}{37}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Part II: Southern Hemisphere Atmospheric Circulation}{37}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Outlook}{38}{subsection.9.3}

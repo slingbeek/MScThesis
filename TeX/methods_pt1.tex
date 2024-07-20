@@ -25,10 +25,14 @@ The emulator for SAI simulations is introduced in \textcite{pfluger2024}, it imp
 
 The first two steps are implemented via the feedforward-feedback control algorithm as established in \textcite{kravitz2017}. The control algorithm stabilises only GMST, not inter-hemispheric and equator-to-pole temperature gradients from section \ref{temptargets}.
 
-The prescribed aerosol fields are the averaged aerosol fields from the WACCM simulation, this simulation is called the \textit{Geo SSP5-8.5 1.5 scenario} in \textcite{tilmes2020}. The fields are normalised, averaged and fit, to then arrive at an amplitude for each aersol component.
+The prescribed aerosol fields are the averaged aerosol fields from the WACCM simulation, this simulation is called the \textit{Geo SSP5-8.5 1.5 scenario} in \textcite{tilmes2020}. The fields are normalised, averaged and fit, to then arrive at an amplitude for each aersol component. The SO$_4$ concentration from WACCM in 2100 at each latitude and model layer is shown in Figure \ref{fig:strataero}. The highest concentration of aerosols is found around the four injection points, concentrations are lower toward the poles. There are also higher concentrations in the Southern Hemisphere than in the Northern Hemisphere.
 
-\textcolor{teal}{Stukje over aerosolveld hoe het eruit ziet + jaarlijkse totale massa figuren}
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{images/strataero.png}
+	\caption{Total SO$_4$ concentration from WACCM in 2100.}
+	\label{fig:strataero}
+\end{figure}
 
 \subsection{Definition of Scenarios and Time Periods for Part I}
 There are two simulations performed with each CESM2 configuration. The first simulation follows the historical spin-up and is continued by the SSP5-8.5 scenario. The second simulation branches from the first simulation in 2020 and from then on introduces SAI to stabilise temperatures using the SSP5-8.5 scenario as background. Here we will refer to it as the gradual SAI scenario. 
