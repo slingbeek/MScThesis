@@ -79,6 +79,426 @@
       \endverb
       \keyw{geoengineering,climate change,natural forcing}
     \endentry
+    \entry{bednarz2023injection}{article}{}
+      \name{author}{6}{}{%
+        {{hash=8635cb112e7cbbadc66475cfe199be42}{%
+           family={Bednarz},
+           familyi={B\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=43977645388d46a6db37df7212ad2179}{%
+           family={Butler},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=e43c1c44963402a3be261013c08fc180}{%
+           family={Visioni},
+           familyi={V\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fbff89576ab7cdcd213836d951e10936}{%
+           family={Kravitz},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=362987b04a743848542aa0d704e0daf3}{%
+           family={MacMartin},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a75a73a5abcba18cc964dc818596cf7e}
+      \strng{fullhash}{3878a4622bc97eff34181491ff9eb0fb}
+      \strng{bibnamehash}{3878a4622bc97eff34181491ff9eb0fb}
+      \strng{authorbibnamehash}{3878a4622bc97eff34181491ff9eb0fb}
+      \strng{authornamehash}{a75a73a5abcba18cc964dc818596cf7e}
+      \strng{authorfullhash}{3878a4622bc97eff34181491ff9eb0fb}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{number}{21}
+      \field{title}{Injection strategy -- a driver of atmospheric circulation and ozone response to stratospheric aerosol geoengineering}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{pages}{13665\bibrangedash 13684}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.5194/acp-23-13665-2023
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/23/13665/2023/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/23/13665/2023/
+      \endverb
+    \endentry
+    \entry{bednarz2023climate}{article}{}
+      \name{author}{8}{}{%
+        {{hash=8635cb112e7cbbadc66475cfe199be42}{%
+           family={Bednarz},
+           familyi={B\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e43c1c44963402a3be261013c08fc180}{%
+           family={Visioni},
+           familyi={V\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fbff89576ab7cdcd213836d951e10936}{%
+           family={Kravitz},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=694753444c0a1e43b556ef5e55133fef}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=35f9a7af0a237f071a309df05a2f1178}{%
+           family={Haywood},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=72af01750fe4d0029ab83668428cb27f}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=362987b04a743848542aa0d704e0daf3}{%
+           family={MacMartin},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=ae79799c18b7b6fdc356870446568784}{%
+           family={Braesicke},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a75a73a5abcba18cc964dc818596cf7e}
+      \strng{fullhash}{4846f6915423404c0899cdc9ad9665c7}
+      \strng{bibnamehash}{4846f6915423404c0899cdc9ad9665c7}
+      \strng{authorbibnamehash}{4846f6915423404c0899cdc9ad9665c7}
+      \strng{authornamehash}{a75a73a5abcba18cc964dc818596cf7e}
+      \strng{authorfullhash}{4846f6915423404c0899cdc9ad9665c7}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{number}{1}
+      \field{title}{Climate response to off-equatorial stratospheric sulfur injections in three Earth system models -- Part 2: Stratospheric and free-tropospheric response}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{pages}{687\bibrangedash 709}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.5194/acp-23-687-2023
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/23/687/2023/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/23/687/2023/
+      \endverb
+    \endentry
+    \entry{bednarz2023ozone}{article}{}
+      \name{author}{6}{}{%
+        {{hash=1e9e2bdb6914c45eccfd0f82a3d45036}{%
+           family={Bednarz},
+           familyi={B\bibinitperiod},
+           given={Ewa\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3eb1546b439ce041780778556ee644a1}{%
+           family={Visioni},
+           familyi={V\bibinitperiod},
+           given={Daniele},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dc66ed724b4db7026025a820b73dd49a}{%
+           family={Butler},
+           familyi={B\bibinitperiod},
+           given={Amy\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=ebb0d5eccdae190e9ecfd3a0b5bfe8f1}{%
+           family={Kravitz},
+           familyi={K\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=42f3600ac3af9377f033953940a8746a}{%
+           family={MacMartin},
+           familyi={M\bibinitperiod},
+           given={Douglas\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=60aa7f6a9bd1913ae065300e5d7f7e49}{%
+           family={Tilmes},
+           familyi={T\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2d6acd280316aece3e132616cfe65ce}
+      \strng{fullhash}{87d6ae163d569f6665ddc919c5f6891b}
+      \strng{bibnamehash}{87d6ae163d569f6665ddc919c5f6891b}
+      \strng{authorbibnamehash}{87d6ae163d569f6665ddc919c5f6891b}
+      \strng{authornamehash}{a2d6acd280316aece3e132616cfe65ce}
+      \strng{authorfullhash}{87d6ae163d569f6665ddc919c5f6891b}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The impacts of Stratospheric Aerosol Injection (SAI) on the atmosphere and surface climate depend on when and where the sulfate aerosol precursors are injected, as well as on how much surface cooling is to be achieved. We use a set of CESM2(WACCM6) SAI simulations achieving three different levels of global mean surface cooling and demonstrate that unlike some direct surface climate impacts driven by the reflection of solar radiation by sulfate aerosols, the SAI-induced changes in the high latitude circulation and ozone are more complex and could be non-linear. This manifests in our simulations by disproportionally larger Antarctic springtime ozone loss, significantly larger intra-ensemble spread of the Arctic stratospheric jet and ozone responses, and non-linear impacts on the extratropical modes of surface climate variability under the strongest-cooling SAI scenario compared to the weakest one. These potential non-linearities may add to uncertainties in projections of regional surface impacts under SAI.}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{note}{e2023GL104726 2023GL104726}
+      \field{number}{22}
+      \field{title}{Potential Non-Linearities in the High Latitude Circulation and Ozone Response to Stratospheric Aerosol Injection}
+      \field{volume}{50}
+      \field{year}{2023}
+      \field{pages}{e2023GL104726}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://doi.org/10.1029/2023GL104726
+      \endverb
+      \verb{eprint}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023GL104726
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2023GL104726
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2023GL104726
+      \endverb
+      \keyw{geoengineering,climate intervention,stratospheric ozone,middle atmosphere dynamics,stratospheric aerosol injection}
+    \endentry
+    \entry{butler2015}{article}{}
+      \name{author}{6}{}{%
+        {{hash=dc66ed724b4db7026025a820b73dd49a}{%
+           family={Butler},
+           familyi={B\bibinitperiod},
+           given={Amy\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3a9bb8c27261d457eb86abd3d539f7c3}{%
+           family={Seidel},
+           familyi={S\bibinitperiod},
+           given={Dian\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=522f6ef85aef8301aad79624ceb6e2ed}{%
+           family={Hardiman},
+           familyi={H\bibinitperiod},
+           given={Steven\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6e0a2a09da127d1014d9878a0ba37e15}{%
+           family={Butchart},
+           familyi={B\bibinitperiod},
+           given={Neal},
+           giveni={N\bibinitperiod}}}%
+        {{hash=bd5f1106977f49a1953667a54033783d}{%
+           family={Birner},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4e962153e7b561ad60b5e9edee9218ad}{%
+           family={Match},
+           familyi={M\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{939990427d0307fc6fc906a9ae657cda}
+      \strng{fullhash}{f9512452232c6103094fa77ba3c3c00f}
+      \strng{bibnamehash}{f9512452232c6103094fa77ba3c3c00f}
+      \strng{authorbibnamehash}{f9512452232c6103094fa77ba3c3c00f}
+      \strng{authornamehash}{939990427d0307fc6fc906a9ae657cda}
+      \strng{authorfullhash}{f9512452232c6103094fa77ba3c3c00f}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of the American Meteorological Society}
+      \field{number}{11}
+      \field{title}{Defining Sudden Stratospheric Warmings}
+      \field{volume}{96}
+      \field{year}{2015}
+      \field{pages}{1913\bibrangedash 1928}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1175/BAMS-D-13-00173.1
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/bams/96/11/bams-d-13-00173.1.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/bams/96/11/bams-d-13-00173.1.xml
+      \endverb
+    \endentry
+    \entry{ceppi2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6b2ef58d7a1306ffe78fd8dda70d527f}{%
+           family={Ceppi},
+           familyi={C\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d9bd20615e06a4d3174ff8760e33dfd3}{%
+           family={Shepherd},
+           familyi={S\bibinitperiod},
+           given={Theodore\bibnamedelima G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6266b2159a04d391589c06c12fb3bcc}
+      \strng{fullhash}{c6266b2159a04d391589c06c12fb3bcc}
+      \strng{bibnamehash}{c6266b2159a04d391589c06c12fb3bcc}
+      \strng{authorbibnamehash}{c6266b2159a04d391589c06c12fb3bcc}
+      \strng{authornamehash}{c6266b2159a04d391589c06c12fb3bcc}
+      \strng{authorfullhash}{c6266b2159a04d391589c06c12fb3bcc}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Future shifts of the austral midlatitude jet are subject to large uncertainties in climate model projections. Here we show that, in addition to other previously identified sources of intermodel uncertainty, changes in the timing of the stratospheric polar vortex breakdown modulate the austral jet response to greenhouse gas forcing during summertime (December–February). The relationship is such that a larger delay in vortex breakdown favors a more poleward jet shift, with an estimated 0.7–0.8° increase in jet shift per 10-day delay in vortex breakdown. The causality of the link between the timing of the vortex breakdown and the tropospheric jet response is demonstrated through climate modeling experiments with imposed changes in the seasonality of the stratospheric polar vortex. The vortex response is estimated to account for about 30\% of the intermodel variance in the shift of the summertime austral jet and about 45\% of the mean jet shift.}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{number}{12}
+      \field{title}{The Role of the Stratospheric Polar Vortex for the Austral Jet Response to Greenhouse Gas Forcing}
+      \field{volume}{46}
+      \field{year}{2019}
+      \field{pages}{6972\bibrangedash 6979}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1029/2019GL082883
+      \endverb
+      \verb{eprint}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2019GL082883
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL082883
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL082883
+      \endverb
+      \keyw{jet stream,stratospheric polar vortex,climate change}
+    \endentry
+    \entry{chenoli2017historical}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5ff300f9bb2a49c8bf3b3b7fb2b70e5b}{%
+           family={Chenoli},
+           familyi={C\bibinitperiod},
+           given={Sheeba\bibnamedelima Nettukandy},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=49f20120c06bfcfb88053a7f47c7909a}{%
+           family={Ahmad\bibnamedelima Mazuki},
+           familyi={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Muhammad\bibnamedelima Yunus},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=6e889d94c59bbc4801a9b06bcbf95ab1}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ec39053bd34bdba268d78b1c401b4b05}{%
+           family={Samah},
+           familyi={S\bibinitperiod},
+           given={Azizan\bibnamedelima Abu},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{198b2814f1bde6358e8828ff78bb65fc}
+      \strng{fullhash}{4eae5e5dbaeebc14781589ab54c8c16c}
+      \strng{bibnamehash}{4eae5e5dbaeebc14781589ab54c8c16c}
+      \strng{authorbibnamehash}{4eae5e5dbaeebc14781589ab54c8c16c}
+      \strng{authornamehash}{198b2814f1bde6358e8828ff78bb65fc}
+      \strng{authorfullhash}{4eae5e5dbaeebc14781589ab54c8c16c}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Climate Dynamics}
+      \field{title}{Historical and projected changes in the Southern Hemisphere Sub-tropical Jet during winter from the CMIP5 models}
+      \field{volume}{48}
+      \field{year}{2017}
+      \field{pages}{661\bibrangedash 681}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1007/s00382-016-3102-y
+      \endverb
+    \endentry
+    \entry{Curtis_2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=85a99eeed0ca46058b38a1a93ebedec6}{%
+           family={Curtis},
+           familyi={C\bibinitperiod},
+           given={Paul\bibnamedelima Edwin},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6b2ef58d7a1306ffe78fd8dda70d527f}{%
+           family={Ceppi},
+           familyi={C\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6f3c0dd2173916ea1e4035dbdd7fef2f}{%
+           family={Zappa},
+           familyi={Z\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{1235f485bb701372f40de1a4111ac02d}
+      \strng{fullhash}{4a31f436855f701911d8284f12cb4ed0}
+      \strng{bibnamehash}{4a31f436855f701911d8284f12cb4ed0}
+      \strng{authorbibnamehash}{4a31f436855f701911d8284f12cb4ed0}
+      \strng{authornamehash}{1235f485bb701372f40de1a4111ac02d}
+      \strng{authorfullhash}{4a31f436855f701911d8284f12cb4ed0}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Global climate models indicate that the Southern Hemispheric (SH) jet stream shifts poleward in response to CO2 forcing, but the magnitude of this shift remains highly uncertain. Here we analyse the SH jet stream response to 4×CO2 forcing in Coupled Model Intercomparison Project phase 6 (CMIP6) simulations, and find a substantially muted jet shift during winter compared with CMIP5. We suggest this muted response results from a more poleward mean jet position, consistent with a strongly reduced bias in jet position relative to the reanalysis during 1980–2004. The improved mean jet position cannot be explained by changes in the simulated sea surface temperatures. Instead, we find indications that increased horizontal grid resolution in CMIP6 relative to CMIP5 has contributed to the higher mean jet latitude, and thus to the reduced jet shift under CO2 forcing. These results imply that CMIP6 models can provide more realistic projections of SH climate change.}
+      \field{journaltitle}{Environmental Research Letters}
+      \field{month}{5}
+      \field{number}{6}
+      \field{title}{Role of the mean state for the Southern Hemispheric jet stream response to CO2 forcing in CMIP6 models}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{pages}{064011}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1748-9326/ab8331
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1748-9326/ab8331
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1748-9326/ab8331
+      \endverb
+    \endentry
     \entry{danabasoglu2020}{article}{}
       \name{author}{43}{}{%
         {{hash=d12fe2e70bf20263aed406e7bb7ed496}{%
@@ -589,6 +1009,267 @@
       \verb https://journals.ametsoc.org/view/journals/bams/94/9/bams-d-12-00121.1.xml
       \endverb
     \endentry
+    \entry{IPCC_2021_WGI_Ch_9}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=c4718d8509ff48faa28a8888bca89f64}{%
+           family={{IPCC}},
+           familyi={I\bibinitperiod},
+           given={{Fox-Kemper, B. and Hewitt, H.T. and Xiao, C. and Aðalgeirsdóttir, G. and Drijfhout, S.S. and Edwards, T.L. and Golledge, N.R. and Hemer, M. and Kopp, R.E. and Krinner, G. and Mix, A. and Notz, D. and Nowicki, S. and Nurhati, I.S. and Ruiz, L. and Sallée, J.-B. and Slangen, A.B.A. and Yu, Y.}},
+           giveni={F\bibinitperiod}}}%
+      }
+      \name{editor}{19}{}{%
+        {{hash=6bca97eccca322d9b0bcd246428d596a}{%
+           family={Masson-Delmotte},
+           familyi={M\bibinithyphendelim D\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=8b005b026726d85c7b1e594e7f4a2ecc}{%
+           family={Zhai},
+           familyi={Z\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3658486d29c45a792f5f3a710928de97}{%
+           family={Pirani},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4d2bd4a9a6d4601c85a9a24729e17043}{%
+           family={Connors},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=b892eaee0aae73e17279351dd437d3f9}{%
+           family={Péan},
+           familyi={P\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b1010afe00cf8d4713f9c0476c1f6600}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7bb982f93fed355ac58c3d456081b3af}{%
+           family={Caud},
+           familyi={C\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f889019fc61464b084bbe69847cbc904}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=db35fb65e17840b82ff95d721223b0e7}{%
+           family={Goldfarb},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=152ce50ce36e5aa4c482b4126785e4ed}{%
+           family={Gomis},
+           familyi={G\bibinitperiod},
+           given={M.\bibnamedelimi I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=602634acdf0a6cbbd816524baea2c827}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b8fab3e2e3fbfad044facf326c7152b0}{%
+           family={Leitzell},
+           familyi={L\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4546db7ac507a2134e6907d9bd0aa657}{%
+           family={Lonnoy},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a0144abe0560e1d8f68bd6ebba2f0c57}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi B.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=226058b7691ce741bf43c4d358b99d40}{%
+           family={Maycock},
+           familyi={M\bibinitperiod},
+           given={T.\bibnamedelimi K.},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=d2b3e6edfbb1fd364daef9712aa59160}{%
+           family={Waterfield},
+           familyi={W\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=144945711b389d71541ac6c5ff603ff9}{%
+           family={Yelekçi},
+           familyi={Y\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=6e07c0e3740710f4a380247a8fca4405}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b369cca34cb065007482c160c6e6a21c}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{2}{%
+        {Cambridge, UK}%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{c4718d8509ff48faa28a8888bca89f64}
+      \strng{fullhash}{c4718d8509ff48faa28a8888bca89f64}
+      \strng{bibnamehash}{c4718d8509ff48faa28a8888bca89f64}
+      \strng{authorbibnamehash}{c4718d8509ff48faa28a8888bca89f64}
+      \strng{authornamehash}{c4718d8509ff48faa28a8888bca89f64}
+      \strng{authorfullhash}{c4718d8509ff48faa28a8888bca89f64}
+      \strng{editorbibnamehash}{cef24cf988fcea7cee6c5c3c875c570e}
+      \strng{editornamehash}{6fd90079b1280d18b0993794cbce8484}
+      \strng{editorfullhash}{cef24cf988fcea7cee6c5c3c875c570e}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change}
+      \field{chapter}{9}
+      \field{title}{Ocean, Cryosphere and Sea Level Change}
+      \field{type}{Book Section}
+      \field{year}{2021}
+      \field{pages}{1211\bibrangedash 1361}
+      \range{pages}{151}
+      \verb{doi}
+      \verb 10.1017/9781009157896.011
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter09.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter09.pdf
+      \endverb
+    \endentry
+    \entry{jucker2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3c71fbef985db06814da1764f88bf135}{%
+           family={Jucker},
+           familyi={J\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2b31e7d4a0ada7b7ca0daf03eb7d0fdc}{%
+           family={Reichler},
+           familyi={R\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3c8f77a3dfe2ba3ae2f0bc220c2ef24d}{%
+           family={Waugh},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{8da38ab65073e44938b5c601fe607666}
+      \strng{fullhash}{061ae6ba3d6237590c909234992342ee}
+      \strng{bibnamehash}{061ae6ba3d6237590c909234992342ee}
+      \strng{authorbibnamehash}{061ae6ba3d6237590c909234992342ee}
+      \strng{authornamehash}{8da38ab65073e44938b5c601fe607666}
+      \strng{authorfullhash}{061ae6ba3d6237590c909234992342ee}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Southern Hemisphere (SH) stratospheric sudden warmings (SSWs) result in smaller Antarctic ozone holes and are linked to extreme midlatitude weather on subseasonal to seasonal timescales. Therefore, it is of interest how often such events occur and whether we should expect more events in the future. Here, we use a pair of novel multimillennial simulations with a stratosphere-resolving coupled ocean-atmosphere climate model to show that the frequency of SSWs, such as observed 2002 and 2019, is about one in 22 years for 1990 conditions. In addition, we show that we should expect the frequency of SSWs, and that of more moderate vortex weakening events, to strongly decrease by the end of this century.}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{note}{e2021GL093215 2021GL093215}
+      \field{number}{11}
+      \field{title}{How Frequent Are Antarctic Sudden Stratospheric Warmings in Present and Future Climate?}
+      \field{volume}{48}
+      \field{year}{2021}
+      \field{pages}{e2021GL093215}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://doi.org/10.1029/2021GL093215
+      \endverb
+      \verb{eprint}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2021GL093215
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021GL093215
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021GL093215
+      \endverb
+      \keyw{atmospheric dynamics,southern hemisphere,stratosphere-troposphere coupling,sudden stratospheric warming,GLOBAL CHANGE: Climate variability,Climate dynamics,ATMOSPHERIC PROCESSES: Climate change and variability,Stratosphere/troposphere interactions,Stratospheric dynamics,ATMOSPHERIC PROCESSES: Climatology,General circulation,NATURAL HAZARDS: Atmospheric,Climate impact,Disaster risk analysis and assessment}
+    \endentry
+    \entry{kidston2015stratospheric}{article}{}
+      \name{author}{7}{}{%
+        {{hash=2d8365e80dd72c5dfe7005f6f445504d}{%
+           family={Kidston},
+           familyi={K\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5c4e1fcdee3a8fcc3264c778c3b6f2f0}{%
+           family={Scaife},
+           familyi={S\bibinitperiod},
+           given={Adam\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5670bd632718b205b031956591770a53}{%
+           family={Hardiman},
+           familyi={H\bibinitperiod},
+           given={Steven\bibnamedelima C},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=8775c4c93c73deb470dd9f513824bf78}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Daniel\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6e0a2a09da127d1014d9878a0ba37e15}{%
+           family={Butchart},
+           familyi={B\bibinitperiod},
+           given={Neal},
+           giveni={N\bibinitperiod}}}%
+        {{hash=51219cfad4e72471229ab0975f9c2c73}{%
+           family={Baldwin},
+           familyi={B\bibinitperiod},
+           given={Mark\bibnamedelima P},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=599de464d72cfdeb1ac607e3d2552bfc}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Lesley\bibnamedelima J},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{d9ad1dff014219a0d670e818b99669b1}
+      \strng{fullhash}{042dc4d9b29f2cfaa22bef1443baeda4}
+      \strng{bibnamehash}{042dc4d9b29f2cfaa22bef1443baeda4}
+      \strng{authorbibnamehash}{042dc4d9b29f2cfaa22bef1443baeda4}
+      \strng{authornamehash}{d9ad1dff014219a0d670e818b99669b1}
+      \strng{authorfullhash}{042dc4d9b29f2cfaa22bef1443baeda4}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Geoscience}
+      \field{number}{6}
+      \field{title}{Stratospheric influence on tropospheric jet streams, storm tracks and surface weather}
+      \field{volume}{8}
+      \field{year}{2015}
+      \field{pages}{433\bibrangedash 440}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1038/ngeo2424
+      \endverb
+    \endentry
     \entry{kravitz2016}{article}{}
       \name{author}{4}{}{%
         {{hash=fbff89576ab7cdcd213836d951e10936}{%
@@ -790,6 +1471,46 @@
       \endverb
       \keyw{geoengineering,climate modeling,CMIP5,model evaluation,SRM,monsoon}
     \endentry
+    \entry{lee2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=523cc0df9a907cb42f1495164e5529aa}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Simon\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{523cc0df9a907cb42f1495164e5529aa}
+      \strng{fullhash}{523cc0df9a907cb42f1495164e5529aa}
+      \strng{bibnamehash}{523cc0df9a907cb42f1495164e5529aa}
+      \strng{authorbibnamehash}{523cc0df9a907cb42f1495164e5529aa}
+      \strng{authornamehash}{523cc0df9a907cb42f1495164e5529aa}
+      \strng{authorfullhash}{523cc0df9a907cb42f1495164e5529aa}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Weather}
+      \field{number}{1}
+      \field{title}{The stratospheric polar vortex and sudden stratospheric warmings}
+      \field{volume}{76}
+      \field{year}{2021}
+      \field{pages}{12\bibrangedash 13}
+      \range{pages}{2}
+      \verb{doi}
+      \verb https://doi.org/10.1002/wea.3868
+      \endverb
+      \verb{eprint}
+      \verb https://rmets.onlinelibrary.wiley.com/doi/pdf/10.1002/wea.3868
+      \endverb
+      \verb{urlraw}
+      \verb https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/wea.3868
+      \endverb
+      \verb{url}
+      \verb https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/wea.3868
+      \endverb
+    \endentry
     \entry{lenton2009}{article}{}
       \name{author}{2}{}{%
         {{hash=f9a229c370e24ca98d5e73b3d61f97e3}{%
@@ -979,6 +1700,51 @@
       \field{year}{2021}
       \field{pages}{143\bibrangedash 151}
       \range{pages}{9}
+      \verb{doi}
+      \verb https://doi.org/10.1038/s41558-020-00963-x
+      \endverb
+    \endentry
+    \entry{martin2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=64a8360a14bd351d84ed7fa2e8e47ff0}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=fb6230f2038e7aab2741918c6bf3861a}{%
+           family={Norton},
+           familyi={N\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{826c999048047c74d3252331a66e14d4}
+      \strng{fullhash}{826c999048047c74d3252331a66e14d4}
+      \strng{bibnamehash}{826c999048047c74d3252331a66e14d4}
+      \strng{authorbibnamehash}{826c999048047c74d3252331a66e14d4}
+      \strng{authornamehash}{826c999048047c74d3252331a66e14d4}
+      \strng{authorfullhash}{826c999048047c74d3252331a66e14d4}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Weather and Climate Dynamics}
+      \field{number}{4}
+      \field{title}{Waviness of the Southern Hemisphere wintertime polar and subtropical jets}
+      \field{volume}{4}
+      \field{year}{2023}
+      \field{pages}{875\bibrangedash 886}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.5194/wcd-4-875-2023
+      \endverb
+      \verb{urlraw}
+      \verb https://wcd.copernicus.org/articles/4/875/2023/
+      \endverb
+      \verb{url}
+      \verb https://wcd.copernicus.org/articles/4/875/2023/
+      \endverb
     \endentry
     \entry{mccusker2015}{article}{}
       \name{author}{3}{}{%
@@ -1067,6 +1833,49 @@
       \field{year}{2018}
       \field{pages}{3063\bibrangedash 3080}
       \range{pages}{18}
+      \verb{doi}
+      \verb https://doi.org/10.1007/s00382-017-3793-8
+      \endverb
+    \endentry
+    \entry{reflecting}{book}{}
+      \name{author}{1}{}{%
+        {{hash=902baa26c7238abe14f4b7cf98bd3467}{%
+           family={{NAS}},
+           familyi={N\bibinitperiod},
+           given={{National Academies of Sciences, Engineering, and Medicine}},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, DC}%
+      }
+      \list{publisher}{1}{%
+        {The National Academies Press}%
+      }
+      \strng{namehash}{902baa26c7238abe14f4b7cf98bd3467}
+      \strng{fullhash}{902baa26c7238abe14f4b7cf98bd3467}
+      \strng{bibnamehash}{902baa26c7238abe14f4b7cf98bd3467}
+      \strng{authorbibnamehash}{902baa26c7238abe14f4b7cf98bd3467}
+      \strng{authornamehash}{902baa26c7238abe14f4b7cf98bd3467}
+      \strng{authorfullhash}{902baa26c7238abe14f4b7cf98bd3467}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Climate change is creating impacts that are widespread and severe for individuals, communities, economies, and ecosystems around the world. While efforts to reduce emissions and adapt to climate impacts are the first line of defense, researchers are exploring other options to reduce warming. Solar geoengineering strategies are designed to cool Earth either by adding small reflective particles to the upper atmosphere, by increasing reflective cloud cover in the lower atmosphere, or by thinning high-altitude clouds that can absorb heat. While such strategies have the potential to reduce global temperatures, they could also introduce an array of unknown or negative consequences.\nThis report concludes that a strategic investment in research is needed to enhance policymakers' understanding of climate response options. The United States should develop a transdisciplinary research program, in collaboration with other nations, to advance understanding of solar geoengineering's technical feasibility and effectiveness, possible impacts on society and the environment, and social dimensions such as public perceptions, political and economic dynamics, and ethical and equity considerations. The program should operate under robust research governance that includes such elements as a research code of conduct, a public registry for research, permitting systems for outdoor experiments, guidance on intellectual property, and inclusive public and stakeholder engagement processes.}
+      \field{isbn}{978-0-309-67605-2}
+      \field{title}{Reflecting Sunlight: Recommendations for Solar Geoengineering Research and Research Governance}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.17226/25762
+      \endverb
+      \verb{urlraw}
+      \verb https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance
+      \endverb
+      \verb{url}
+      \verb https://nap.nationalacademies.org/catalog/25762/reflecting-sunlight-recommendations-for-solar-geoengineering-research-and-research-governance
+      \endverb
     \endentry
     \entry{pfluger2024}{article}{}
       \name{author}{5}{}{%
@@ -1123,6 +1932,133 @@
       \verb https://doi.org/10.22541/essoar.169447423.32818318/v2
       \endverb
     \endentry
+    \entry{RIAHI2007887}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ef7fb7bd657b997bf4b6987b69b22e1f}{%
+           family={Riahi},
+           familyi={R\bibinitperiod},
+           given={Keywan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0a9d1bfebaab281ce91039b4dae0e353}{%
+           family={Grübler},
+           familyi={G\bibinitperiod},
+           given={Arnulf},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6687969be38a8b86d3e2540c15d3d574}{%
+           family={Nakicenovic},
+           familyi={N\bibinitperiod},
+           given={Nebojsa},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{581963f96d25c2a54b541a2a84e04e9b}
+      \strng{fullhash}{02f160c50a4192a982fb8aedb27da334}
+      \strng{bibnamehash}{02f160c50a4192a982fb8aedb27da334}
+      \strng{authorbibnamehash}{02f160c50a4192a982fb8aedb27da334}
+      \strng{authornamehash}{581963f96d25c2a54b541a2a84e04e9b}
+      \strng{authorfullhash}{02f160c50a4192a982fb8aedb27da334}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents an overview of the greenhouse gas (GHG) emissions scenarios that form the analytical backbone for other contributions to this Special Issue. We first describe the motivation behind this scenario exercise and introduce the main scenario features and characteristics, in both qualitative and quantitative terms. Altogether, we analyze three ‘baseline’ scenarios of different socio-economic and technological developments that are assumed not to include any explicit climate policies. We then impose a range of climate stabilization targets on these baseline scenarios and analyze in detail the feasibility, costs and uncertainties of meeting a range of different climate stabilization targets in accordance with Article 2 of the United Nations Framework Convention on Climate Change. The scenarios were developed by the IIASA Integrated Assessment Modeling Framework that encompasses detailed representations of the principal GHG-emitting sectors—energy, industry, agriculture, and forestry. The main analytical findings from our analysis focus on the implications of salient uncertainties (associated with scenario baselines and stabilization targets), on feasibility and costs of climate stabilization efforts, and on the choice of appropriate portfolios of emissions abatement measures. We further analyze individual technological options with regards to their aggregated cumulative contribution toward emissions mitigation during the 21st century as well as their deployment over time. Our results illustrate that the energy sector will remain by far the largest source of GHG emissions and hence remain the prime target of emissions reduction. Ultimately, this may lead to a complete restructuring of the global energy system. Climate mitigation could also significantly change the relative economics of traditional versus new, more climate friendly products and services. This is especially the case within the energy system, which accounts for the largest share of emissions reductions, but it is also the case in the agriculture and forestry sectors, where emissions reduction and sink enhancement measures are relatively more modest.}
+      \field{issn}{0040-1625}
+      \field{journaltitle}{Technological Forecasting and Social Change}
+      \field{note}{Greenhouse Gases - Integrated Assessment}
+      \field{number}{7}
+      \field{title}{Scenarios of long-term socio-economic and environmental development under climate stabilization}
+      \field{volume}{74}
+      \field{year}{2007}
+      \field{pages}{887\bibrangedash 935}
+      \range{pages}{49}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.techfore.2006.05.026
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040162506001387
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040162506001387
+      \endverb
+    \endentry
+    \entry{richter2017}{article}{}
+      \name{author}{8}{}{%
+        {{hash=e396e919b010b082a143c1830d209bfb}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Jadwiga\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=60aa7f6a9bd1913ae065300e5d7f7e49}{%
+           family={Tilmes},
+           familyi={T\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9e03950f9fd175303f7e5506a6c9cb11}{%
+           family={Mills},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3a846831ee2a5e555713f344e29e2e4b}{%
+           family={Tribbia},
+           familyi={T\bibinitperiod},
+           given={Joseph\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ebb0d5eccdae190e9ecfd3a0b5bfe8f1}{%
+           family={Kravitz},
+           familyi={K\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=42f3600ac3af9377f033953940a8746a}{%
+           family={MacMartin},
+           familyi={M\bibinitperiod},
+           given={Douglas\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=2084203aa180ee4ecfc408a941bce917}{%
+           family={Vitt},
+           familyi={V\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+        {{hash=375344bbb115d9bde8155e1874b98204}{%
+           family={Lamarque},
+           familyi={L\bibinitperiod},
+           given={Jean-Francois},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{78744da51cbd09e5a37921c073da12bc}
+      \strng{fullhash}{f470f9c1a791389b460b072596defba5}
+      \strng{bibnamehash}{f470f9c1a791389b460b072596defba5}
+      \strng{authorbibnamehash}{f470f9c1a791389b460b072596defba5}
+      \strng{authornamehash}{78744da51cbd09e5a37921c073da12bc}
+      \strng{authorfullhash}{f470f9c1a791389b460b072596defba5}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Injections of sulfur dioxide into the stratosphere are among several proposed methods of solar radiation management. Such injections could cool the Earth's climate. However, they would significantly alter the dynamics of the stratosphere. We explore here the stratospheric dynamical response to sulfur dioxide injections ∼5 km above the tropopause at multiple latitudes (equator, 15°S, 15°N, 30°S and 30°N) using a fully coupled Earth system model, Community Earth System Model, version 1, with the Whole Atmosphere Community Climate Model as its atmospheric component (CESM1(WACCM)). We find that in all simulations, the tropical lower stratosphere warms primarily between 30°S and 30°N, regardless of injection latitude. The quasi-biennial oscillation (QBO) of the tropical zonal wind is altered by the various sulfur dioxide injections. In a simulation with a 12 Tg yr−1 equatorial injection, and with fully interactive chemistry, the QBO period lengthens to ∼3.5 years but never completely disappears. However, in a simulation with specified (or noninteractive) chemical fields, including O3 and prescribed aerosols taken from the interactive simulation, the oscillation is virtually lost. In addition, we find that geoengineering does not always lengthen the QBO. We further demonstrate that the QBO period changes from 24 to 12–17 months in simulations with sulfur dioxide injections placed poleward of the equator. Our study points to the importance of understanding and verifying of the complex interactions between aerosols, atmospheric dynamics, and atmospheric chemistry as well as understanding the effects of sulfur dioxide injections placed away from the Equator on the QBO.}
+      \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+      \field{number}{23}
+      \field{title}{Stratospheric Dynamical Response and Ozone Feedbacks in the Presence of SO2 Injections}
+      \field{volume}{122}
+      \field{year}{2017}
+      \field{pages}{12\bibrangessep 557\bibrangedash 12\bibrangessep 573}
+      \range{pages}{-42}
+      \verb{doi}
+      \verb https://doi.org/10.1002/2017JD026912
+      \endverb
+      \verb{eprint}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2017JD026912
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017JD026912
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017JD026912
+      \endverb
+      \keyw{SO2 injection,geoengineering,climate engineering,climate modification,stratosphere}
+    \endentry
     \entry{robock2009}{article}{}
       \name{author}{1}{}{%
         {{hash=a6ceb6b332cf33b72690393a4c8b89bf}{%
@@ -1163,6 +2099,121 @@
       \verb{url}
       \verb https://doi.org/10.2968/064002006
       \endverb
+    \endentry
+    \entry{scambos2004}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a6be019611da9e051a13ac0383b52bfa}{%
+           family={Scambos},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7e616d590238a7092f49e634e4e01342}{%
+           family={Bohlander},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d9ef1caa1bda04ccf1a7a60903e4f73d}{%
+           family={Shuman},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d45dbcb4edb7a71b7a77c3472f2fa69b}{%
+           family={Skvarca},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{af8a61f569b0285b92676ac65b5d1a6a}
+      \strng{fullhash}{3beb5a6a95beaaa3a035f81f501c6e71}
+      \strng{bibnamehash}{3beb5a6a95beaaa3a035f81f501c6e71}
+      \strng{authorbibnamehash}{3beb5a6a95beaaa3a035f81f501c6e71}
+      \strng{authornamehash}{af8a61f569b0285b92676ac65b5d1a6a}
+      \strng{authorfullhash}{3beb5a6a95beaaa3a035f81f501c6e71}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ice velocities derived from five Landsat 7 images acquired between January 2000 and February 2003 show a two- to six-fold increase in centerline speed of four glaciers flowing into the now-collapsed section of the Larsen B Ice Shelf. Satellite laser altimetry from ICESat indicates the surface of Hektoria Glacier lowered by up to 38 ± 6 m in a six-month period beginning one year after the break-up in March 2002. Smaller elevation losses are observed for Crane and Jorum glaciers over a later 5-month period. Two glaciers south of the collapse area, Flask and Leppard, show little change in speed or elevation. Seasonal variations in speed preceding the large post-collapse velocity increases suggest that both summer melt percolation and changes in the stress field due to shelf removal play a major role in glacier dynamics.}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{number}{18}
+      \field{title}{Glacier acceleration and thinning after ice shelf collapse in the Larsen B embayment, Antarctica}
+      \field{volume}{31}
+      \field{year}{2004}
+      \verb{doi}
+      \verb https://doi.org/10.1029/2004GL020670
+      \endverb
+      \verb{eprint}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2004GL020670
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2004GL020670
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2004GL020670
+      \endverb
+    \endentry
+    \entry{schneider2017climate}{article}{}
+      \name{author}{7}{}{%
+        {{hash=334257f77b5d9c664707e0a9657bae3f}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Tapio},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7888e14c38a9b3fbf881b4d2db9c0e39}{%
+           family={Teixeira},
+           familyi={T\bibinitperiod},
+           given={Jo{ã}o},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5a44cf9a4718e5090e8d26f58ce4fd27}{%
+           family={Bretherton},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima S},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=6913dc3beebe780c0336246e76ff653f}{%
+           family={Brient},
+           familyi={B\bibinitperiod},
+           given={Florent},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e367e5e58224a55ddb845d515382f032}{%
+           family={Pressel},
+           familyi={P\bibinitperiod},
+           given={Kyle\bibnamedelima G},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=3a0923ec1937988835690c190bb1fffc}{%
+           family={Sch{ä}r},
+           familyi={S\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d6780a2034a52dde1d946f82116b27d7}{%
+           family={Siebesma},
+           familyi={S\bibinitperiod},
+           given={A\bibnamedelima Pier},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{70067040dea07e580c64dd28defeb4d2}
+      \strng{fullhash}{ec65b575e6120e88f27de0aa266fcff0}
+      \strng{bibnamehash}{ec65b575e6120e88f27de0aa266fcff0}
+      \strng{authorbibnamehash}{ec65b575e6120e88f27de0aa266fcff0}
+      \strng{authornamehash}{70067040dea07e580c64dd28defeb4d2}
+      \strng{authorfullhash}{ec65b575e6120e88f27de0aa266fcff0}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Climate Change}
+      \field{number}{1}
+      \field{title}{Climate goals and computing the future of clouds}
+      \field{volume}{7}
+      \field{year}{2017}
+      \field{pages}{3\bibrangedash 5}
+      \range{pages}{3}
     \endentry
     \entry{shepherd2009}{report}{}
       \name{author}{1}{}{%
@@ -1334,7 +2385,7 @@
       \field{pages}{579\bibrangedash 601}
       \range{pages}{23}
       \verb{doi}
-      \verb 10.5194/esd-11-579-2020
+      \verb https://doi.org/10.5194/esd-11-579-2020
       \endverb
       \verb{urlraw}
       \verb https://esd.copernicus.org/articles/11/579/2020/
@@ -1481,6 +2532,196 @@
       \endverb
       \verb{url}
       \verb https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22016A1019(01)
+      \endverb
+    \endentry
+    \entry{wang2020}{article}{}
+      \name{author}{6}{}{%
+        {{hash=cce09707befb1515471f6653e5d141b7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hai},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a5ea043016101e7b8cf29e079abd316f}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Shang-Ping},
+           giveni={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=c41174b7d7c22fe2364f189e6bef140f}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Xiao-Tong},
+           giveni={X\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=b79f348c0ebe3506deb93de93235c42d}{%
+           family={Kosaka},
+           familyi={K\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e90ea4253a1fc29bd76298287d7babce}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yangyang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5731832cddf7e58dd7d039a9bcc676aa}{%
+           family={Geng},
+           familyi={G\bibinitperiod},
+           given={Yu-Fan},
+           giveni={Y\bibinithyphendelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{691f226f1bd584efc72fe0303995061c}
+      \strng{fullhash}{7ebe6f73f00e79d7f98ea060174c796e}
+      \strng{bibnamehash}{7ebe6f73f00e79d7f98ea060174c796e}
+      \strng{authorbibnamehash}{7ebe6f73f00e79d7f98ea060174c796e}
+      \strng{authornamehash}{691f226f1bd584efc72fe0303995061c}
+      \strng{authorfullhash}{7ebe6f73f00e79d7f98ea060174c796e}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Anthropogenic aerosols, concentrated largely in the Northern Hemisphere, not only affect the local climate but also induce pronounced changes in atmospheric circulation that extend into the Southern Hemisphere (SH). In coupled historical single-forcing simulations, aerosol forcing induces a deceleration of both the subpolar jet (SPJ) and the subtropical jet (STJ) in SH in austral winter. Atmospheric general circulation model experiments indicate that the STJ is weakened by an interhemisphere gradient in the zonal mean sea surface temperature (SST) and an anomalous cross-equatorial Hadley circulation, while the SPJ response shares similar feedbacks with the greenhouse gas forcing. Specifically, atmospheric eddy adjustments are important for the SPJ change. The atmospheric response unique to anthropogenic aerosol forcing (e.g., cross-equatorial Hadley cell and the weakened SH STJ) can be exploited for climate change attribution.}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{note}{e2020GL089919 2020GL089919}
+      \field{number}{19}
+      \field{title}{Dynamics of Southern Hemisphere Atmospheric Circulation Response to Anthropogenic Aerosol Forcing}
+      \field{volume}{47}
+      \field{year}{2020}
+      \field{pages}{e2020GL089919}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://doi.org/10.1029/2020GL089919
+      \endverb
+      \verb{eprint}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2020GL089919
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020GL089919
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020GL089919
+      \endverb
+      \keyw{aerosol forcing,interhemispheric asymmetry,Southern Hemisphere,subtropical jet,subpolar jet}
+    \endentry
+    \entry{WANG2023}{article}{}
+      \name{author}{8}{}{%
+        {{hash=78b74f7b4497e90a64a6ac16866ccfcf}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Shujie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e27f1539d6354b5421d22c22ec36ab07}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hongxing},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ac8b3feef4ab3d2fef8d3c455726c6d5}{%
+           family={Alley},
+           familyi={A\bibinitperiod},
+           given={Richard\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=da3a0051c50a6d05f3a53cc70481b30d}{%
+           family={Jezek},
+           familyi={J\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e04ebb5109c362786a7d705841f1195d}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1b06df0afd85dfb2a509a98218a656f2}{%
+           family={Alley},
+           familyi={A\bibinitperiod},
+           given={Karen\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=03a7e5c8d2160ba9452e180086e93a96}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Zhengrui},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=1f647bb6da8304b7be380ec58eb6373a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{c98e37a3307c69ccaf217de93f5c942a}
+      \strng{fullhash}{7a2e9f20e26e5314232a544656094848}
+      \strng{bibnamehash}{7a2e9f20e26e5314232a544656094848}
+      \strng{authorbibnamehash}{7a2e9f20e26e5314232a544656094848}
+      \strng{authornamehash}{c98e37a3307c69ccaf217de93f5c942a}
+      \strng{authorfullhash}{7a2e9f20e26e5314232a544656094848}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Rapid retreat of Antarctic ice shelves in a warmer climate remains challenging to predict, contributing to uncertainties in projections of sea level rise. The collapse of the Larsen B Ice Shelf on the Antarctic Peninsula in 2002 was perhaps the most dramatic example of ice shelf retreat on record. Despite a general consensus that regional climate warming is associated with ice shelf collapse, knowledge of the precise details leading to and following collapse is limited. Here we examine a comprehensive set of satellite observations, modeling experiments, and climate reanalysis data to elucidate calving behavior, flow dynamics, and mechanical conditions of the northern Larsen Ice Shelf since the mid-1960s. Our analysis reveals that the Larsen B collapse in March 2002 was the last phase of a calving sequence that began in 1998, and was controlled by both atmospheric and oceanic anomalies that weakened the ice shelf structure over time. The collapse was preceded by a transition from infrequent calving of large tabular-icebergs and localized flow acceleration to frequent calving of small-icebergs and ice-shelf-wide acceleration. The intermittent pulses of the calving sequence were triggered by failure of the northern shear margin, most likely due to ocean-driven weakening by incision of sub-ice-shelf channels, and were further controlled by the location of effective buttressing sources and preexisting crevasses. The limited observational data indicate a similar process for the Larsen A ice shelf. These calving events corresponded with warm anomalies associated with a La Niña / positive Southern Annular Mode teleconnection pattern. The results suggest that warm climate anomalies control the occurrence of calving, while the extent and speed of calving are governed by ice shelf geometry and mechanical conditions, in particular, the sturdiness of the “weakest” shear margin. Sudden widespread flow acceleration and frequent small-iceberg calving may serve as quantifiable precursors for ice shelf destabilization.}
+      \field{issn}{0012-821X}
+      \field{journaltitle}{Earth and Planetary Science Letters}
+      \field{title}{Multidecadal pre- and post-collapse dynamics of the northern Larsen Ice Shelf}
+      \field{volume}{609}
+      \field{year}{2023}
+      \field{pages}{118077}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.epsl.2023.118077
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0012821X23000900
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0012821X23000900
+      \endverb
+      \keyw{ice shelf,collapse,calving,Larsen,flow dynamics,Antarctica}
+    \endentry
+    \entry{zolotov2018variability}{article}{}
+      \name{author}{4}{}{%
+        {{hash=50b8bb77042dad58a25110c1e5fac933}{%
+           family={Zolotov},
+           familyi={Z\bibinitperiod},
+           given={S\bibnamedelima Yu},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=d29f5537286c19ee6cec383bbd45b90f}{%
+           family={Ippolitov},
+           familyi={I\bibinitperiod},
+           given={II},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b4b27982adc7f66534216a9f7ba70941}{%
+           family={Loginov},
+           familyi={L\bibinitperiod},
+           given={SV},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6a1aa9d4bfbff484b4de65182717e2bc}{%
+           family={Kharyutkina},
+           familyi={K\bibinitperiod},
+           given={EV},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{dada04d35ca16c15b67d6d1d2dcbd384}
+      \strng{fullhash}{954609f59c637fb7c85fdebb95cbc079}
+      \strng{bibnamehash}{954609f59c637fb7c85fdebb95cbc079}
+      \strng{authorbibnamehash}{954609f59c637fb7c85fdebb95cbc079}
+      \strng{authornamehash}{dada04d35ca16c15b67d6d1d2dcbd384}
+      \strng{authorfullhash}{954609f59c637fb7c85fdebb95cbc079}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Izvestiya, Atmospheric and Oceanic Physics}
+      \field{title}{Variability of the Southern Hemisphere subtropical jet stream in the second half of the 20th century and early 21st century}
+      \field{volume}{54}
+      \field{year}{2018}
+      \field{pages}{430\bibrangedash 438}
+      \range{pages}{9}
+      \verb{doi}
+      \verb https://doi.org/10.1134/S0001433818050146
       \endverb
     \endentry
   \enddatalist

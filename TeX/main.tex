@@ -24,6 +24,7 @@
 \usepackage{color}
 \usepackage{xspace}
 \usepackage{pifont}
+\usepackage{tikz}
 
 %%% This is about changing the headers and footers (i.e. Top and bottom of the page)
 \pagestyle{fancy}% use fancyheaders with the bar on the top
@@ -69,7 +70,16 @@
 \include{titelpagina}
 
 \tableofcontents
-%% List of acronyms!
+\section*{List of Acronyms}
+\begin{description}[align=right, labelwidth=2cm, labelsep=1cm]
+  \item[\textbf{SRM}] Solar radiation management
+  \item[\textbf{GMST}] Global mean surface temperature
+  \item[\textbf{SAI}] Stratospheric aerosol injections
+  \item[\textbf{STJ}] Subtropical jet
+  \item[\textbf{EDJ}] Eddy-driven jet
+  \item[\textbf{PNJ}] Polar night jet
+  \item[\textbf{SSW}] Sudden stratospheric warming event    
+\end{description}
 \newpage
 
 \section{Introduction}
@@ -95,11 +105,10 @@
 \input{methods_pt2}
 \newpage
 
-\section{Results Part II: Lower Stratosphere}\label{lowerstrat}
+\section{Results Part II}
 \input{results_pt2_ls.tex}
-\newpage
 
-\section{Results Part II: Upper Stratosphere}\label{upperstrat}
+\subsection{Results Part II: Upper Stratosphere}\label{upperstrat}
 \input{results_pt2_us.tex}
 \newpage 
 
@@ -111,10 +120,17 @@
 \input{conclusions.tex}
 \newpage
 
-\printbibliography
+\section*{Acknowledgements}
+\input{acknowledgements.tex}
+\newpage
 
-% \backmatter
-% \section{Appendix}
-% \input{appendix_a.tex}
+\printbibliography
+\addcontentsline{toc}{section}{References}
+
+\section*{Data Sources}
+
+\newpage
+\appendix
+\input{appendix.tex}
 
 \end{document}

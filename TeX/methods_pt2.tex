@@ -1,9 +1,7 @@
 \subsection{Scenarios Used for the Simulations}
 All simulations considered in this second part were extended to 2130, where the forcing was kept constant at the 2100 levels. This extension provides further insight in the long-term effects of deploying SAI. Especially in the rapid cooling SAI scenario the extension provides time for the climate system to adjust to the `shock' it experienced from SAI. 
 
-The rapid cooling experiment is branched from the SSP5-8.5 simulation in 2080, SAI is then deployed to restore temperatures to 2020 levels. The control algorithm is adjusted for the first up to six years to prevent extremely high aerosol concentrations that would result in too rapid cooling. 
-
-Shown in Figure \ref{fig:Tgrad_ext} are the temperature targets from \ref{eq:Tpsi} for the SSP5-5.8, gradual SAI and rapid cooling SAI simulations. After about 10 years of SAI the $T_0$ target is reached and maintained, like in the gradual SAI simulation. However, in contrast to the gradual SAI simulation, the rapid cooling SAI simulation is not able to return to and then maintain 2020 levels for $T_1$ and $T_2$. In the rapid cooling SAI simulation both targets are overshot, though their levels are stabilised after 2100. 
+Shown in Figure \ref{fig:Tgrad_ext} are the temperature targets from Equation \ref{eq:Tpsi} for the SSP5-8.5, gradual SAI and rapid cooling SAI simulations. After about 10 years of SAI the $T_0$ target is reached and maintained, like in the gradual SAI simulation. However, in contrast to the gradual SAI simulation, the rapid cooling SAI simulation is not able to return to and then maintain 2020 levels for $T_1$ and $T_2$. In the rapid cooling SAI simulation both targets are overshot, though their levels are stabilised after 2100. 
 
 \begin{figure}[h]
 	\centering
@@ -14,8 +12,6 @@ Shown in Figure \ref{fig:Tgrad_ext} are the temperature targets from \ref{eq:Tps
 
 
 \subsection{Definition of Scenarios and Time Periods for Part II}
-The two simulations from Part I are referred to in the same way in this second part, namely the SSP5-8.5 simulation and the gradual SAI simulation. The simulation with the rapid cooling experiment is referred to as the rapid cooling SAI simulation. 
-
 Throughout this second part, four time periods are selected to visualise and interpret the results from the simulations. As in part I, for each period the 20-year mean is taken, unless specified otherwise. These periods are defined as follows:
 
 \begin{itemize}
@@ -27,7 +23,7 @@ Throughout this second part, four time periods are selected to visualise and int
 
 
 \subsection{Thermal Wind}
-To calculate thermal winds from the temperature gradients, the thermal wind balance equation is used. As the vertical layers of the model are converted to pressure coordinates, the equation takes the form 
+The thermal wind is the vertical shear due to horizontal temperature variations. We can calculate the wind as the result of such temperature variations in the zonal and meridional direction through the thermal wind balance. With the vertical layers of the model converted to pressure coordinates, this equation takes the form 
 
 \begin{equation}
     \frac{\partial v_g}{\partial p} = - \frac{R}{pf_0} \frac{\partial T}{\partial x};\ 
@@ -52,12 +48,12 @@ where $p_{0,1}$ are the lower and upper boundaries of the model layer, respectiv
     \end{split}
 \end{equation}
 
-To increase stability in our calculations, we assume that the thermal wind below 850 hPa is equal to the model wind, because the thermal wind calculation in the layers below that will most likely not produce stable results. To then find the thermal wind at a given pressure coordinate above 850 hPa, we take the cumulative sum of the thermal wind from 850 hPa up to the given pressure plus the meridional or zonal wind of the layer below 850 hPa ($v(p_{-1}),u(p_{-1})$). This gives us for the thermal wind at pressure coordinate $p_i$ 
+To increase stability in our calculations, we assume that the thermal wind below 850 hPa is equal to the model wind, because the thermal wind calculation in the layers below that will most likely not produce stable results. To then find the integrated thermal wind at a given pressure coordinate above 850 hPa, we take the cumulative sum of the thermal wind from 850 hPa up to the given pressure plus the meridional or zonal wind of the layer below 850 hPa ($v(p_{<850}),u(p_{<850})$). This gives us for the integrated thermal wind at pressure coordinate $p_i$ 
 
 \begin{equation}
     \begin{split}
-        v_{T}(p_i) &= v(p_{-1}) + \frac{R}{f_0} \sum_{i=0}^{i} \frac{\partial T_i}{\partial x} \ln \left(\frac{p_i}{p_{i+1}}\right),\\
-        u_{T}(p_i) &= u(p_{-1}) + \frac{R}{f_0} \sum_{i=0}^{i} - \frac{\partial T_i}{\partial y} \ln \left(\frac{p_i}{p_{i+1}}\right).
+        v_{T}(p_i) &= v(p_{<850}) + \frac{R}{f_0} \sum_{i=0}^{i} \frac{\partial T_i}{\partial x} \ln \left(\frac{p_i}{p_{i+1}}\right),\\
+        u_{T}(p_i) &= u(p_{<850}) + \frac{R}{f_0} \sum_{i=0}^{i} - \frac{\partial T_i}{\partial y} \ln \left(\frac{p_i}{p_{i+1}}\right).
     \end{split}
 \end{equation}
 
@@ -96,6 +92,11 @@ To find the kinetic and eddy kinetic energy per unit volume, we multiply the res
 
 
 \subsection{Jet Intensity Maps}
-The jet intensity maps are made by counting the number of times the zonal wind or eddy kinetic energy surpasses a set threshold. Each timestep and coordinate is evaluated individually, after which the set is summed over time and the vertical dimension. This result is then normalised by the number of timesteps multiplied by the number of vertical model levels included in the analysis. This results in a fraction that represents the time and vertical extent of the atmospheric jet. 
+To visualise the extent and intensity of an atmospheric jet, we introduce the jet intensity map. The map is made by counting the number of times the zonal wind or eddy kinetic energy surpasses a set threshold. Each timestep and coordinate is evaluated individually, after which the set is summed over time and the vertical dimension. This result is then normalised to the total the number of timesteps multiplied by the number of vertical model levels included in the analysis. This results in a fraction that represents the occurence and vertical extent of the atmospheric jet. The threshold is chosen to be about 80\% of the maximum of the zonal mean.
 
-To visualise the Polar night jet (PNJ), in the upper stratosphere, and the subtropical jet (STJ), in the lower stratosphere, this method is applied to the zonal wind fields. For the eddy-driven jet (EDJ), also in the lower stratosphere, this method is applied to the eddy kinetic energy fields. 
+To visualise the Polar night jet (PNJ), in the upper stratosphere, and the subtropical jet (STJ), in the lower stratosphere, this method is applied to the zonal wind fields. For the eddy-driven jet (EDJ), also in the lower stratosphere, this method is applied to the eddy kinetic energy fields. For all jets the threshold and vertical selection are noted in the figure description. 
+
+\subsection{Sudden Stratospheric Warmings in Monthly Mean Model Data}
+Typical metrics for SSWs rely on daily model data to identify an event. Metrics typically use the reversal of zonal-mean zonal wind at 10 hPa and 60°N/S, form westerly to easterly, the reversal of the meridional temperature gradient at 10 hPa above 60°N/S, changes in the geopotential height field or topology of the polar vortex, or a combination and/or variation of these. Additionally, metrics typically include temporal constraints, excluding events that occur within a certain number of days of another event, or events after which the atmosphere does not return to its winter state (final warming) before the end of the season \parencite{butler2015}. 
+
+Because we consider monthly mean data these metrics are inapplicable. We therefore use a modified approach. we consider the zonal-mean zonal wind at 10 hPa and 60°S and the area-weighted average temperature at 10 hPa above 60°S. We consider the atmosphere to be in an SSW-like state when the zonal wind decreases or the temperature increases significantly in the winter months.

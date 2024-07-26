@@ -13,9 +13,9 @@ The WACCM simulations use the feedback algorithm to maintain three temperature t
 
 The $T_0$ temperature target translates to global mean surface temperature (GMST), the $T_1$ is interpreted as the inter-hemispheric temperature gradient and $T_2$ is interpreted as the equator-to-pole temperature gradient. From the model output these temperature targets can be evaluated using Eq. \ref{eq:Tpsi}. 
 
-
 \subsection{Using the CESM2(CAM6) Emulator for SAI simulations}\label{emulator_pt1}
 The emulator for SAI simulations is introduced in \textcite{pfluger2024}, it implements SAI via prescribed aerosol fields, as opposed to sulphate injections that result in aerosol fields through model physics. As per \textcite{pfluger2024}, the protocol works as follows:
+
 \begin{itemize}
     \item Every year, observe the deviation of GMST from the target.
     \item Based on past GMST deviations, infer the level of SAI - expressed in terms of global mean aerosol optical depth (AOD) - which is necessary to achieve the desired target.
@@ -25,7 +25,7 @@ The emulator for SAI simulations is introduced in \textcite{pfluger2024}, it imp
 
 The first two steps are implemented via the feedforward-feedback control algorithm as established in \textcite{kravitz2017}. The control algorithm stabilises only GMST, not inter-hemispheric and equator-to-pole temperature gradients from section \ref{temptargets}.
 
-The prescribed aerosol fields are the averaged aerosol fields from the WACCM simulation, this simulation is called the \textit{Geo SSP5-8.5 1.5 scenario} in \textcite{tilmes2020}. The fields are normalised, averaged and fit, to then arrive at an amplitude for each aersol component. The SO$_4$ concentration from WACCM in 2100 at each latitude and model layer is shown in Figure \ref{fig:strataero}. The highest concentration of aerosols is found around the four injection points, concentrations are lower toward the poles. There are also higher concentrations in the Southern Hemisphere than in the Northern Hemisphere.
+The prescribed fields are the averaged fields from the WACCM simulation, this simulation is called the \textit{Geo SSP5-8.5 1.5 scenario} in \textcite{tilmes2020}. The fields are normalised, averaged and fit, to then arrive at an amplitude for each component. The total SO$_4$ concentration from WACCM in 2100 at each latitude and model layer is shown in Figure \ref{fig:strataero}. The highest concentration of aerosols is found around the four injection points (15°N/S and 30°N/S), concentrations remain higher around the equator and diminish towards the poles. Concentrations in the Southern Hemisphere are higher than in the Northern Hemisphere. 
 
 \begin{figure}[H]
 	\centering
@@ -34,9 +34,7 @@ The prescribed aerosol fields are the averaged aerosol fields from the WACCM sim
 	\label{fig:strataero}
 \end{figure}
 
-\subsection{Definition of Scenarios and Time Periods for Part I}
-There are two simulations performed with each CESM2 configuration. The first simulation follows the historical spin-up and is continued by the SSP5-8.5 scenario. The second simulation branches from the first simulation in 2020 and from then on introduces SAI to stabilise temperatures using the SSP5-8.5 scenario as background. Here we will refer to it as the gradual SAI scenario. 
-
+\subsection{Definition of Time Periods for Part I}
 Throughout this first part, three time periods are selected to visualise and interpret the results from the simulations. For each period the 20-year mean is taken, unless specified otherwise. These periods are defined as follows:
 
 \begin{itemize}
@@ -50,12 +48,13 @@ Throughout this first part, three time periods are selected to visualise and int
 The atmospheric vertical levels of CESM are defined at hybrid pressure coordinates. However, for ease of computation and visualisation, conversion to pressure coordinates is preferred. The hybrid pressure coordinates are converted to pressure coordinates for each timestep at each gridpoint. Then a logarithmic interpolation scheme is used to project the model output onto uniform constant pressure coordinates. For a variable $f$ at pressure coordinate $p$ the scheme takes the form
 
 \begin{equation}
-    f = \frac{f_1 - f_0}{\ln\frac{p_1}{p_0}} \cdot \ln \frac{p}{p_1} + f_0.
+    f = \frac{f_1 - f_0}{\ln\frac{p_1}{p_0}} \cdot \ln \frac{p}{p_1} + f_0,
 \end{equation}
 
-For CAM the model output is converted to 34 pressure levels ranging from 3.5 to 993 hPa. We add two levels in the upper stratosphere, compared to the model output, for ease of analysis of patterns. For WACCM the SSP5-8.5 model output was pubplished in pressure levels, 19 pressure levels ranging from 1 to 1000 hPa. The WACCM gradual SAI scenario model output is converted to those same 19 pressure levels to enable direct comparison.
+\noindent where $f_0,p_0$ are the variable and pressure at the lowest model level and $f_1,p_1$ are the variable and pressure at the first model level above $f,p$. 
+For CAM the model output is converted from 32 to 34 pressure levels ranging from 3.5 to 993 hPa. We add two levels in the upper stratosphere, compared to the model output, for ease of analysis in this region. For WACCM the SSP5-8.5 model output was pubplished in pressure levels, 19 pressure levels ranging from 1 to 1000 hPa. The WACCM gradual SAI scenario model output is converted from 70 to those same 19 pressure levels to enable direct comparison.
 
-No interpolation is needed of the horizontal grids as these are identical in all models. 
+No interpolation is needed of the horizontal grids as these are identical in all models.
 
 
 \subsection{Potential Temperature}
