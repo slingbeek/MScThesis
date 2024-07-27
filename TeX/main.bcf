@@ -1995,4 +1995,94 @@
     <bcf:citekey order="17">tilmes2020</bcf:citekey>
     <bcf:citekey order="18">danabasoglu2020</bcf:citekey>
     <bcf:citekey order="19">RIAHI2007887</bcf:citekey>
-    <bcf:citeke
+    <bcf:citekey order="20">bednarz2023ozone</bcf:citekey>
+    <bcf:citekey order="21">tilmes2020</bcf:citekey>
+    <bcf:citekey order="22">tilmes2020</bcf:citekey>
+    <bcf:citekey order="23">NDCsynth</bcf:citekey>
+    <bcf:citekey order="24">pfluger2024</bcf:citekey>
+    <bcf:citekey order="25">pfluger2024</bcf:citekey>
+    <bcf:citekey order="26">zolotov2018variability</bcf:citekey>
+    <bcf:citekey order="27">zolotov2018variability</bcf:citekey>
+    <bcf:citekey order="28">martin2023</bcf:citekey>
+    <bcf:citekey order="29">chenoli2017historical</bcf:citekey>
+    <bcf:citekey order="30">richter2017</bcf:citekey>
+    <bcf:citekey order="31">wang2020</bcf:citekey>
+    <bcf:citekey order="32">martin2023</bcf:citekey>
+    <bcf:citekey order="33">martin2023</bcf:citekey>
+    <bcf:citekey order="34">Curtis_2020</bcf:citekey>
+    <bcf:citekey order="35">kidston2015stratospheric</bcf:citekey>
+    <bcf:citekey order="36">lee2021</bcf:citekey>
+    <bcf:citekey order="37">ceppi2019</bcf:citekey>
+    <bcf:citekey order="38">bednarz2023injection</bcf:citekey>
+    <bcf:citekey order="38">bednarz2023ozone</bcf:citekey>
+    <bcf:citekey order="39">jucker2021</bcf:citekey>
+    <bcf:citekey order="40">IPCC_2021_WGI_Ch_9</bcf:citekey>
+    <bcf:citekey order="41">WANG2023</bcf:citekey>
+    <bcf:citekey order="42">scambos2004</bcf:citekey>
+    <bcf:citekey order="43">domeisen2020</bcf:citekey>
+    <bcf:citekey order="44">mccusker2015</bcf:citekey>
+    <bcf:citekey order="45">sutter2023</bcf:citekey>
+    <bcf:citekey order="46">kravitz2016</bcf:citekey>
+    <bcf:citekey order="47">pfluger2024</bcf:citekey>
+    <bcf:citekey order="48">pfluger2024</bcf:citekey>
+    <bcf:citekey order="49">kravitz2017</bcf:citekey>
+    <bcf:citekey order="50">tilmes2020</bcf:citekey>
+    <bcf:citekey order="51">menary2018anatomy</bcf:citekey>
+    <bcf:citekey order="51">he2022</bcf:citekey>
+    <bcf:citekey order="52">mamalakis2021zonally</bcf:citekey>
+    <bcf:citekey order="53">schneider2017climate</bcf:citekey>
+    <bcf:citekey order="54">bednarz2023climate</bcf:citekey>
+    <bcf:citekey order="55">bednarz2023climate</bcf:citekey>
+    <bcf:citekey order="56">butler2015</bcf:citekey>
+    <bcf:citekey order="57">Ammann2010</bcf:citekey>
+    <bcf:citekey order="57">bednarz2023climate</bcf:citekey>
+    <bcf:citekey order="58">chenoli2017historical</bcf:citekey>
+    <bcf:citekey order="59">martin2023</bcf:citekey>
+    <bcf:citekey order="60">Curtis_2020</bcf:citekey>
+    <bcf:citekey order="61">ceppi2019</bcf:citekey>
+    <bcf:citekey order="62">jucker2021</bcf:citekey>
+    <bcf:citekey order="63">pfluger2024</bcf:citekey>
+    <bcf:citekey order="64">tilmes2020</bcf:citekey>
+    <bcf:citekey order="65">tilmes2020</bcf:citekey>
+    <bcf:citekey order="66">pfluger2024</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="nyt">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem order="2">0</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="nyt/global//global/global"
+                type="entry"
+                sortingtemplatename="nyt"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>
