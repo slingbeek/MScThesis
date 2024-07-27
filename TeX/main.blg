@@ -1,19 +1,19 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'main.blg'
-[38] biber-darwin:313> INFO - === Fri Jul 26, 2024, 16:16:10
-[64] Biber.pm:371> INFO - Reading 'main.bcf'
-[152] Biber.pm:857> INFO - Found 40 citekeys in bib section 0
-[164] Biber.pm:3976> INFO - Processing section 0
-[176] Biber.pm:4136> INFO - Looking for bibtex format file 'bibbestand.bib' for section 0
-[182] bibtex.pm:1500> INFO - LaTeX decoding ...
-[273] bibtex.pm:1316> INFO - Found BibTeX data source 'bibbestand.bib'
-[591] Utils.pm:193> WARN - month field 'may' in entry 'Curtis_2020' is not an integer - this will probably not sort properly.
-[748] Utils.pm:193> WARN - BibTeX subsystem: /var/folders/k7/1k0stm6n2xlc3hjjzt68_72r0000gn/T/ljcr09JsXb/bibbestand.bib_68860.utf8, line 548, warning: 1 characters of junk seen at toplevel
-[748] Utils.pm:193> WARN - BibTeX subsystem: /var/folders/k7/1k0stm6n2xlc3hjjzt68_72r0000gn/T/ljcr09JsXb/bibbestand.bib_68860.utf8, line 544, warning: undefined macro "https://doi.org/10.1038/nclimate3190"
-[799] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[799] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[799] Biber.pm:3804> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[799] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[856] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[881] bbl.pm:720> INFO - Output to main.bbl
-[881] Biber.pm:110> INFO - WARNINGS: 3
+[45] biber-darwin:313> INFO - === Sat Jul 27, 2024, 04:02:16
+[70] Biber.pm:371> INFO - Reading 'main.bcf'
+[167] Biber.pm:857> INFO - Found 40 citekeys in bib section 0
+[182] Biber.pm:3976> INFO - Processing section 0
+[197] Biber.pm:4136> INFO - Looking for bibtex format file 'bibbestand.bib' for section 0
+[204] bibtex.pm:1500> INFO - LaTeX decoding ...
+[308] bibtex.pm:1316> INFO - Found BibTeX data source 'bibbestand.bib'
+[603] Utils.pm:193> WARN - month field 'may' in entry 'Curtis_2020' is not an integer - this will probably not sort properly.
+[751] Utils.pm:193> WARN - BibTeX subsystem: /var/folders/k7/1k0stm6n2xlc3hjjzt68_72r0000gn/T/dCK4tk2yq6/bibbestand.bib_74308.utf8, line 548, warning: 1 characters of junk seen at toplevel
+[751] Utils.pm:193> WARN - BibTeX subsystem: /var/folders/k7/1k0stm6n2xlc3hjjzt68_72r0000gn/T/dCK4tk2yq6/bibbestand.bib_74308.utf8, line 544, warning: undefined macro "https://doi.org/10.1038/nclimate3190"
+[812] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[812] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[812] Biber.pm:3804> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[812] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[873] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[905] bbl.pm:720> INFO - Output to main.bbl
+[905] Biber.pm:110> INFO - WARNINGS: 3

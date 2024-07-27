@@ -3,11 +3,10 @@
 \noindent \emph{When applying the stratospheric aerosol emulator to a gradual SAI scenario in CESM2(CAM6), are we able to reproduce from \textcite{tilmes2020}
 \begin{enumerate}[label=\roman*]
     \item the temperature targets $T_0$, $T_1$ and $T_2$?\\
-        \emph{The temperature targets are reached with similar end results and similar variability.}
+        \emph{The temperature targets are reached with similar end results and similar variability. Though the CAM response to the SSP5-8.5 scenario is significantly different from WACCM, the emulator with CAM is able to maintain 2020 levels for each target as well as WACCM is able to.}
     \item the spatial and seasonal variations of temperature, precipitation and general aspects of the atmospheric circulation?\\
-        \emph{Spatial patterns for temperature are similar, generally warming in the tropics, cooling in the midlatitudes, warming over the poles. Largest differences in seasonal response, WACCM warmer Antarctic summer, CAM warmer Arctic summer. CAM shows larger seasonal variation, most notably the Northern Hemisphere with more significant warming over the Arctic and a slightly more pronounced warming hole over the northern Atlantic.\\ 
-        Precipitation similar but varies in magnitude. CAM is generally wetter than WACCM, though this is not uniform especially in seasonal results. Especially ITCZ response varies, but model behaviour for precipitation varies greatly to begin with.\\
-        Stratospheric warming from the aerosols is nearly identical, upper stratosphere cooling from GHG's shows larger variation expecially over poles. Changes in mean zonal wind are largely of the same sign, but the PNJ in the Nothern Hemisphere grows much stronger in CAM than it does in WACCM. Southern Hemisphere is largely same magnitude. However, thick levels in upper stratosphere in WACCM limit comparison.}
+        \emph{The surface temperature pattern observed in CAM varies from WACCM regionally, but globally corresponds well to WACCM. The differences in temperature are well within the range of inter-model variability. The precipitation patterns in CAM and WACCM agree overall, but the inter-model differences are larger than for the surface temperature. The difference in precipitation change mostly reflects model bias, with CAM favouring wetter tropics and a stronger southward shift of the ITCZ. \\
+        The stratospheric warming from the injection of aerosols is nearly identical. The lack of ozone chemistry in CAM does appear to cause some additional cooling in the middle to upper stratosphere over the poles, but this does not cause concerning differences in the dynamical response of the model. The atmospheric dynamics of WACCM are replicated well by CAM, especially in the Southern Hemisphere.}
 \end{enumerate}
 }
 
@@ -16,25 +15,18 @@
 
 \noindent \emph{What are the impacts of the gradual SAI scenario on the Southern Hemisphere
     \begin{enumerate}[label=\roman*]
-        \item subtropical and polar jets in the lower stratosphere? \\
-            \emph{The subtropical jet is weaker and interferes with the polar jet/meanders less. Slight equatorward shift, but smaller and downward as opposed to upward in Control. Changes driven by thermal changes, as observed from near identical response of thermal wind. Localised increase in eastern pacific as in control. Eddy activity in the polar jet decreases on the equatorward side, region where polar and subtropical jet `meet'.}
+        \item subtropical and eddy-driven jets in the lower stratosphere? \\
+            \emph{The changes in the subtropical observed under the SSP5-8.5 scenario are prevented by SAI very well. The general and maximum wind speed are conserved, but the upper regions experience a small decrease, leading to an overall slight decrease in jet intensity and kinetic energy.
+            The strong poleward shift of the EDJ is prevented almost completely by SAI. The EDJ does appear to become slightly less wavy, mostly on the equatorward side of the jet.
+            The overshoot of SAI in both jets is small compared to the magnitude of change under global warming.}
         \item polar night jet and sudden stratospheric warming events in the upper stratosphere?\\
-            \emph{PNJ is greatly increased and shifted towards equator. As with STJ largely driven by thermal changes, see thermal wind. Discrepancy between calcualted thermal wind and observed zonal wind is partly due to friction effects, partly increased eddy activitiy just outside highest wind region. SSW's likely decrease in frequency and/or intensity (fewer major events), though true analysis is not possible with monthly data.}
+            \emph{The polar night jet is most affected by SAI compared to the STJ and the EDJ. The thermal response of the stratosphere leads to a strong equatorward shift and a considerable increase in strength. The equatorward and increasing trend observed under the SSP5-8.5 scenario is surpassed under SAI, with the jet growing more intense, broad and wavy. The PNJ grows more stable under SAI than present day climate and the frequency of sudden stratospheric warming events decreases significantly. Though the stability of the PNJ does not increase as much under SAI, SAI is not able to prevent this downward trend from emerging.}
     \end{enumerate}
-    How do the results for i and ii change under the rapid cooling SAI scenario?
-    \begin{enumerate}[label=\roman*]
-        \item subtropical and polar jets in the lower stratosphere? \\
-            \emph{SAI 2080 response in STJ is stronger, though difference is minimal. SAI 2080 response in EDJ is weaker, but again minimal.}
-        \item polar night jet and sudden stratospheric warming events in the upper stratosphere?\\
-            \emph{SAI 2080 response in PNJ is significantly weaker, but minimal differences in spatial pattern, difference mainly in magnitude. SAI 2020 only has a greater shift of the maximum wind around West Antarctica/South America. SSW response is very similar, similar shift to earlier emergence, SSW-like state similarly decreased, difference is not significant to identify differing trends.}
-    \end{enumerate}
+How do the results for i and ii change under the rapid cooling SAI scenario?
+\emph{For all trends observed in the atmospheric dynamics, the response from SAI 2080 is slightly weaker. This could be a result of the prolonged warming preceding the employment of SAI or slight differences in the exact employment of SAI due to the prolonged warming. The changes are very small and do not undermine the assertion that the rapid cooling scenario is objectively succesful and does not lead to vastly different behaviour in the atmospheric circulation in the Southern Hemisphere.}
 }
 
 \subsection{Outlook}
-\begin{itemize}
-    \item Higher resolution runs of the same experiment would provide better insight into precipitation changes
-    \item Analysis of daily or sub-daily data would allow for more accurate interpretation of changes in eddy activity, also of SSW's.
-    \item Extension of analysis/connection to surface processes and weather patterns would be the next step
-    \item The emualator can be further developed by adding for instance higher order latitudinal scaling factors, based on $T_1$ and $T_2$, expecially to apply emulator to scenarios that depart more from a scenario that the emulator can be built with.
-    \item Better understanding of stability and performance of emulator would come from using the emulator to build an ensemble. 
-\end{itemize}
+The emulator studied in this thesis is promising as a tool to explore the climate response to SAI scenarios while using comparatively limited computing resources. As with any climate model, a higher resolution experiment would provide better insight into precipitation changes. Higher resolution experiments also allow for analysis of sub-mesoscale phenomena like tropical cyclones. Analysis of daily model output would allow for a better assessment of sudden stratospheric warming events. Daily data also provides opportunities to study surface processes and weather, and possible teleconnections with the stratosphere. 
+If computational resources allow it, expanding the temperature goals included in the feedback algorithm in the emulator could improve its performance. Adding a meridional component to the adjustment of the aerosol field could possibly open the door to more complex SAI scenarios that stray further from the SAI scenario the emulator was based on.
+

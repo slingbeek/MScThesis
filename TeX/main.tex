@@ -68,8 +68,16 @@
 \begin{document}
 \newgeometry{margin=1.5cm} %% Special margins on the titlepage. It is also possible to set each margin separately; see package Geometry.
 \include{titelpagina}
+\frontmatter
+
+\begin{abstract}
+  \noindent The implementation of adequate and timely policies to prevent the further increase of greenhouse gases in our atmosphere and the most disastrous effects of global warming is becoming increasingly unlikely. In this context, stratospheric aerosol injections (SAI) could provide a solution by (temporarily) decreasing global mean surface temperature. The study of SAI as a climate intervention requires earth system models capable of resolving comprehensive atmospheric chemistry and dynamics. Here we validate a method that makes use of the results of the comprehensive atmospheric model CESM2(WACCM6) to simulate SAI with the simpler CESM2(CAM6). We show that this method is succesful in replicating the experiment, reproducing surface temperature and precipitation trends within the range of model-variability. The atmospheric thermodynamical changes caused by SAI are replicated in our model as well, especially for the Southern Hemisphere. We then use our model to conduct experiments with two SAI scenarios - a gradual SAI starting in 2020 and a rapid cooling SAI scenario starting in 2080, both with SSP5-8.5 as background. We study the effects of SAI on the large-scale atmospheric circulation of the Southern Hemisphere. We find that both SAI scenarios are able to prevent the changes in the lower stratosphere observed under SSP5-8.5. In the upper stratosphere SAI leads to a much stronger polar night jet. SAI is also not able to prevent the strong decrease in the frequency of sudden stratospheric warming events as observed under SSP5-8.5. We find a slightly weaker response to SAI in the rapid cooling SAI scenario, but overall trends are identical to the gradual SAI scenario. 
+\end{abstract}
+\newpage
 
 \tableofcontents
+
+\newpage
 \section*{List of Acronyms}
 \begin{description}[align=right, labelwidth=2cm, labelsep=1cm]
   \item[\textbf{SRM}] Solar radiation management
@@ -78,9 +86,13 @@
   \item[\textbf{STJ}] Subtropical jet
   \item[\textbf{EDJ}] Eddy-driven jet
   \item[\textbf{PNJ}] Polar night jet
-  \item[\textbf{SSW}] Sudden stratospheric warming event    
+  \item[\textbf{SSW}] Sudden stratospheric warming event 
+  \item[\textbf{KE}] Kinetic energy
+  \item[\textbf{EKE}] Eddy kinetic energy     
 \end{description}
 \newpage
+
+\mainmatter
 
 \section{Introduction}
 \input{introduction.tex}
@@ -107,7 +119,7 @@
 
 \section{Results Part II}
 \input{results_pt2_ls.tex}
-
+\newpage
 \subsection{Results Part II: Upper Stratosphere}\label{upperstrat}
 \input{results_pt2_us.tex}
 \newpage 
@@ -127,7 +139,12 @@
 \printbibliography
 \addcontentsline{toc}{section}{References}
 
-\section*{Data Sources}
+\section*{Code and Data Availability}
+The CESM2(wACCM6) SSP5-8.5 1.5 data is available at \href{https://doi.org/10.26024/t49k-1016}{https://doi.org/10.26024/t49k-1016} from \textcite{tilmes2020}.\\
+The CESM2(WACCM6) SSP5-8.5 data was contributed to CMIP6 and is available at \href{https://esgf-data.dkrz.de/search/cmip6-dkrz/}{https://esgf-data.dkrz.de/search/cmip6-dkrz/}\\
+The CESM2(CAM6) data for all simulations can be made available upon reasonable request as stated in \textcite{pfluger2024}.\\\\
+
+All code that was used for analysis and figures can be found at \href{URL}{text}
 
 \newpage
 \appendix
